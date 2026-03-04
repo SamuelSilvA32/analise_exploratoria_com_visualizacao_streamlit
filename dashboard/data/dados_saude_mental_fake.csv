@@ -1,0 +1,2001 @@
+id_paciente,idade,genero,estado_civil,nivel_escolaridade,diagnostico_principal,nivel_estresse_0_10,horas_sono_media,uso_medicacao,numero_consultas_ano,faltas_consulta,satisfacao_tratamento_1_5,data_primeira_consulta
+1,30,Feminino,Solteiro,Graduação,TEPT,0,5.5,Sim,2,3,5,2025-05-10
+2,39,Feminino,Viúvo,Graduação,Burnout,7,6.0,Sim,4,2,1,2025-11-10
+3,60,Masculino,Casado,Ensino Médio,TEPT,0,9.5,Não,6,0,3,2023-05-02
+4,54,Feminino,Divorciado,Graduação,Burnout,1,6.0,Sim,5,0,4,2024-04-11
+5,50,Masculino,Casado,Ensino Médio,Burnout,6,7.0,Sim,5,3,3,2023-11-27
+6,20,Masculino,Solteiro,Fundamental,Depressão,7,7.3,Sim,6,0,3,2023-03-29
+7,36,Masculino,Casado,Pós-graduação,Ansiedade,0,5.0,Sim,9,3,3,2025-05-21
+8,40,Masculino,Divorciado,Fundamental,TEPT,2,5.2,Não,6,3,5,2023-05-11
+9,46,Feminino,Casado,Fundamental,Burnout,6,4.7,Não,6,1,1,2025-02-08
+10,47,Masculino,Divorciado,Fundamental,TEPT,8,5.2,Sim,5,2,3,2023-12-10
+11,56,Masculino,Divorciado,Graduação,TEPT,7,3.0,Sim,8,3,5,2025-03-16
+12,61,Masculino,Casado,Graduação,Burnout,7,7.3,Sim,5,1,4,2024-01-21
+13,64,Feminino,Viúvo,Graduação,Transtorno de Pânico,8,9.6,Sim,4,2,1,2025-08-13
+14,42,Feminino,Solteiro,Pós-graduação,Transtorno Bipolar,9,6.7,Não,10,3,5,2023-10-04
+15,54,Masculino,Viúvo,Graduação,Ansiedade,2,4.4,Não,4,2,2,2024-04-04
+16,64,Masculino,Viúvo,Ensino Médio,Ansiedade,7,5.5,Sim,7,1,4,2023-01-22
+17,25,Feminino,Casado,Fundamental,Transtorno de Pânico,0,5.8,Não,11,0,4,2023-09-10
+18,59,Masculino,Solteiro,Pós-graduação,Depressão,7,5.0,Não,8,3,2,2025-01-17
+19,33,Feminino,Solteiro,Pós-graduação,Transtorno de Pânico,6,7.8,Não,10,1,5,2025-05-06
+20,25,Masculino,Viúvo,Pós-graduação,Depressão,7,7.7,Sim,7,1,5,2024-04-19
+21,18,Feminino,Casado,Pós-graduação,Depressão,0,4.8,Sim,7,1,4,2025-12-18
+22,61,Masculino,Solteiro,Pós-graduação,Transtorno de Pânico,5,7.6,Não,12,2,5,2024-05-25
+23,22,Feminino,Viúvo,Ensino Médio,Ansiedade,6,8.8,Sim,11,0,2,2024-11-30
+24,20,Masculino,Solteiro,Fundamental,Transtorno Bipolar,10,9.4,Não,5,2,5,2025-09-02
+25,18,Não-binário,Casado,Pós-graduação,Ansiedade,4,10.0,Não,6,0,4,2023-07-09
+26,21,Masculino,Casado,Fundamental,Ansiedade,4,5.1,Não,5,1,5,2025-08-15
+27,57,Feminino,Casado,Graduação,Ansiedade,6,10.0,Sim,7,0,1,2024-11-17
+28,52,Masculino,Solteiro,Pós-graduação,Transtorno de Pânico,10,6.0,Não,6,1,2,2025-08-15
+29,49,Masculino,Divorciado,Pós-graduação,Transtorno de Pânico,2,5.6,Sim,4,0,2,2024-07-16
+30,59,Feminino,Solteiro,Fundamental,Transtorno de Pânico,5,7.0,Não,7,4,3,2025-04-11
+31,51,Masculino,Divorciado,Pós-graduação,Ansiedade,6,5.6,Sim,4,0,5,2024-10-08
+32,60,Feminino,Casado,Pós-graduação,Transtorno Bipolar,0,7.1,Sim,6,1,2,2023-01-21
+33,42,Feminino,Viúvo,Pós-graduação,Depressão,1,4.5,Não,9,0,5,2025-04-20
+34,27,Feminino,Divorciado,Ensino Médio,TEPT,3,6.1,Sim,3,1,1,2023-06-16
+35,38,Masculino,Casado,Ensino Médio,Depressão,7,8.4,Sim,8,4,4,2024-01-23
+36,63,Feminino,Casado,Pós-graduação,Depressão,10,6.4,Não,6,2,4,2024-08-23
+37,56,Masculino,Divorciado,Ensino Médio,TEPT,9,6.7,Sim,7,0,3,2023-11-12
+38,44,Feminino,Viúvo,Graduação,Ansiedade,5,7.2,Não,5,2,3,2023-01-14
+39,44,Feminino,Casado,Pós-graduação,Transtorno Bipolar,0,8.3,Sim,6,0,2,2023-08-30
+40,19,Feminino,Divorciado,Graduação,Transtorno Bipolar,9,4.0,Não,4,0,2,2025-02-15
+41,58,Feminino,Viúvo,Fundamental,Depressão,4,7.4,Não,10,1,2,2024-07-18
+42,65,Feminino,Viúvo,Graduação,TEPT,6,6.1,Sim,8,2,1,2025-06-16
+43,30,Masculino,Casado,Fundamental,Burnout,5,6.7,Sim,6,2,3,2023-04-02
+44,26,Feminino,Solteiro,Pós-graduação,Ansiedade,8,8.1,Não,8,2,3,2025-08-13
+45,69,Masculino,Solteiro,Fundamental,Depressão,7,4.7,Sim,4,0,4,2024-05-23
+46,53,Feminino,Casado,Fundamental,Transtorno Bipolar,3,5.0,Sim,2,0,3,2025-02-14
+47,39,Feminino,Viúvo,Graduação,Transtorno de Pânico,10,3.6,Não,4,1,3,2023-02-04
+48,59,Feminino,Casado,Graduação,Transtorno de Pânico,4,5.7,Sim,11,2,1,2023-07-25
+49,43,Masculino,Divorciado,Graduação,TEPT,6,8.5,Sim,6,1,2,2025-10-22
+50,29,Feminino,Solteiro,Pós-graduação,TEPT,7,6.3,Não,10,3,1,2025-10-18
+51,34,Masculino,Divorciado,Pós-graduação,Depressão,4,4.5,Sim,8,0,5,2024-07-19
+52,31,Masculino,Casado,Graduação,Burnout,8,5.8,Sim,5,2,4,2024-12-03
+53,31,Masculino,Casado,Pós-graduação,Transtorno Bipolar,9,4.3,Sim,6,0,4,2024-02-06
+54,51,Masculino,Viúvo,Pós-graduação,Depressão,3,4.8,Não,4,1,4,2024-12-30
+55,37,Masculino,Viúvo,Fundamental,Burnout,3,7.1,Não,8,2,2,2023-06-11
+56,28,Feminino,Viúvo,Fundamental,TEPT,7,4.7,Não,3,1,2,2023-07-21
+57,33,Masculino,Divorciado,Graduação,Transtorno de Pânico,0,8.2,Sim,1,2,2,2025-09-22
+58,68,Masculino,Viúvo,Pós-graduação,Ansiedade,7,6.4,Sim,3,1,4,2023-09-27
+59,48,Feminino,Casado,Fundamental,Transtorno de Pânico,4,6.6,Sim,5,3,4,2025-03-26
+60,23,Masculino,Viúvo,Ensino Médio,Transtorno Bipolar,10,6.1,Sim,5,1,4,2024-03-31
+61,36,Feminino,Solteiro,Pós-graduação,Transtorno Bipolar,0,7.7,Não,9,1,5,2025-10-13
+62,54,Feminino,Viúvo,Ensino Médio,Transtorno de Pânico,3,7.7,Sim,5,1,5,2023-10-23
+63,21,Feminino,Divorciado,Graduação,Transtorno de Pânico,1,7.0,Sim,7,1,4,2024-12-20
+64,64,Feminino,Solteiro,Pós-graduação,Burnout,3,7.3,Sim,5,1,2,2023-12-04
+65,21,Feminino,Solteiro,Graduação,Depressão,7,6.2,Não,5,1,2,2025-05-28
+66,37,Feminino,Solteiro,Graduação,TEPT,4,7.3,Não,9,5,5,2025-12-12
+67,27,Masculino,Divorciado,Graduação,Burnout,0,6.0,Não,7,1,5,2025-03-02
+68,41,Feminino,Casado,Graduação,Ansiedade,6,6.5,Não,5,4,4,2023-08-05
+69,52,Masculino,Viúvo,Graduação,Transtorno de Pânico,0,6.1,Sim,8,3,4,2025-02-02
+70,43,Feminino,Solteiro,Pós-graduação,Ansiedade,8,5.8,Sim,12,0,2,2023-07-07
+71,54,Masculino,Solteiro,Ensino Médio,Ansiedade,2,5.5,Sim,5,0,3,2024-01-15
+72,55,Feminino,Solteiro,Pós-graduação,Burnout,2,7.2,Não,3,1,2,2024-05-07
+73,38,Masculino,Casado,Pós-graduação,TEPT,5,8.5,Não,4,1,2,2025-11-30
+74,57,Feminino,Casado,Pós-graduação,Transtorno Bipolar,9,8.3,Sim,10,2,4,2023-01-15
+75,56,Masculino,Divorciado,Fundamental,Depressão,5,4.6,Não,6,2,3,2023-03-06
+76,38,Feminino,Casado,Fundamental,Transtorno Bipolar,10,8.4,Não,7,4,3,2024-06-04
+77,27,Feminino,Viúvo,Pós-graduação,TEPT,10,6.0,Não,4,0,4,2024-10-09
+78,55,Masculino,Divorciado,Ensino Médio,Transtorno Bipolar,5,7.4,Não,8,3,1,2025-12-22
+79,63,Feminino,Divorciado,Pós-graduação,Transtorno de Pânico,0,5.1,Não,5,1,4,2024-08-15
+80,21,Feminino,Viúvo,Graduação,Transtorno de Pânico,4,6.7,Sim,2,1,5,2024-01-27
+81,62,Feminino,Viúvo,Fundamental,Burnout,5,7.0,Não,3,1,3,2024-02-23
+82,37,Masculino,Viúvo,Fundamental,Ansiedade,7,4.3,Não,3,1,4,2023-10-16
+83,34,Masculino,Divorciado,Pós-graduação,TEPT,0,7.4,Sim,6,3,2,2024-01-14
+84,24,Masculino,Divorciado,Pós-graduação,TEPT,4,8.5,Não,2,0,2,2023-08-19
+85,21,Masculino,Divorciado,Ensino Médio,Transtorno Bipolar,2,6.2,Não,5,2,2,2025-10-14
+86,46,Feminino,Viúvo,Ensino Médio,Burnout,1,8.5,Sim,4,2,4,2023-02-10
+87,31,Masculino,Viúvo,Graduação,Transtorno Bipolar,10,6.2,Não,6,2,1,2025-11-17
+88,20,Feminino,Solteiro,Pós-graduação,Transtorno Bipolar,7,7.8,Sim,4,0,5,2023-05-15
+89,41,Masculino,Casado,Pós-graduação,TEPT,6,3.2,Não,5,1,2,2023-07-20
+90,54,Feminino,Solteiro,Pós-graduação,Transtorno Bipolar,9,10.0,Não,5,0,4,2025-02-18
+91,33,Feminino,Viúvo,Fundamental,Ansiedade,6,8.7,Sim,6,4,1,2025-07-18
+92,69,Feminino,Divorciado,Graduação,Transtorno Bipolar,4,6.1,Sim,3,1,3,2025-11-22
+93,21,Masculino,Viúvo,Ensino Médio,Ansiedade,8,3.5,Não,8,1,3,2025-12-07
+94,41,Masculino,Casado,Fundamental,TEPT,4,6.9,Sim,2,1,5,2024-05-17
+95,51,Masculino,Solteiro,Fundamental,Burnout,1,4.3,Sim,12,1,4,2024-02-11
+96,47,Masculino,Solteiro,Fundamental,Transtorno de Pânico,2,7.2,Sim,8,2,4,2025-03-15
+97,35,Masculino,Divorciado,Fundamental,Ansiedade,3,7.1,Sim,6,1,2,2023-04-09
+98,36,Masculino,Solteiro,Graduação,Burnout,4,5.1,Sim,4,0,1,2024-11-14
+99,48,Masculino,Solteiro,Pós-graduação,Burnout,2,8.2,Não,6,1,5,2024-12-26
+100,36,Feminino,Viúvo,Ensino Médio,Ansiedade,6,7.7,Não,3,2,1,2025-08-18
+101,66,Masculino,Solteiro,Ensino Médio,TEPT,4,8.0,Não,4,6,5,2024-09-04
+102,63,Feminino,Solteiro,Fundamental,Depressão,4,6.5,Não,5,2,4,2024-10-04
+103,36,Masculino,Solteiro,Fundamental,Burnout,5,4.4,Sim,6,2,4,2025-10-25
+104,39,Feminino,Divorciado,Graduação,Burnout,6,8.0,Sim,8,3,5,2024-05-17
+105,41,Feminino,Divorciado,Fundamental,TEPT,9,6.1,Sim,4,1,1,2025-02-05
+106,62,Feminino,Viúvo,Ensino Médio,TEPT,9,4.4,Não,5,2,3,2024-02-02
+107,29,Feminino,Solteiro,Ensino Médio,Transtorno Bipolar,7,8.5,Não,5,0,3,2025-05-20
+108,47,Masculino,Divorciado,Pós-graduação,TEPT,8,9.6,Não,7,2,2,2025-03-05
+109,55,Feminino,Divorciado,Pós-graduação,Burnout,10,6.4,Não,5,2,2,2024-01-28
+110,48,Masculino,Viúvo,Ensino Médio,Ansiedade,3,9.7,Não,7,1,1,2023-07-26
+111,53,Masculino,Casado,Ensino Médio,Depressão,4,6.6,Sim,4,0,4,2025-11-04
+112,36,Feminino,Solteiro,Graduação,Transtorno Bipolar,4,5.9,Sim,12,1,1,2025-06-10
+113,65,Feminino,Divorciado,Graduação,Ansiedade,7,5.6,Sim,3,1,5,2025-05-13
+114,62,Masculino,Viúvo,Ensino Médio,Depressão,8,9.0,Sim,0,1,3,2025-01-12
+115,53,Feminino,Viúvo,Fundamental,Depressão,6,5.3,Não,10,4,2,2024-07-17
+116,47,Feminino,Viúvo,Pós-graduação,Depressão,4,7.6,Sim,14,1,1,2025-10-17
+117,66,Masculino,Divorciado,Ensino Médio,Transtorno de Pânico,2,5.7,Não,6,2,1,2023-04-06
+118,50,Masculino,Solteiro,Fundamental,Ansiedade,0,5.8,Não,5,1,5,2024-04-29
+119,35,Masculino,Casado,Ensino Médio,Transtorno Bipolar,10,8.0,Sim,3,1,4,2023-08-19
+120,69,Masculino,Solteiro,Pós-graduação,Transtorno Bipolar,8,5.9,Sim,3,2,4,2025-01-18
+121,66,Masculino,Viúvo,Pós-graduação,Depressão,4,5.9,Sim,7,4,3,2024-06-24
+122,45,Masculino,Viúvo,Graduação,Ansiedade,8,8.2,Sim,6,2,2,2025-11-25
+123,64,Masculino,Casado,Graduação,Transtorno de Pânico,9,8.9,Não,5,0,4,2024-06-08
+124,28,Feminino,Solteiro,Graduação,Depressão,3,7.5,Sim,4,2,4,2024-07-31
+125,62,Feminino,Viúvo,Graduação,TEPT,4,5.5,Não,6,2,4,2024-11-12
+126,50,Não-binário,Viúvo,Pós-graduação,Transtorno Bipolar,3,5.7,Não,10,1,1,2024-07-10
+127,34,Masculino,Solteiro,Fundamental,Burnout,1,6.6,Não,3,0,4,2025-10-09
+128,23,Feminino,Viúvo,Fundamental,Depressão,0,7.0,Não,2,0,5,2024-10-07
+129,21,Feminino,Solteiro,Fundamental,TEPT,7,5.0,Sim,5,1,3,2025-03-06
+130,37,Feminino,Viúvo,Ensino Médio,Transtorno Bipolar,3,7.6,Sim,7,2,4,2025-11-17
+131,65,Masculino,Solteiro,Graduação,Transtorno de Pânico,4,6.6,Sim,7,1,2,2023-07-09
+132,64,Feminino,Casado,Graduação,Ansiedade,5,3.9,Sim,10,0,1,2024-09-24
+133,44,Masculino,Viúvo,Pós-graduação,Transtorno Bipolar,7,5.1,Não,7,3,5,2024-09-19
+134,32,Masculino,Casado,Pós-graduação,Ansiedade,10,5.7,Não,8,2,3,2025-08-30
+135,23,Feminino,Viúvo,Ensino Médio,Ansiedade,7,6.4,Sim,8,2,1,2024-12-10
+136,64,Feminino,Viúvo,Ensino Médio,Transtorno de Pânico,6,9.3,Sim,7,0,5,2024-10-10
+137,31,Masculino,Divorciado,Fundamental,Transtorno de Pânico,3,6.9,Sim,3,4,1,2023-11-14
+138,28,Feminino,Solteiro,Pós-graduação,Depressão,5,5.2,Não,7,3,3,2024-11-14
+139,56,Feminino,Casado,Graduação,Depressão,3,6.8,Não,6,1,3,2024-10-25
+140,26,Feminino,Casado,Fundamental,Transtorno Bipolar,6,6.0,Não,5,3,4,2024-03-17
+141,43,Feminino,Casado,Graduação,Transtorno de Pânico,10,7.0,Não,9,0,2,2024-07-17
+142,33,Masculino,Solteiro,Fundamental,TEPT,0,7.4,Sim,4,0,4,2025-08-09
+143,22,Não-binário,Divorciado,Graduação,Transtorno Bipolar,4,8.3,Sim,9,3,1,2024-11-29
+144,69,Feminino,Casado,Ensino Médio,Burnout,9,6.5,Sim,5,0,4,2023-04-23
+145,27,Masculino,Solteiro,Fundamental,Ansiedade,9,9.0,Sim,5,0,3,2023-01-02
+146,67,Feminino,Viúvo,Graduação,Ansiedade,3,7.9,Não,9,0,3,2024-10-03
+147,20,Feminino,Casado,Graduação,Depressão,10,5.4,Não,7,4,3,2023-08-08
+148,30,Feminino,Casado,Pós-graduação,TEPT,6,9.8,Não,4,1,4,2025-05-04
+149,60,Feminino,Divorciado,Fundamental,Transtorno de Pânico,8,7.0,Sim,9,1,5,2024-01-20
+150,66,Feminino,Casado,Graduação,Transtorno de Pânico,4,5.2,Sim,6,0,4,2025-12-12
+151,47,Feminino,Casado,Pós-graduação,Depressão,3,9.0,Sim,4,2,4,2024-12-30
+152,62,Feminino,Viúvo,Graduação,Burnout,8,9.6,Sim,5,1,4,2023-09-04
+153,23,Feminino,Solteiro,Fundamental,Transtorno Bipolar,4,6.5,Não,4,1,4,2025-04-15
+154,34,Masculino,Solteiro,Ensino Médio,Transtorno Bipolar,8,5.7,Sim,10,0,3,2023-07-22
+155,62,Feminino,Divorciado,Fundamental,TEPT,7,6.2,Não,5,1,2,2023-05-03
+156,68,Masculino,Viúvo,Fundamental,Depressão,3,7.6,Não,7,2,4,2024-02-05
+157,36,Feminino,Solteiro,Graduação,Depressão,10,8.4,Sim,6,2,4,2025-02-05
+158,59,Feminino,Viúvo,Graduação,Burnout,10,7.4,Não,3,2,2,2023-10-21
+159,52,Feminino,Solteiro,Fundamental,Transtorno Bipolar,6,6.7,Sim,6,2,4,2023-10-07
+160,63,Feminino,Viúvo,Pós-graduação,Depressão,4,8.7,Não,8,2,2,2025-06-02
+161,43,Feminino,Divorciado,Pós-graduação,Transtorno de Pânico,9,6.0,Não,9,0,3,2023-07-17
+162,68,Masculino,Casado,Pós-graduação,TEPT,3,8.0,Não,13,2,5,2025-09-08
+163,22,Feminino,Divorciado,Graduação,Transtorno Bipolar,4,6.1,Sim,5,2,4,2025-01-21
+164,46,Masculino,Solteiro,Graduação,Burnout,4,7.1,Sim,7,2,5,2023-05-24
+165,54,Masculino,Divorciado,Fundamental,TEPT,10,6.3,Sim,6,2,4,2024-08-31
+166,37,Masculino,Casado,Ensino Médio,Ansiedade,8,6.4,Sim,7,2,1,2023-07-06
+167,66,Feminino,Divorciado,Graduação,Transtorno de Pânico,8,5.9,Não,4,2,1,2024-04-08
+168,38,Feminino,Solteiro,Fundamental,Burnout,5,8.5,Não,5,1,3,2024-10-21
+169,27,Feminino,Solteiro,Fundamental,TEPT,3,5.4,Sim,10,2,5,2025-02-02
+170,22,Masculino,Divorciado,Ensino Médio,Depressão,1,5.4,Sim,1,1,5,2025-08-12
+171,53,Feminino,Casado,Pós-graduação,Ansiedade,2,9.7,Sim,7,0,2,2024-02-07
+172,23,Masculino,Divorciado,Fundamental,Burnout,1,8.0,Sim,7,1,2,2023-05-27
+173,43,Masculino,Casado,Fundamental,Depressão,4,3.0,Sim,4,1,4,2025-05-13
+174,21,Feminino,Viúvo,Fundamental,Transtorno de Pânico,5,5.7,Sim,3,0,2,2024-05-03
+175,56,Masculino,Casado,Pós-graduação,Ansiedade,10,3.8,Não,4,1,2,2025-07-17
+176,56,Masculino,Viúvo,Pós-graduação,Transtorno Bipolar,4,5.1,Sim,1,2,5,2024-07-04
+177,67,Masculino,Divorciado,Ensino Médio,Depressão,1,3.0,Sim,5,1,1,2023-12-04
+178,52,Masculino,Casado,Graduação,TEPT,4,6.3,Não,4,2,5,2025-05-21
+179,18,Masculino,Viúvo,Pós-graduação,Burnout,8,4.8,Sim,9,0,2,2024-10-02
+180,41,Masculino,Viúvo,Graduação,Ansiedade,3,6.6,Não,8,1,4,2024-04-17
+181,53,Feminino,Viúvo,Graduação,Depressão,9,4.1,Não,4,1,1,2023-05-31
+182,23,Feminino,Solteiro,Pós-graduação,Transtorno Bipolar,1,6.6,Não,8,2,2,2023-09-20
+183,58,Feminino,Divorciado,Fundamental,Burnout,2,5.9,Sim,1,3,2,2023-05-24
+184,63,Não-binário,Viúvo,Ensino Médio,Burnout,2,8.8,Sim,3,0,4,2023-12-12
+185,61,Masculino,Casado,Graduação,Depressão,8,8.6,Não,6,1,4,2024-09-15
+186,48,Feminino,Viúvo,Fundamental,Transtorno Bipolar,3,7.7,Não,8,0,2,2025-10-13
+187,37,Não-binário,Solteiro,Pós-graduação,Transtorno de Pânico,0,6.0,Sim,6,3,2,2025-05-30
+188,41,Masculino,Divorciado,Graduação,Transtorno de Pânico,0,9.5,Sim,7,2,5,2023-01-02
+189,42,Feminino,Solteiro,Graduação,Ansiedade,6,4.2,Sim,5,0,3,2025-06-15
+190,53,Masculino,Solteiro,Graduação,Depressão,6,4.4,Sim,4,2,4,2023-09-11
+191,38,Masculino,Solteiro,Fundamental,Ansiedade,1,6.4,Não,4,1,4,2024-03-28
+192,47,Masculino,Casado,Fundamental,Transtorno de Pânico,8,9.9,Sim,7,4,5,2025-11-26
+193,41,Feminino,Divorciado,Fundamental,Burnout,8,6.2,Sim,4,0,1,2025-10-11
+194,61,Feminino,Divorciado,Graduação,Ansiedade,4,6.2,Não,4,2,1,2023-01-09
+195,59,Feminino,Casado,Graduação,Transtorno Bipolar,2,4.3,Sim,8,4,1,2025-03-26
+196,47,Masculino,Divorciado,Ensino Médio,TEPT,2,7.9,Não,6,3,4,2023-07-27
+197,39,Masculino,Solteiro,Ensino Médio,Transtorno de Pânico,2,7.9,Não,6,1,3,2024-02-08
+198,45,Masculino,Divorciado,Fundamental,Transtorno de Pânico,5,7.7,Sim,5,1,3,2023-06-01
+199,24,Masculino,Casado,Fundamental,Transtorno Bipolar,3,5.6,Não,6,0,5,2023-02-23
+200,52,Feminino,Solteiro,Pós-graduação,Ansiedade,7,5.4,Não,6,0,1,2024-09-19
+201,45,Masculino,Casado,Fundamental,Depressão,10,4.6,Sim,4,1,1,2024-08-09
+202,31,Feminino,Viúvo,Ensino Médio,Burnout,10,6.6,Sim,2,1,2,2023-04-14
+203,27,Feminino,Solteiro,Ensino Médio,TEPT,10,4.9,Sim,6,0,5,2023-09-11
+204,33,Masculino,Solteiro,Ensino Médio,Depressão,4,4.7,Não,6,2,5,2024-05-24
+205,33,Feminino,Divorciado,Graduação,Depressão,0,5.9,Não,4,1,4,2023-04-09
+206,48,Masculino,Solteiro,Graduação,Transtorno Bipolar,8,5.8,Sim,4,2,4,2023-06-02
+207,59,Masculino,Casado,Fundamental,Ansiedade,0,5.7,Não,4,0,5,2025-07-02
+208,42,Masculino,Divorciado,Pós-graduação,Transtorno de Pânico,5,7.2,Sim,8,0,3,2025-05-27
+209,30,Feminino,Viúvo,Pós-graduação,Transtorno de Pânico,0,6.6,Não,5,0,5,2023-12-04
+210,23,Masculino,Casado,Pós-graduação,Transtorno Bipolar,2,6.1,Não,5,7,3,2025-04-01
+211,61,Feminino,Viúvo,Graduação,Ansiedade,9,6.8,Sim,4,2,4,2025-08-14
+212,26,Feminino,Viúvo,Ensino Médio,Transtorno Bipolar,4,5.0,Não,5,3,5,2023-06-10
+213,62,Masculino,Viúvo,Ensino Médio,Transtorno de Pânico,9,6.7,Não,5,1,3,2025-03-11
+214,53,Feminino,Solteiro,Graduação,Depressão,6,6.7,Não,6,4,2,2024-02-02
+215,60,Feminino,Casado,Pós-graduação,Burnout,9,4.2,Sim,7,1,2,2025-03-26
+216,37,Masculino,Casado,Pós-graduação,Ansiedade,7,8.0,Não,8,0,5,2024-02-05
+217,35,Masculino,Solteiro,Fundamental,TEPT,8,5.2,Não,8,1,1,2024-10-01
+218,60,Feminino,Divorciado,Fundamental,TEPT,5,6.6,Sim,12,1,5,2025-11-22
+219,38,Masculino,Viúvo,Pós-graduação,Depressão,10,8.2,Sim,4,4,4,2024-11-18
+220,21,Feminino,Casado,Graduação,Transtorno Bipolar,8,7.9,Sim,2,1,4,2024-04-04
+221,67,Masculino,Solteiro,Pós-graduação,Transtorno Bipolar,7,6.6,Não,4,0,2,2025-08-12
+222,50,Masculino,Viúvo,Fundamental,Transtorno de Pânico,8,6.0,Não,3,2,3,2024-04-14
+223,44,Masculino,Divorciado,Pós-graduação,Depressão,9,7.9,Sim,11,1,2,2025-11-11
+224,24,Masculino,Divorciado,Graduação,Transtorno de Pânico,3,7.5,Não,8,2,3,2025-01-19
+225,23,Feminino,Viúvo,Ensino Médio,Transtorno de Pânico,8,5.6,Sim,8,1,5,2023-02-07
+226,32,Masculino,Divorciado,Graduação,TEPT,6,5.3,Não,6,0,1,2023-08-18
+227,35,Feminino,Casado,Graduação,Transtorno de Pânico,4,3.4,Sim,11,1,4,2024-07-16
+228,49,Feminino,Casado,Fundamental,Transtorno de Pânico,4,6.7,Sim,3,0,5,2024-03-13
+229,28,Feminino,Casado,Graduação,TEPT,0,6.4,Sim,3,2,2,2023-01-27
+230,37,Feminino,Divorciado,Graduação,Transtorno Bipolar,1,8.2,Sim,2,0,5,2023-08-14
+231,41,Masculino,Casado,Fundamental,Ansiedade,9,7.0,Não,6,0,1,2025-03-08
+232,32,Masculino,Solteiro,Fundamental,Burnout,2,8.5,Não,4,2,3,2023-10-11
+233,65,Feminino,Casado,Ensino Médio,Transtorno de Pânico,7,5.5,Sim,14,0,1,2025-05-28
+234,24,Masculino,Casado,Pós-graduação,Ansiedade,5,8.2,Sim,5,2,2,2025-08-17
+235,38,Feminino,Divorciado,Graduação,TEPT,9,5.7,Sim,5,2,1,2024-03-28
+236,59,Masculino,Casado,Fundamental,Ansiedade,10,7.7,Não,8,1,4,2025-10-16
+237,43,Feminino,Viúvo,Ensino Médio,Burnout,4,4.3,Não,8,1,1,2025-03-26
+238,61,Feminino,Solteiro,Pós-graduação,Ansiedade,0,6.9,Sim,7,2,5,2024-10-20
+239,31,Feminino,Divorciado,Fundamental,Ansiedade,10,3.5,Não,6,1,3,2024-06-30
+240,54,Feminino,Solteiro,Pós-graduação,Ansiedade,8,6.1,Sim,10,1,4,2025-12-08
+241,38,Feminino,Viúvo,Pós-graduação,Ansiedade,2,7.2,Não,4,1,4,2023-01-17
+242,35,Feminino,Divorciado,Graduação,Depressão,2,5.7,Não,9,0,4,2023-06-07
+243,22,Feminino,Divorciado,Graduação,Transtorno de Pânico,1,4.9,Não,8,4,2,2024-04-21
+244,20,Masculino,Casado,Fundamental,TEPT,3,7.8,Não,6,0,2,2025-12-05
+245,40,Masculino,Solteiro,Pós-graduação,Burnout,1,6.3,Não,6,1,5,2024-06-01
+246,43,Masculino,Viúvo,Fundamental,TEPT,8,5.8,Não,10,0,3,2023-04-09
+247,54,Feminino,Viúvo,Fundamental,Depressão,9,6.6,Não,8,1,1,2025-11-26
+248,41,Masculino,Divorciado,Pós-graduação,Depressão,6,10.0,Sim,9,1,5,2023-10-07
+249,66,Feminino,Casado,Fundamental,Depressão,7,8.2,Sim,4,0,2,2024-05-11
+250,36,Feminino,Divorciado,Pós-graduação,Transtorno de Pânico,2,8.2,Sim,4,1,5,2023-10-29
+251,68,Feminino,Divorciado,Pós-graduação,Depressão,5,7.2,Não,8,2,3,2023-06-30
+252,42,Feminino,Divorciado,Pós-graduação,Ansiedade,9,6.7,Sim,6,1,5,2024-08-29
+253,38,Masculino,Divorciado,Pós-graduação,TEPT,5,3.0,Sim,4,3,4,2024-11-30
+254,29,Feminino,Viúvo,Ensino Médio,Transtorno Bipolar,0,5.5,Sim,4,0,1,2025-09-19
+255,58,Feminino,Viúvo,Pós-graduação,Burnout,5,5.8,Sim,6,1,2,2023-07-10
+256,50,Masculino,Divorciado,Graduação,Depressão,2,3.7,Não,10,1,2,2023-09-10
+257,67,Masculino,Divorciado,Graduação,TEPT,10,4.8,Não,6,1,3,2025-09-07
+258,21,Feminino,Casado,Graduação,Depressão,2,3.5,Não,5,2,3,2025-07-16
+259,59,Feminino,Divorciado,Pós-graduação,Transtorno de Pânico,2,6.4,Não,2,2,3,2023-05-08
+260,24,Masculino,Viúvo,Graduação,Depressão,9,7.7,Não,8,0,2,2023-01-18
+261,39,Feminino,Solteiro,Ensino Médio,Depressão,10,8.2,Sim,6,2,4,2024-07-19
+262,50,Feminino,Viúvo,Fundamental,Depressão,10,7.1,Sim,5,0,1,2024-07-23
+263,34,Masculino,Casado,Pós-graduação,Depressão,9,5.1,Não,10,0,3,2024-11-16
+264,41,Não-binário,Viúvo,Graduação,Burnout,10,3.6,Sim,2,2,2,2024-09-17
+265,51,Feminino,Solteiro,Ensino Médio,TEPT,7,3.9,Sim,10,1,4,2025-05-03
+266,45,Feminino,Divorciado,Fundamental,Transtorno de Pânico,4,4.6,Não,1,2,3,2025-08-19
+267,60,Feminino,Solteiro,Ensino Médio,Depressão,3,5.2,Sim,6,1,3,2023-06-04
+268,58,Masculino,Divorciado,Graduação,Depressão,8,6.3,Sim,4,0,1,2024-05-04
+269,56,Masculino,Divorciado,Ensino Médio,Depressão,8,5.0,Sim,7,0,1,2025-02-23
+270,39,Masculino,Viúvo,Fundamental,Depressão,0,7.0,Sim,3,2,5,2023-09-03
+271,66,Masculino,Viúvo,Graduação,Ansiedade,1,6.2,Sim,4,2,3,2025-11-28
+272,34,Masculino,Viúvo,Fundamental,Ansiedade,7,6.5,Sim,5,0,5,2025-01-28
+273,51,Feminino,Casado,Ensino Médio,Transtorno Bipolar,4,8.2,Não,5,1,2,2024-06-21
+274,23,Feminino,Viúvo,Pós-graduação,Depressão,6,4.7,Não,4,1,1,2025-07-09
+275,63,Feminino,Casado,Pós-graduação,Transtorno Bipolar,0,7.1,Sim,3,3,4,2024-02-12
+276,23,Feminino,Viúvo,Pós-graduação,Burnout,9,6.5,Não,7,2,3,2024-06-08
+277,51,Feminino,Divorciado,Pós-graduação,Transtorno Bipolar,4,6.0,Sim,9,0,3,2025-04-07
+278,18,Masculino,Casado,Fundamental,TEPT,10,7.8,Sim,11,2,5,2025-06-21
+279,27,Masculino,Solteiro,Pós-graduação,Ansiedade,2,7.8,Sim,7,2,1,2023-02-05
+280,38,Feminino,Casado,Fundamental,Ansiedade,9,5.1,Não,9,3,5,2024-11-15
+281,22,Feminino,Casado,Graduação,Depressão,1,6.2,Sim,5,2,3,2023-01-20
+282,19,Masculino,Solteiro,Pós-graduação,Depressão,1,6.9,Não,7,1,1,2023-11-17
+283,39,Feminino,Casado,Fundamental,Burnout,8,6.1,Não,7,1,3,2024-05-26
+284,65,Masculino,Divorciado,Pós-graduação,Transtorno de Pânico,3,7.4,Sim,4,1,1,2024-02-04
+285,19,Feminino,Viúvo,Pós-graduação,Burnout,3,6.9,Não,6,1,3,2024-10-15
+286,27,Feminino,Solteiro,Pós-graduação,TEPT,6,9.2,Não,4,1,4,2025-08-29
+287,51,Feminino,Viúvo,Fundamental,Depressão,9,4.2,Sim,5,1,5,2024-04-15
+288,33,Não-binário,Divorciado,Ensino Médio,Depressão,9,6.3,Sim,6,2,1,2025-04-13
+289,65,Feminino,Solteiro,Pós-graduação,Burnout,1,5.1,Não,3,2,5,2024-12-27
+290,68,Feminino,Viúvo,Pós-graduação,Burnout,2,7.4,Não,5,1,1,2025-05-03
+291,56,Feminino,Viúvo,Graduação,Burnout,2,4.1,Sim,7,0,1,2023-02-20
+292,39,Feminino,Divorciado,Ensino Médio,Ansiedade,5,7.0,Sim,9,3,1,2024-07-28
+293,29,Feminino,Viúvo,Fundamental,Transtorno Bipolar,2,5.6,Sim,7,2,3,2023-05-30
+294,41,Masculino,Divorciado,Graduação,Transtorno Bipolar,10,5.4,Sim,6,1,2,2023-11-10
+295,64,Masculino,Casado,Pós-graduação,Depressão,4,4.3,Sim,6,3,3,2024-07-23
+296,57,Feminino,Divorciado,Graduação,Ansiedade,3,5.8,Não,7,1,2,2023-11-01
+297,55,Masculino,Casado,Graduação,Burnout,2,8.1,Não,3,2,3,2024-11-12
+298,27,Masculino,Solteiro,Pós-graduação,Depressão,7,6.5,Sim,7,3,2,2025-04-17
+299,52,Não-binário,Viúvo,Ensino Médio,Ansiedade,9,7.4,Não,10,1,1,2025-12-13
+300,68,Feminino,Divorciado,Ensino Médio,TEPT,2,9.0,Não,6,0,1,2025-09-29
+301,66,Feminino,Divorciado,Graduação,Transtorno de Pânico,5,6.9,Sim,8,0,2,2024-03-19
+302,49,Masculino,Viúvo,Pós-graduação,Ansiedade,6,5.7,Sim,5,0,2,2024-09-04
+303,24,Masculino,Viúvo,Fundamental,Depressão,6,7.2,Sim,5,0,5,2025-09-19
+304,38,Masculino,Solteiro,Graduação,Transtorno Bipolar,1,5.7,Não,9,3,1,2023-09-21
+305,37,Masculino,Solteiro,Fundamental,Burnout,2,5.7,Sim,3,1,3,2025-12-12
+306,43,Masculino,Divorciado,Graduação,Transtorno de Pânico,9,4.2,Não,4,3,5,2025-09-30
+307,21,Masculino,Solteiro,Graduação,TEPT,9,7.9,Sim,11,0,2,2023-01-05
+308,63,Feminino,Casado,Pós-graduação,Transtorno de Pânico,3,5.9,Sim,6,2,3,2025-02-12
+309,69,Feminino,Solteiro,Pós-graduação,Transtorno de Pânico,6,6.8,Sim,10,1,4,2025-05-26
+310,39,Masculino,Solteiro,Fundamental,Ansiedade,1,4.9,Sim,2,1,4,2025-09-18
+311,32,Masculino,Divorciado,Fundamental,Depressão,2,7.2,Não,5,0,4,2025-06-02
+312,57,Feminino,Casado,Ensino Médio,Depressão,6,5.4,Não,3,0,3,2023-02-16
+313,38,Masculino,Solteiro,Pós-graduação,Transtorno de Pânico,6,6.3,Sim,8,1,2,2025-05-16
+314,32,Feminino,Casado,Graduação,Burnout,9,7.8,Não,7,2,3,2025-04-02
+315,39,Masculino,Casado,Graduação,Depressão,2,7.7,Não,6,1,5,2025-07-24
+316,69,Masculino,Casado,Ensino Médio,Transtorno de Pânico,0,6.5,Sim,7,1,5,2024-10-17
+317,45,Masculino,Viúvo,Pós-graduação,Depressão,2,3.8,Não,7,1,4,2023-09-26
+318,31,Masculino,Viúvo,Graduação,Burnout,4,10.0,Sim,7,0,2,2024-01-05
+319,44,Feminino,Viúvo,Ensino Médio,TEPT,6,9.1,Não,8,5,5,2024-09-27
+320,58,Feminino,Viúvo,Ensino Médio,Transtorno de Pânico,3,7.6,Sim,7,1,1,2024-10-18
+321,57,Feminino,Divorciado,Graduação,Transtorno Bipolar,10,5.4,Não,4,3,1,2023-04-30
+322,45,Masculino,Solteiro,Graduação,Transtorno Bipolar,10,6.3,Sim,12,1,4,2025-04-10
+323,43,Feminino,Viúvo,Fundamental,Transtorno de Pânico,0,5.7,Não,7,1,4,2025-12-17
+324,66,Feminino,Divorciado,Pós-graduação,Ansiedade,5,8.4,Não,7,1,4,2025-01-10
+325,19,Feminino,Solteiro,Fundamental,TEPT,1,6.9,Sim,6,0,5,2023-04-27
+326,42,Masculino,Viúvo,Ensino Médio,Ansiedade,2,5.3,Sim,12,1,2,2025-03-01
+327,20,Masculino,Solteiro,Graduação,Transtorno Bipolar,3,5.8,Sim,5,0,4,2025-10-09
+328,25,Feminino,Viúvo,Fundamental,Burnout,5,8.2,Não,8,4,3,2025-12-17
+329,61,Feminino,Divorciado,Ensino Médio,Transtorno de Pânico,5,8.9,Sim,2,2,4,2024-09-25
+330,50,Masculino,Casado,Pós-graduação,Depressão,6,8.8,Não,12,1,5,2024-05-27
+331,59,Masculino,Casado,Graduação,Transtorno Bipolar,4,7.6,Sim,3,1,2,2025-03-12
+332,69,Feminino,Solteiro,Fundamental,TEPT,6,6.1,Sim,4,3,4,2024-07-13
+333,52,Feminino,Divorciado,Pós-graduação,Transtorno Bipolar,1,3.0,Sim,4,1,1,2024-05-02
+334,23,Masculino,Casado,Fundamental,TEPT,0,6.9,Sim,2,1,4,2025-06-15
+335,56,Feminino,Viúvo,Ensino Médio,TEPT,9,6.5,Não,6,1,4,2024-12-04
+336,69,Feminino,Casado,Pós-graduação,Transtorno de Pânico,7,6.7,Não,10,3,2,2024-08-03
+337,40,Feminino,Solteiro,Fundamental,TEPT,0,6.6,Sim,4,1,3,2025-02-28
+338,42,Feminino,Solteiro,Pós-graduação,Ansiedade,1,4.5,Sim,8,0,4,2025-05-10
+339,67,Masculino,Divorciado,Ensino Médio,Burnout,10,7.3,Sim,6,0,4,2023-09-04
+340,60,Feminino,Solteiro,Pós-graduação,Transtorno Bipolar,9,7.4,Não,4,1,5,2023-06-03
+341,36,Masculino,Casado,Fundamental,Burnout,5,7.5,Sim,6,1,2,2025-09-23
+342,22,Feminino,Casado,Ensino Médio,Depressão,0,7.9,Não,9,2,5,2024-11-27
+343,68,Feminino,Casado,Graduação,Transtorno Bipolar,9,7.4,Não,2,1,4,2025-12-28
+344,28,Masculino,Casado,Fundamental,Burnout,2,5.9,Sim,7,1,4,2025-12-06
+345,29,Feminino,Divorciado,Fundamental,Burnout,6,6.4,Não,6,2,1,2025-10-05
+346,27,Não-binário,Viúvo,Ensino Médio,Transtorno de Pânico,7,6.6,Sim,6,3,5,2023-04-04
+347,25,Masculino,Viúvo,Ensino Médio,Transtorno de Pânico,3,6.7,Sim,9,0,2,2025-08-15
+348,41,Feminino,Divorciado,Graduação,Depressão,2,8.0,Sim,4,2,4,2025-10-08
+349,45,Feminino,Solteiro,Fundamental,TEPT,0,7.5,Sim,3,1,1,2024-03-28
+350,58,Feminino,Viúvo,Ensino Médio,Transtorno Bipolar,8,9.6,Sim,5,1,1,2025-06-30
+351,53,Masculino,Solteiro,Graduação,Transtorno de Pânico,9,9.8,Sim,4,2,3,2023-08-06
+352,54,Masculino,Viúvo,Graduação,Transtorno Bipolar,5,6.6,Sim,6,1,2,2024-04-18
+353,38,Masculino,Solteiro,Ensino Médio,Depressão,5,3.0,Sim,11,1,1,2024-03-07
+354,25,Feminino,Divorciado,Fundamental,Transtorno de Pânico,8,8.4,Não,10,0,2,2023-12-07
+355,26,Masculino,Casado,Pós-graduação,Transtorno de Pânico,0,5.7,Não,8,1,4,2024-07-04
+356,64,Feminino,Solteiro,Pós-graduação,TEPT,5,5.3,Sim,1,2,3,2023-12-23
+357,32,Masculino,Casado,Graduação,Transtorno Bipolar,4,5.9,Sim,5,0,2,2023-01-23
+358,65,Feminino,Solteiro,Pós-graduação,Transtorno Bipolar,10,5.8,Sim,5,1,3,2024-06-05
+359,63,Masculino,Solteiro,Pós-graduação,Transtorno Bipolar,5,7.4,Não,11,1,2,2025-03-12
+360,57,Masculino,Solteiro,Ensino Médio,TEPT,10,4.2,Não,7,3,2,2025-01-31
+361,35,Masculino,Solteiro,Graduação,Transtorno de Pânico,7,4.9,Sim,5,1,5,2024-03-17
+362,59,Masculino,Solteiro,Fundamental,Depressão,4,7.0,Sim,9,0,3,2025-02-07
+363,37,Feminino,Casado,Graduação,Transtorno Bipolar,1,7.4,Sim,6,2,2,2025-10-12
+364,23,Feminino,Solteiro,Ensino Médio,Burnout,1,7.5,Sim,5,0,5,2024-05-30
+365,29,Feminino,Casado,Pós-graduação,TEPT,9,5.3,Não,5,3,5,2025-11-05
+366,19,Feminino,Divorciado,Fundamental,Ansiedade,4,5.0,Não,2,3,3,2025-03-02
+367,24,Feminino,Viúvo,Graduação,Depressão,2,5.7,Sim,7,0,4,2023-12-02
+368,33,Feminino,Solteiro,Pós-graduação,Burnout,9,6.9,Sim,11,1,3,2023-09-15
+369,20,Feminino,Viúvo,Graduação,Transtorno Bipolar,2,8.7,Sim,6,1,2,2024-05-11
+370,62,Feminino,Casado,Fundamental,Ansiedade,7,3.4,Sim,9,0,4,2025-06-14
+371,20,Masculino,Divorciado,Graduação,Depressão,6,6.2,Não,6,1,3,2023-06-09
+372,44,Feminino,Divorciado,Graduação,TEPT,0,4.5,Sim,11,2,3,2025-05-01
+373,67,Masculino,Divorciado,Graduação,Ansiedade,4,4.0,Sim,5,1,3,2024-11-20
+374,60,Feminino,Viúvo,Pós-graduação,Transtorno de Pânico,8,8.0,Sim,5,4,3,2024-01-15
+375,57,Feminino,Casado,Fundamental,Ansiedade,3,7.3,Não,7,4,4,2025-08-14
+376,55,Masculino,Solteiro,Fundamental,Burnout,0,7.2,Não,15,2,2,2024-11-21
+377,50,Masculino,Solteiro,Pós-graduação,Depressão,7,7.9,Sim,7,4,5,2025-12-02
+378,45,Feminino,Casado,Pós-graduação,Burnout,4,5.8,Sim,14,4,3,2023-10-12
+379,18,Feminino,Viúvo,Pós-graduação,Burnout,1,5.9,Sim,1,2,5,2024-02-01
+380,25,Masculino,Solteiro,Ensino Médio,Transtorno Bipolar,0,9.8,Não,1,2,5,2023-01-12
+381,54,Feminino,Casado,Graduação,TEPT,2,6.1,Sim,9,2,5,2024-05-13
+382,49,Feminino,Solteiro,Graduação,Ansiedade,8,7.6,Sim,3,1,3,2025-01-23
+383,65,Feminino,Divorciado,Fundamental,Depressão,0,6.5,Sim,5,2,3,2023-02-04
+384,60,Não-binário,Solteiro,Graduação,Transtorno de Pânico,3,3.7,Não,3,1,3,2024-12-27
+385,54,Feminino,Viúvo,Ensino Médio,TEPT,7,3.4,Sim,7,0,3,2025-04-28
+386,21,Masculino,Casado,Pós-graduação,TEPT,7,5.6,Sim,6,1,1,2023-03-31
+387,47,Feminino,Viúvo,Fundamental,Depressão,9,8.1,Não,6,1,2,2025-02-14
+388,23,Feminino,Casado,Fundamental,TEPT,10,7.7,Não,8,1,1,2024-08-27
+389,63,Masculino,Divorciado,Graduação,Transtorno Bipolar,10,7.9,Não,10,4,4,2025-08-27
+390,36,Masculino,Casado,Fundamental,TEPT,7,5.0,Não,5,1,1,2025-10-18
+391,49,Masculino,Solteiro,Pós-graduação,Transtorno Bipolar,9,8.9,Sim,9,1,1,2024-02-22
+392,26,Feminino,Solteiro,Fundamental,Ansiedade,7,5.1,Sim,9,3,1,2023-04-25
+393,29,Feminino,Divorciado,Pós-graduação,Ansiedade,3,6.8,Não,7,1,2,2024-09-08
+394,28,Feminino,Casado,Ensino Médio,Burnout,7,6.5,Sim,5,0,5,2025-04-05
+395,63,Feminino,Divorciado,Ensino Médio,Transtorno Bipolar,8,6.2,Não,7,0,4,2024-02-17
+396,33,Feminino,Solteiro,Pós-graduação,Transtorno de Pânico,6,8.5,Não,11,2,4,2024-12-29
+397,18,Masculino,Viúvo,Graduação,Ansiedade,1,5.4,Sim,4,2,2,2025-10-17
+398,62,Masculino,Divorciado,Fundamental,TEPT,8,4.5,Sim,2,2,1,2025-01-30
+399,38,Masculino,Viúvo,Graduação,Depressão,10,6.5,Não,10,2,5,2024-11-06
+400,47,Masculino,Viúvo,Fundamental,Depressão,7,5.9,Não,1,1,3,2024-04-01
+401,30,Feminino,Casado,Ensino Médio,Transtorno Bipolar,4,10.0,Não,5,0,2,2025-07-08
+402,51,Feminino,Divorciado,Ensino Médio,Transtorno de Pânico,2,7.5,Sim,8,2,5,2023-07-11
+403,21,Masculino,Viúvo,Ensino Médio,Burnout,6,5.9,Sim,2,2,2,2025-01-08
+404,45,Feminino,Viúvo,Fundamental,TEPT,1,4.9,Sim,9,4,2,2025-09-04
+405,55,Feminino,Casado,Ensino Médio,Transtorno Bipolar,2,3.7,Sim,6,0,3,2025-10-05
+406,48,Masculino,Casado,Ensino Médio,Depressão,8,5.0,Sim,7,0,5,2023-04-06
+407,44,Masculino,Solteiro,Ensino Médio,Transtorno Bipolar,3,6.7,Não,7,1,1,2024-10-24
+408,22,Masculino,Viúvo,Ensino Médio,TEPT,3,8.6,Não,9,1,5,2023-02-06
+409,42,Masculino,Solteiro,Graduação,Transtorno de Pânico,2,8.2,Não,11,1,5,2023-10-06
+410,20,Feminino,Viúvo,Ensino Médio,Transtorno de Pânico,4,6.8,Sim,7,3,1,2023-08-05
+411,50,Masculino,Solteiro,Ensino Médio,Ansiedade,2,6.0,Sim,7,3,3,2025-05-16
+412,21,Masculino,Casado,Graduação,TEPT,8,6.9,Não,3,2,5,2025-05-22
+413,42,Feminino,Divorciado,Graduação,Ansiedade,2,5.7,Sim,9,1,1,2023-03-03
+414,37,Não-binário,Casado,Fundamental,Ansiedade,1,9.1,Sim,2,1,2,2024-08-18
+415,51,Masculino,Solteiro,Pós-graduação,Ansiedade,4,6.2,Sim,6,1,2,2024-12-29
+416,43,Masculino,Solteiro,Ensino Médio,Transtorno Bipolar,5,6.4,Não,8,1,1,2024-02-01
+417,22,Masculino,Divorciado,Ensino Médio,Depressão,0,3.2,Não,3,2,2,2024-11-29
+418,52,Masculino,Viúvo,Ensino Médio,Transtorno de Pânico,10,6.2,Sim,5,2,5,2025-11-08
+419,45,Masculino,Solteiro,Fundamental,Transtorno Bipolar,5,7.8,Não,5,5,1,2023-06-26
+420,46,Feminino,Solteiro,Ensino Médio,Depressão,9,4.9,Sim,3,2,5,2024-01-31
+421,26,Masculino,Solteiro,Pós-graduação,Transtorno de Pânico,2,5.4,Sim,3,1,4,2024-03-20
+422,69,Masculino,Divorciado,Graduação,TEPT,3,7.7,Não,7,0,3,2023-03-17
+423,55,Feminino,Casado,Fundamental,Transtorno de Pânico,5,4.3,Não,7,3,3,2023-09-22
+424,67,Masculino,Solteiro,Graduação,Transtorno de Pânico,7,8.1,Não,7,1,3,2024-03-30
+425,23,Masculino,Divorciado,Ensino Médio,Transtorno de Pânico,8,5.7,Não,5,1,1,2024-12-18
+426,36,Masculino,Solteiro,Ensino Médio,Burnout,5,5.9,Não,5,3,4,2025-01-04
+427,61,Não-binário,Viúvo,Ensino Médio,TEPT,6,4.8,Não,7,0,3,2025-04-30
+428,28,Masculino,Divorciado,Pós-graduação,Transtorno Bipolar,4,7.1,Não,9,1,5,2023-05-24
+429,19,Feminino,Solteiro,Pós-graduação,Transtorno Bipolar,8,10.0,Não,10,3,3,2025-06-03
+430,64,Feminino,Divorciado,Fundamental,Depressão,3,7.7,Não,12,0,4,2025-12-28
+431,61,Masculino,Solteiro,Graduação,Transtorno Bipolar,9,5.2,Não,7,3,5,2024-01-31
+432,61,Não-binário,Casado,Ensino Médio,Ansiedade,10,8.2,Sim,8,1,5,2025-11-14
+433,26,Masculino,Solteiro,Ensino Médio,Transtorno de Pânico,5,6.0,Não,10,5,1,2025-08-05
+434,38,Masculino,Divorciado,Ensino Médio,Transtorno Bipolar,4,8.6,Sim,3,1,1,2025-06-09
+435,41,Feminino,Viúvo,Ensino Médio,Depressão,0,7.7,Sim,4,1,2,2024-07-22
+436,51,Feminino,Viúvo,Pós-graduação,Depressão,4,3.0,Não,7,3,4,2025-11-28
+437,39,Feminino,Viúvo,Graduação,Ansiedade,4,5.0,Sim,6,1,5,2023-04-19
+438,20,Masculino,Solteiro,Graduação,Depressão,8,7.9,Sim,6,2,4,2025-12-01
+439,29,Masculino,Casado,Fundamental,Burnout,0,6.7,Não,5,5,3,2025-07-23
+440,45,Feminino,Solteiro,Pós-graduação,Transtorno de Pânico,4,5.0,Sim,8,2,3,2024-02-02
+441,47,Masculino,Viúvo,Ensino Médio,Transtorno de Pânico,6,5.5,Sim,7,2,2,2024-09-25
+442,43,Masculino,Divorciado,Graduação,Transtorno de Pânico,10,3.6,Não,8,3,5,2025-01-02
+443,65,Masculino,Viúvo,Graduação,TEPT,5,6.4,Sim,6,2,5,2023-08-23
+444,38,Masculino,Divorciado,Pós-graduação,Transtorno Bipolar,5,9.8,Sim,7,4,2,2024-10-19
+445,45,Feminino,Casado,Fundamental,Burnout,6,7.7,Sim,6,1,3,2025-01-20
+446,43,Masculino,Divorciado,Fundamental,Transtorno Bipolar,5,9.8,Sim,9,4,5,2024-08-10
+447,50,Não-binário,Solteiro,Ensino Médio,Burnout,4,7.8,Não,4,0,4,2025-10-29
+448,38,Masculino,Solteiro,Fundamental,Transtorno Bipolar,9,8.0,Não,6,2,5,2025-08-11
+449,52,Feminino,Solteiro,Graduação,Ansiedade,4,9.5,Sim,9,0,3,2024-05-06
+450,69,Masculino,Divorciado,Fundamental,Depressão,8,7.1,Não,5,1,5,2025-07-01
+451,51,Masculino,Solteiro,Ensino Médio,Depressão,7,6.2,Sim,10,3,5,2023-06-19
+452,58,Masculino,Solteiro,Graduação,Ansiedade,9,8.0,Sim,6,0,1,2025-08-03
+453,68,Masculino,Solteiro,Fundamental,Burnout,3,8.7,Não,6,2,5,2025-03-05
+454,64,Feminino,Casado,Fundamental,TEPT,3,5.8,Não,6,1,2,2024-09-25
+455,35,Não-binário,Divorciado,Pós-graduação,Burnout,9,5.4,Não,8,2,2,2023-01-29
+456,28,Feminino,Divorciado,Ensino Médio,Depressão,4,6.7,Sim,3,2,4,2023-12-05
+457,40,Masculino,Viúvo,Fundamental,TEPT,2,7.7,Sim,5,4,5,2024-05-14
+458,65,Masculino,Divorciado,Pós-graduação,Transtorno Bipolar,7,7.7,Sim,5,2,4,2024-05-25
+459,39,Masculino,Casado,Graduação,TEPT,6,4.4,Sim,4,1,3,2023-08-05
+460,34,Feminino,Divorciado,Pós-graduação,Burnout,4,9.4,Não,6,1,3,2025-12-29
+461,22,Feminino,Casado,Pós-graduação,Ansiedade,9,5.5,Sim,6,3,1,2024-03-20
+462,61,Feminino,Casado,Fundamental,Transtorno Bipolar,2,6.1,Não,4,2,1,2025-05-25
+463,28,Masculino,Divorciado,Fundamental,Burnout,4,5.1,Sim,5,0,5,2023-06-16
+464,47,Feminino,Viúvo,Fundamental,Transtorno Bipolar,2,10.0,Sim,4,3,5,2023-04-01
+465,32,Masculino,Solteiro,Pós-graduação,TEPT,9,6.9,Sim,6,4,4,2024-12-14
+466,44,Feminino,Solteiro,Graduação,Depressão,4,5.2,Sim,9,0,4,2023-02-08
+467,52,Feminino,Divorciado,Ensino Médio,Burnout,0,7.8,Não,5,0,5,2023-06-22
+468,50,Feminino,Divorciado,Pós-graduação,Ansiedade,5,7.7,Sim,3,0,5,2024-10-14
+469,37,Feminino,Casado,Fundamental,TEPT,9,6.2,Sim,8,1,1,2025-01-23
+470,33,Masculino,Divorciado,Ensino Médio,Burnout,3,7.8,Não,5,2,1,2025-12-17
+471,51,Feminino,Casado,Graduação,Ansiedade,3,5.3,Não,1,2,1,2024-04-20
+472,19,Masculino,Viúvo,Ensino Médio,Burnout,7,5.8,Sim,4,2,5,2024-03-31
+473,52,Feminino,Divorciado,Fundamental,TEPT,1,3.5,Sim,5,1,4,2025-04-08
+474,57,Masculino,Solteiro,Pós-graduação,Burnout,3,4.5,Não,10,1,2,2025-06-13
+475,45,Feminino,Solteiro,Pós-graduação,Transtorno Bipolar,1,9.2,Não,8,4,2,2025-10-21
+476,64,Feminino,Divorciado,Fundamental,TEPT,0,9.0,Não,3,5,4,2024-01-22
+477,56,Feminino,Casado,Pós-graduação,Burnout,9,6.6,Sim,5,3,4,2023-12-14
+478,23,Feminino,Solteiro,Fundamental,Depressão,2,9.0,Não,6,0,4,2023-07-09
+479,26,Feminino,Casado,Pós-graduação,Burnout,7,6.3,Sim,9,1,1,2024-05-19
+480,37,Feminino,Divorciado,Pós-graduação,Transtorno Bipolar,5,6.1,Sim,7,2,3,2025-04-03
+481,18,Feminino,Divorciado,Pós-graduação,Ansiedade,6,6.6,Não,4,1,5,2025-07-17
+482,25,Feminino,Solteiro,Graduação,Ansiedade,1,6.3,Sim,7,1,1,2025-07-22
+483,40,Masculino,Divorciado,Graduação,Ansiedade,5,6.2,Sim,6,3,2,2023-05-14
+484,20,Não-binário,Viúvo,Fundamental,Depressão,7,8.2,Sim,7,0,5,2023-02-27
+485,21,Feminino,Viúvo,Graduação,Transtorno Bipolar,7,6.7,Sim,6,1,4,2024-11-15
+486,42,Feminino,Solteiro,Fundamental,TEPT,3,7.6,Não,11,1,2,2024-11-02
+487,64,Masculino,Viúvo,Ensino Médio,Ansiedade,5,8.0,Não,6,1,4,2023-06-22
+488,55,Masculino,Casado,Ensino Médio,Transtorno Bipolar,4,7.1,Sim,7,1,4,2025-03-25
+489,32,Feminino,Solteiro,Graduação,Burnout,8,5.0,Sim,2,1,4,2023-03-21
+490,38,Masculino,Solteiro,Ensino Médio,Depressão,7,4.5,Não,6,1,5,2025-06-04
+491,52,Feminino,Casado,Ensino Médio,Transtorno Bipolar,1,6.7,Não,5,1,2,2023-07-22
+492,63,Feminino,Viúvo,Pós-graduação,Transtorno Bipolar,6,6.2,Sim,6,2,2,2025-02-02
+493,69,Masculino,Viúvo,Pós-graduação,TEPT,6,6.6,Não,6,1,4,2023-02-16
+494,31,Feminino,Viúvo,Fundamental,Transtorno Bipolar,10,6.5,Não,6,0,1,2024-10-17
+495,53,Feminino,Solteiro,Ensino Médio,TEPT,0,10.0,Sim,10,2,3,2024-04-15
+496,29,Feminino,Solteiro,Fundamental,Depressão,0,4.5,Sim,9,2,1,2025-08-28
+497,34,Feminino,Viúvo,Fundamental,Depressão,3,3.5,Sim,7,1,5,2025-11-01
+498,56,Masculino,Divorciado,Ensino Médio,Burnout,4,7.0,Não,13,1,3,2025-01-05
+499,26,Feminino,Viúvo,Graduação,TEPT,3,5.9,Sim,6,0,1,2025-02-22
+500,52,Masculino,Casado,Ensino Médio,TEPT,6,7.0,Sim,5,0,2,2025-08-25
+501,30,Feminino,Solteiro,Pós-graduação,Ansiedade,2,7.4,Sim,6,1,1,2023-12-24
+502,32,Feminino,Casado,Ensino Médio,Ansiedade,6,8.4,Não,13,1,4,2025-08-29
+503,35,Masculino,Casado,Graduação,Burnout,7,4.2,Sim,5,1,5,2024-10-29
+504,68,Feminino,Solteiro,Fundamental,Depressão,5,5.7,Não,8,0,1,2024-01-08
+505,50,Feminino,Divorciado,Fundamental,Transtorno de Pânico,5,7.1,Não,6,1,1,2025-10-28
+506,23,Masculino,Viúvo,Pós-graduação,Ansiedade,7,7.7,Sim,3,2,3,2024-11-06
+507,44,Não-binário,Casado,Pós-graduação,Transtorno Bipolar,7,9.8,Sim,3,0,4,2023-03-31
+508,40,Masculino,Solteiro,Pós-graduação,Depressão,6,7.9,Sim,4,1,3,2024-11-28
+509,44,Masculino,Casado,Fundamental,Transtorno de Pânico,5,6.4,Não,2,2,5,2024-06-23
+510,51,Feminino,Viúvo,Pós-graduação,Transtorno Bipolar,5,5.2,Sim,7,1,5,2025-01-01
+511,63,Feminino,Divorciado,Ensino Médio,TEPT,9,5.7,Sim,10,0,4,2025-05-18
+512,55,Feminino,Divorciado,Fundamental,Depressão,10,5.6,Sim,9,1,3,2023-02-10
+513,31,Feminino,Divorciado,Graduação,Burnout,5,7.5,Sim,5,2,4,2025-01-09
+514,53,Feminino,Solteiro,Fundamental,TEPT,7,6.9,Não,8,3,3,2024-05-16
+515,25,Feminino,Solteiro,Ensino Médio,TEPT,0,4.5,Não,3,0,2,2025-08-16
+516,52,Masculino,Divorciado,Ensino Médio,Transtorno Bipolar,4,5.8,Não,11,4,4,2025-07-17
+517,36,Masculino,Viúvo,Pós-graduação,TEPT,2,7.8,Sim,6,1,5,2024-04-05
+518,47,Masculino,Viúvo,Fundamental,Ansiedade,7,7.0,Sim,3,2,3,2025-01-01
+519,31,Masculino,Solteiro,Fundamental,Depressão,10,7.4,Não,2,3,2,2025-01-21
+520,37,Feminino,Divorciado,Fundamental,Ansiedade,5,7.1,Sim,6,0,5,2025-07-13
+521,66,Masculino,Viúvo,Graduação,Transtorno Bipolar,1,8.9,Não,10,1,3,2025-06-27
+522,42,Masculino,Viúvo,Pós-graduação,Transtorno de Pânico,6,6.9,Sim,7,1,2,2024-01-25
+523,57,Masculino,Viúvo,Ensino Médio,Transtorno Bipolar,6,5.9,Sim,5,4,5,2025-06-01
+524,41,Feminino,Solteiro,Ensino Médio,Depressão,4,5.1,Não,10,2,5,2023-09-13
+525,31,Feminino,Divorciado,Pós-graduação,TEPT,7,6.9,Não,5,1,2,2024-12-09
+526,43,Feminino,Casado,Ensino Médio,Burnout,4,3.0,Não,3,1,5,2024-03-25
+527,55,Feminino,Divorciado,Ensino Médio,Transtorno Bipolar,0,6.2,Sim,3,0,3,2023-01-10
+528,40,Feminino,Divorciado,Pós-graduação,Depressão,8,6.2,Sim,4,3,3,2025-04-03
+529,39,Feminino,Solteiro,Ensino Médio,Burnout,3,4.5,Não,2,1,5,2025-03-08
+530,65,Masculino,Viúvo,Fundamental,TEPT,1,5.1,Não,5,1,1,2025-05-26
+531,36,Feminino,Viúvo,Graduação,Transtorno de Pânico,3,7.7,Não,4,1,2,2025-10-25
+532,63,Feminino,Solteiro,Pós-graduação,Transtorno Bipolar,8,6.8,Sim,7,3,1,2025-10-12
+533,68,Feminino,Solteiro,Graduação,Transtorno de Pânico,1,6.7,Não,7,2,3,2024-01-09
+534,20,Feminino,Solteiro,Ensino Médio,Depressão,3,7.0,Não,7,4,5,2025-12-24
+535,59,Feminino,Solteiro,Ensino Médio,Transtorno de Pânico,1,6.6,Não,9,0,4,2023-05-26
+536,36,Feminino,Solteiro,Fundamental,Transtorno de Pânico,4,8.4,Sim,5,3,4,2023-08-12
+537,26,Feminino,Casado,Pós-graduação,Depressão,2,6.7,Sim,9,2,1,2023-06-26
+538,45,Masculino,Divorciado,Ensino Médio,Depressão,9,4.3,Não,6,3,1,2025-05-02
+539,37,Feminino,Divorciado,Pós-graduação,Transtorno Bipolar,1,8.9,Não,5,0,1,2023-03-04
+540,62,Masculino,Divorciado,Pós-graduação,Transtorno de Pânico,8,7.1,Não,6,0,3,2025-04-06
+541,24,Feminino,Viúvo,Pós-graduação,Burnout,4,5.6,Não,8,2,3,2025-03-05
+542,31,Feminino,Casado,Pós-graduação,Depressão,9,4.6,Não,12,1,5,2024-11-19
+543,26,Masculino,Divorciado,Pós-graduação,TEPT,4,7.1,Sim,4,3,3,2023-04-15
+544,36,Feminino,Viúvo,Graduação,Transtorno de Pânico,0,6.3,Sim,3,1,5,2024-05-25
+545,64,Masculino,Casado,Fundamental,Depressão,5,8.9,Sim,7,1,5,2024-01-20
+546,69,Feminino,Casado,Pós-graduação,Burnout,6,6.0,Sim,8,0,1,2024-02-09
+547,31,Masculino,Viúvo,Graduação,Transtorno Bipolar,0,5.2,Sim,6,0,4,2025-04-02
+548,55,Feminino,Casado,Ensino Médio,Transtorno de Pânico,8,7.8,Sim,6,2,1,2024-06-01
+549,53,Masculino,Viúvo,Pós-graduação,Depressão,7,7.9,Sim,4,2,3,2024-04-20
+550,57,Feminino,Divorciado,Ensino Médio,Depressão,7,6.8,Sim,5,0,2,2024-12-09
+551,34,Masculino,Viúvo,Pós-graduação,TEPT,6,7.5,Sim,15,2,3,2025-02-09
+552,47,Feminino,Casado,Graduação,TEPT,4,6.4,Sim,7,2,4,2025-11-12
+553,26,Feminino,Divorciado,Graduação,Transtorno de Pânico,2,6.9,Sim,2,0,3,2025-09-23
+554,50,Não-binário,Divorciado,Graduação,Depressão,8,8.2,Não,3,1,4,2024-11-07
+555,69,Feminino,Solteiro,Fundamental,Transtorno de Pânico,6,7.4,Sim,7,1,2,2024-12-14
+556,42,Feminino,Solteiro,Ensino Médio,Depressão,10,6.2,Sim,4,3,2,2023-03-24
+557,31,Masculino,Casado,Fundamental,TEPT,9,8.5,Não,5,2,5,2024-04-01
+558,28,Masculino,Viúvo,Pós-graduação,Burnout,9,3.0,Não,6,1,3,2023-01-01
+559,52,Masculino,Viúvo,Ensino Médio,Ansiedade,7,9.6,Sim,5,2,5,2023-02-20
+560,58,Feminino,Casado,Graduação,Ansiedade,5,3.9,Não,8,0,1,2024-11-15
+561,31,Feminino,Divorciado,Ensino Médio,Depressão,10,5.6,Não,9,2,1,2024-12-17
+562,47,Masculino,Casado,Graduação,TEPT,4,6.4,Não,9,0,1,2024-03-24
+563,58,Feminino,Casado,Fundamental,Transtorno Bipolar,7,6.3,Sim,5,1,1,2025-05-30
+564,21,Feminino,Divorciado,Fundamental,Transtorno Bipolar,2,8.0,Não,7,3,1,2024-05-02
+565,21,Feminino,Viúvo,Graduação,Ansiedade,6,4.9,Sim,8,3,3,2023-02-03
+566,45,Masculino,Casado,Graduação,Burnout,1,6.9,Não,6,1,5,2023-04-05
+567,25,Masculino,Viúvo,Pós-graduação,Ansiedade,2,5.6,Não,4,4,5,2023-06-03
+568,19,Feminino,Casado,Fundamental,Depressão,1,6.9,Sim,9,1,4,2023-09-07
+569,58,Feminino,Divorciado,Fundamental,Burnout,4,6.4,Não,6,0,1,2024-11-04
+570,63,Masculino,Divorciado,Pós-graduação,Transtorno Bipolar,6,6.6,Sim,10,1,2,2024-03-13
+571,39,Feminino,Solteiro,Fundamental,TEPT,10,5.7,Não,6,2,4,2023-04-28
+572,58,Feminino,Divorciado,Graduação,TEPT,9,5.7,Não,4,3,4,2025-02-09
+573,33,Feminino,Solteiro,Ensino Médio,Depressão,10,6.9,Sim,6,2,3,2023-09-25
+574,46,Feminino,Casado,Ensino Médio,Ansiedade,10,7.9,Não,6,1,4,2025-12-13
+575,66,Masculino,Viúvo,Fundamental,Depressão,10,5.6,Sim,5,3,2,2023-08-24
+576,65,Masculino,Divorciado,Pós-graduação,TEPT,9,5.2,Sim,4,1,5,2024-01-24
+577,47,Feminino,Divorciado,Graduação,Transtorno Bipolar,0,7.4,Não,5,0,4,2025-09-16
+578,29,Masculino,Divorciado,Ensino Médio,TEPT,9,6.5,Sim,8,0,3,2025-02-01
+579,52,Masculino,Casado,Graduação,Burnout,8,7.7,Não,9,1,1,2024-02-05
+580,28,Masculino,Solteiro,Fundamental,Transtorno de Pânico,0,5.1,Sim,8,1,2,2024-09-15
+581,63,Masculino,Casado,Fundamental,TEPT,0,3.8,Sim,11,1,1,2025-02-05
+582,67,Masculino,Viúvo,Ensino Médio,TEPT,9,5.7,Não,6,0,4,2025-07-07
+583,38,Masculino,Casado,Fundamental,Transtorno de Pânico,7,5.4,Sim,12,3,5,2025-05-02
+584,38,Masculino,Viúvo,Pós-graduação,Burnout,5,6.4,Não,10,3,3,2024-07-31
+585,22,Masculino,Divorciado,Fundamental,Ansiedade,5,5.5,Não,8,2,2,2023-03-16
+586,65,Feminino,Viúvo,Fundamental,TEPT,8,7.6,Não,3,3,5,2024-03-10
+587,37,Feminino,Viúvo,Fundamental,Depressão,3,6.1,Não,9,1,2,2023-04-13
+588,54,Feminino,Solteiro,Graduação,TEPT,7,6.7,Não,6,1,3,2025-02-02
+589,20,Masculino,Viúvo,Graduação,Depressão,3,6.7,Sim,9,0,3,2025-01-07
+590,61,Masculino,Viúvo,Ensino Médio,Burnout,1,6.8,Não,3,1,4,2025-03-16
+591,50,Feminino,Casado,Ensino Médio,TEPT,10,6.5,Sim,6,1,2,2023-04-08
+592,26,Feminino,Divorciado,Ensino Médio,Burnout,7,7.3,Sim,2,0,4,2025-03-08
+593,26,Feminino,Casado,Fundamental,Burnout,6,5.3,Não,11,2,2,2025-05-08
+594,21,Masculino,Casado,Graduação,Ansiedade,3,8.6,Não,5,1,2,2024-03-10
+595,52,Feminino,Divorciado,Pós-graduação,TEPT,8,6.1,Não,3,1,1,2024-03-22
+596,34,Masculino,Divorciado,Fundamental,Depressão,8,4.5,Não,5,3,4,2023-09-06
+597,51,Masculino,Viúvo,Fundamental,Depressão,7,6.8,Não,3,1,2,2023-06-15
+598,41,Feminino,Viúvo,Fundamental,TEPT,0,5.2,Não,9,0,2,2025-09-10
+599,49,Feminino,Solteiro,Pós-graduação,Transtorno de Pânico,6,7.5,Sim,10,3,3,2025-10-16
+600,18,Masculino,Casado,Ensino Médio,Ansiedade,4,9.8,Sim,7,2,1,2024-06-25
+601,25,Masculino,Divorciado,Pós-graduação,Ansiedade,6,5.3,Sim,12,4,3,2025-01-28
+602,62,Feminino,Viúvo,Ensino Médio,Ansiedade,8,7.0,Não,5,2,4,2023-03-22
+603,40,Masculino,Divorciado,Pós-graduação,Depressão,1,3.9,Sim,6,0,4,2023-05-13
+604,64,Masculino,Viúvo,Graduação,Burnout,10,7.2,Sim,3,0,2,2025-03-07
+605,57,Masculino,Solteiro,Fundamental,Transtorno de Pânico,3,5.2,Sim,12,0,5,2025-06-18
+606,29,Feminino,Solteiro,Fundamental,Ansiedade,3,5.6,Não,6,1,3,2023-05-18
+607,29,Masculino,Divorciado,Fundamental,Depressão,1,4.8,Não,12,0,4,2023-07-03
+608,63,Não-binário,Solteiro,Ensino Médio,Depressão,2,7.6,Sim,7,1,2,2025-02-23
+609,64,Feminino,Divorciado,Pós-graduação,Burnout,10,8.0,Sim,4,0,2,2025-09-10
+610,32,Não-binário,Viúvo,Graduação,TEPT,7,6.5,Sim,4,0,3,2023-03-10
+611,58,Feminino,Casado,Pós-graduação,TEPT,8,5.2,Sim,5,0,2,2024-06-29
+612,36,Masculino,Solteiro,Fundamental,Ansiedade,5,8.9,Sim,3,1,1,2023-02-22
+613,43,Masculino,Viúvo,Graduação,Ansiedade,9,5.4,Não,8,1,5,2023-07-24
+614,69,Masculino,Casado,Graduação,Transtorno de Pânico,1,3.3,Não,8,0,3,2023-05-06
+615,46,Masculino,Casado,Fundamental,Burnout,1,7.2,Sim,5,1,3,2023-02-12
+616,39,Feminino,Casado,Pós-graduação,Ansiedade,6,4.8,Sim,10,0,3,2023-04-21
+617,57,Masculino,Viúvo,Fundamental,Burnout,7,8.0,Sim,7,1,2,2025-01-30
+618,38,Masculino,Viúvo,Pós-graduação,Depressão,7,5.9,Sim,4,1,2,2025-04-27
+619,68,Masculino,Divorciado,Graduação,Ansiedade,5,7.4,Sim,9,3,3,2023-04-05
+620,55,Feminino,Casado,Graduação,Depressão,9,8.6,Sim,7,1,3,2025-06-18
+621,37,Masculino,Casado,Fundamental,Transtorno Bipolar,7,4.7,Sim,9,0,1,2023-12-26
+622,46,Masculino,Casado,Graduação,Burnout,0,5.7,Não,7,0,4,2025-06-18
+623,68,Masculino,Divorciado,Ensino Médio,Transtorno Bipolar,8,6.4,Não,2,3,1,2023-10-08
+624,21,Feminino,Casado,Graduação,Ansiedade,0,8.8,Não,9,6,3,2024-10-28
+625,24,Feminino,Viúvo,Ensino Médio,Depressão,2,5.5,Sim,1,2,2,2023-04-03
+626,45,Masculino,Casado,Graduação,Ansiedade,8,5.6,Não,7,1,2,2024-11-02
+627,45,Masculino,Solteiro,Fundamental,Transtorno Bipolar,10,7.2,Não,3,1,3,2023-03-02
+628,21,Masculino,Viúvo,Fundamental,Ansiedade,4,5.6,Sim,5,1,4,2024-09-25
+629,39,Masculino,Divorciado,Ensino Médio,Transtorno de Pânico,8,6.7,Sim,4,1,5,2025-12-10
+630,29,Feminino,Casado,Fundamental,TEPT,8,4.2,Sim,5,3,5,2025-10-25
+631,62,Feminino,Solteiro,Graduação,Transtorno Bipolar,5,9.8,Sim,4,1,1,2024-08-26
+632,20,Masculino,Divorciado,Graduação,Ansiedade,10,4.5,Sim,2,0,4,2024-11-12
+633,39,Feminino,Divorciado,Fundamental,Depressão,0,6.0,Não,3,2,5,2024-06-17
+634,61,Masculino,Viúvo,Graduação,Ansiedade,9,6.5,Sim,7,5,4,2025-04-17
+635,19,Feminino,Divorciado,Pós-graduação,Depressão,6,9.4,Sim,0,3,2,2024-10-06
+636,41,Feminino,Divorciado,Pós-graduação,TEPT,5,4.5,Sim,9,1,2,2023-08-21
+637,51,Masculino,Divorciado,Graduação,Ansiedade,8,9.5,Não,5,0,4,2024-06-07
+638,44,Feminino,Divorciado,Fundamental,TEPT,6,7.6,Sim,4,2,3,2023-12-12
+639,58,Masculino,Casado,Ensino Médio,Transtorno Bipolar,10,7.1,Não,3,0,5,2025-12-05
+640,18,Masculino,Casado,Fundamental,Depressão,3,5.0,Sim,7,1,5,2024-06-29
+641,25,Masculino,Casado,Ensino Médio,Transtorno de Pânico,6,7.4,Sim,3,0,2,2025-03-04
+642,40,Masculino,Casado,Fundamental,Transtorno Bipolar,1,5.4,Não,3,2,1,2023-09-06
+643,55,Feminino,Solteiro,Graduação,Depressão,5,8.4,Sim,6,2,5,2023-02-16
+644,23,Feminino,Casado,Pós-graduação,TEPT,5,5.0,Sim,8,1,2,2023-08-02
+645,39,Feminino,Divorciado,Fundamental,Burnout,1,6.3,Sim,5,4,2,2023-08-27
+646,42,Feminino,Casado,Ensino Médio,Ansiedade,3,5.7,Não,5,4,4,2025-12-15
+647,35,Feminino,Casado,Pós-graduação,TEPT,7,5.0,Não,7,3,4,2023-12-16
+648,34,Masculino,Viúvo,Ensino Médio,Depressão,7,7.6,Sim,5,2,4,2023-04-17
+649,29,Feminino,Divorciado,Graduação,Depressão,7,7.3,Não,5,2,1,2025-04-10
+650,23,Masculino,Casado,Pós-graduação,Depressão,7,8.3,Sim,3,2,5,2023-02-17
+651,43,Feminino,Casado,Ensino Médio,Depressão,0,3.8,Não,10,0,1,2023-12-03
+652,44,Feminino,Casado,Fundamental,Ansiedade,1,8.1,Sim,4,0,1,2025-11-15
+653,25,Masculino,Solteiro,Graduação,Transtorno Bipolar,3,10.0,Não,7,0,4,2025-03-14
+654,36,Feminino,Casado,Graduação,Transtorno de Pânico,8,5.8,Não,6,1,2,2023-01-08
+655,59,Feminino,Viúvo,Graduação,Burnout,2,9.3,Não,4,3,3,2024-09-16
+656,18,Feminino,Divorciado,Fundamental,Ansiedade,5,6.1,Sim,7,1,2,2024-12-19
+657,46,Masculino,Divorciado,Fundamental,Depressão,6,4.4,Não,6,3,2,2023-10-30
+658,62,Masculino,Casado,Pós-graduação,Ansiedade,7,6.0,Sim,3,3,2,2024-09-30
+659,66,Masculino,Casado,Fundamental,TEPT,6,8.1,Não,12,1,2,2023-02-25
+660,52,Masculino,Casado,Pós-graduação,Transtorno de Pânico,2,5.2,Sim,8,1,1,2024-12-26
+661,57,Masculino,Divorciado,Graduação,Depressão,5,5.6,Sim,3,0,4,2024-06-09
+662,31,Feminino,Divorciado,Pós-graduação,Burnout,4,7.4,Sim,8,0,4,2024-04-18
+663,52,Masculino,Solteiro,Ensino Médio,Depressão,9,6.5,Sim,6,6,2,2023-01-28
+664,65,Feminino,Viúvo,Graduação,Transtorno de Pânico,3,7.4,Não,7,1,3,2023-03-19
+665,62,Feminino,Solteiro,Graduação,Burnout,0,6.9,Não,5,2,5,2023-12-31
+666,37,Feminino,Viúvo,Pós-graduação,Transtorno de Pânico,6,7.2,Não,7,3,2,2024-10-27
+667,66,Masculino,Solteiro,Graduação,Burnout,7,5.9,Não,10,2,2,2024-06-09
+668,30,Feminino,Divorciado,Fundamental,Transtorno Bipolar,1,6.8,Não,4,1,3,2024-11-29
+669,55,Feminino,Solteiro,Ensino Médio,Transtorno Bipolar,6,5.1,Sim,4,2,1,2025-06-01
+670,66,Masculino,Viúvo,Pós-graduação,Ansiedade,5,8.4,Sim,5,1,2,2025-10-27
+671,63,Masculino,Casado,Pós-graduação,Ansiedade,4,5.5,Sim,5,1,3,2025-10-23
+672,66,Feminino,Viúvo,Graduação,Burnout,3,8.2,Sim,5,2,1,2025-07-07
+673,25,Masculino,Casado,Fundamental,Depressão,1,6.1,Sim,14,1,1,2025-01-19
+674,60,Masculino,Divorciado,Graduação,TEPT,9,6.8,Sim,10,3,2,2023-12-29
+675,37,Masculino,Viúvo,Graduação,TEPT,5,5.8,Sim,7,1,1,2025-03-16
+676,50,Masculino,Solteiro,Pós-graduação,Depressão,4,5.0,Sim,6,0,2,2025-01-08
+677,43,Feminino,Viúvo,Graduação,Depressão,1,3.9,Não,2,0,2,2025-11-04
+678,56,Masculino,Casado,Ensino Médio,Transtorno Bipolar,9,4.9,Sim,3,1,4,2024-04-29
+679,38,Feminino,Divorciado,Graduação,TEPT,6,6.0,Sim,9,2,5,2023-01-28
+680,66,Feminino,Solteiro,Graduação,Burnout,5,6.8,Não,8,2,5,2024-12-14
+681,59,Feminino,Viúvo,Pós-graduação,Transtorno de Pânico,10,8.0,Sim,3,2,4,2025-11-28
+682,60,Feminino,Casado,Graduação,Ansiedade,8,5.8,Sim,7,0,2,2023-03-27
+683,58,Feminino,Solteiro,Fundamental,Transtorno de Pânico,10,5.2,Sim,7,5,3,2023-05-06
+684,26,Masculino,Divorciado,Pós-graduação,Transtorno Bipolar,9,4.3,Sim,4,2,1,2025-03-22
+685,41,Feminino,Solteiro,Graduação,TEPT,4,7.2,Sim,8,0,4,2024-06-20
+686,54,Feminino,Divorciado,Ensino Médio,Depressão,8,8.6,Sim,10,2,4,2023-05-25
+687,66,Feminino,Solteiro,Ensino Médio,TEPT,8,8.4,Não,12,2,4,2023-01-25
+688,58,Feminino,Viúvo,Pós-graduação,Burnout,0,7.6,Não,5,1,4,2023-03-08
+689,34,Masculino,Casado,Pós-graduação,Transtorno Bipolar,4,7.5,Sim,6,1,5,2023-08-21
+690,41,Masculino,Viúvo,Graduação,Depressão,8,9.0,Sim,7,1,2,2023-04-19
+691,38,Feminino,Viúvo,Fundamental,Transtorno de Pânico,6,7.0,Sim,6,1,4,2023-04-21
+692,68,Masculino,Divorciado,Graduação,Burnout,5,7.5,Não,6,1,4,2023-08-16
+693,56,Feminino,Divorciado,Ensino Médio,Transtorno de Pânico,5,6.0,Sim,4,4,4,2023-04-21
+694,58,Masculino,Divorciado,Fundamental,Ansiedade,10,4.5,Não,7,2,3,2023-02-03
+695,56,Masculino,Viúvo,Fundamental,Transtorno Bipolar,6,5.5,Não,3,1,3,2024-09-14
+696,30,Masculino,Solteiro,Fundamental,Burnout,0,6.5,Sim,6,1,1,2025-01-17
+697,28,Masculino,Solteiro,Graduação,Burnout,3,6.6,Sim,5,1,2,2024-08-17
+698,63,Feminino,Viúvo,Ensino Médio,Transtorno de Pânico,0,9.4,Sim,4,2,4,2024-02-29
+699,36,Masculino,Viúvo,Pós-graduação,Depressão,5,6.6,Sim,2,0,1,2024-09-04
+700,28,Não-binário,Casado,Graduação,Ansiedade,3,8.3,Sim,6,2,1,2024-11-22
+701,30,Feminino,Divorciado,Pós-graduação,Transtorno de Pânico,0,5.8,Sim,8,3,2,2023-11-11
+702,63,Masculino,Divorciado,Fundamental,Burnout,8,6.0,Sim,7,1,3,2025-05-26
+703,62,Feminino,Viúvo,Fundamental,Transtorno Bipolar,3,4.5,Sim,2,1,2,2024-10-23
+704,18,Feminino,Viúvo,Graduação,Burnout,5,5.4,Não,11,2,1,2023-10-04
+705,57,Feminino,Solteiro,Ensino Médio,TEPT,6,7.3,Sim,9,3,2,2024-09-15
+706,61,Masculino,Viúvo,Fundamental,Transtorno Bipolar,7,6.5,Não,6,2,3,2024-05-30
+707,36,Feminino,Solteiro,Pós-graduação,Transtorno Bipolar,10,7.9,Não,7,1,1,2025-04-22
+708,29,Feminino,Viúvo,Pós-graduação,Burnout,8,6.8,Não,8,1,2,2023-12-16
+709,25,Masculino,Casado,Graduação,Depressão,8,6.0,Não,7,0,4,2025-04-02
+710,25,Masculino,Casado,Pós-graduação,Transtorno Bipolar,7,9.7,Sim,3,0,4,2025-01-28
+711,62,Feminino,Solteiro,Ensino Médio,TEPT,9,6.4,Sim,6,1,2,2025-06-17
+712,29,Masculino,Divorciado,Fundamental,Transtorno de Pânico,10,8.2,Não,6,0,2,2023-08-31
+713,65,Feminino,Casado,Pós-graduação,Depressão,2,5.9,Não,6,4,3,2024-06-26
+714,50,Masculino,Solteiro,Pós-graduação,Depressão,1,7.6,Não,8,2,1,2025-11-29
+715,62,Feminino,Viúvo,Fundamental,Depressão,4,7.9,Não,7,1,2,2023-08-17
+716,43,Feminino,Viúvo,Graduação,Transtorno Bipolar,0,6.8,Sim,8,2,1,2024-07-01
+717,56,Masculino,Solteiro,Pós-graduação,Depressão,2,3.0,Sim,1,0,4,2025-07-08
+718,45,Masculino,Divorciado,Graduação,Burnout,0,6.5,Sim,8,0,1,2023-01-06
+719,22,Feminino,Solteiro,Graduação,Depressão,2,8.3,Sim,4,3,5,2024-04-12
+720,25,Feminino,Solteiro,Pós-graduação,TEPT,3,7.3,Sim,7,0,3,2023-03-16
+721,42,Feminino,Casado,Ensino Médio,Ansiedade,6,7.2,Não,4,1,3,2023-01-04
+722,44,Masculino,Solteiro,Graduação,TEPT,4,3.9,Não,8,4,1,2024-10-07
+723,63,Masculino,Solteiro,Pós-graduação,Transtorno Bipolar,4,5.4,Sim,5,4,3,2023-04-28
+724,40,Masculino,Viúvo,Graduação,Depressão,0,7.1,Não,7,3,1,2025-05-30
+725,47,Feminino,Casado,Fundamental,Depressão,7,7.1,Não,5,0,1,2024-05-18
+726,62,Masculino,Viúvo,Ensino Médio,Burnout,3,8.3,Não,9,1,4,2025-08-04
+727,64,Masculino,Viúvo,Ensino Médio,Transtorno de Pânico,9,6.3,Sim,8,0,1,2024-07-27
+728,40,Feminino,Divorciado,Fundamental,Depressão,4,7.1,Não,3,1,3,2023-07-13
+729,66,Feminino,Divorciado,Fundamental,TEPT,1,6.5,Não,4,1,5,2025-04-26
+730,64,Masculino,Casado,Graduação,Transtorno Bipolar,0,5.0,Sim,9,0,2,2024-12-15
+731,37,Masculino,Casado,Fundamental,Ansiedade,8,3.1,Sim,4,2,3,2025-11-15
+732,35,Feminino,Divorciado,Ensino Médio,Depressão,1,7.1,Não,1,0,5,2023-06-22
+733,35,Feminino,Divorciado,Fundamental,Ansiedade,5,6.8,Sim,2,5,3,2023-11-22
+734,19,Masculino,Divorciado,Pós-graduação,Depressão,0,5.6,Sim,7,0,5,2025-04-15
+735,21,Feminino,Divorciado,Pós-graduação,Transtorno Bipolar,0,4.1,Sim,4,5,3,2024-12-24
+736,47,Feminino,Divorciado,Graduação,Transtorno de Pânico,8,7.4,Não,9,0,2,2023-08-13
+737,50,Masculino,Viúvo,Ensino Médio,TEPT,3,6.1,Não,11,0,4,2024-06-15
+738,53,Masculino,Casado,Pós-graduação,Transtorno Bipolar,8,7.3,Sim,5,1,4,2023-04-23
+739,35,Feminino,Viúvo,Fundamental,Ansiedade,10,9.3,Sim,8,0,2,2023-05-20
+740,54,Feminino,Viúvo,Pós-graduação,Depressão,4,3.3,Não,5,2,3,2024-07-12
+741,36,Masculino,Solteiro,Pós-graduação,Ansiedade,6,5.5,Não,7,1,5,2023-01-01
+742,64,Feminino,Viúvo,Graduação,TEPT,0,6.2,Não,3,1,1,2023-03-31
+743,45,Feminino,Divorciado,Fundamental,Transtorno Bipolar,5,8.7,Sim,5,1,3,2024-10-15
+744,57,Masculino,Divorciado,Fundamental,Ansiedade,7,4.0,Sim,6,1,2,2023-11-16
+745,37,Feminino,Solteiro,Fundamental,Ansiedade,0,9.4,Sim,6,3,4,2023-05-19
+746,66,Feminino,Solteiro,Graduação,TEPT,8,6.7,Não,5,3,4,2025-04-24
+747,50,Masculino,Solteiro,Fundamental,Depressão,2,6.4,Sim,10,2,3,2023-09-16
+748,29,Masculino,Solteiro,Fundamental,Ansiedade,0,6.2,Sim,9,1,5,2025-06-20
+749,68,Masculino,Solteiro,Pós-graduação,TEPT,0,5.8,Sim,6,3,2,2024-11-20
+750,32,Feminino,Viúvo,Pós-graduação,Depressão,10,8.1,Sim,7,0,2,2023-01-10
+751,58,Não-binário,Solteiro,Fundamental,Transtorno de Pânico,5,4.9,Não,1,3,5,2023-09-18
+752,56,Masculino,Viúvo,Ensino Médio,Depressão,10,7.0,Sim,3,0,5,2023-06-21
+753,19,Feminino,Casado,Ensino Médio,Transtorno de Pânico,5,5.9,Não,3,2,3,2025-06-16
+754,46,Feminino,Solteiro,Fundamental,Transtorno Bipolar,0,5.4,Não,14,1,3,2023-01-13
+755,58,Feminino,Solteiro,Ensino Médio,TEPT,2,10.0,Sim,4,0,4,2023-11-17
+756,27,Masculino,Viúvo,Graduação,Depressão,6,7.1,Não,6,3,4,2023-11-25
+757,19,Masculino,Casado,Pós-graduação,Transtorno de Pânico,9,7.4,Não,7,0,5,2025-02-23
+758,68,Masculino,Viúvo,Graduação,Transtorno de Pânico,2,8.2,Não,4,2,1,2025-02-15
+759,28,Feminino,Viúvo,Pós-graduação,Transtorno Bipolar,2,4.4,Sim,5,3,1,2025-06-29
+760,30,Masculino,Solteiro,Ensino Médio,Burnout,2,9.1,Sim,2,2,1,2023-11-14
+761,27,Feminino,Divorciado,Ensino Médio,TEPT,6,3.0,Sim,7,0,2,2023-08-24
+762,31,Masculino,Divorciado,Fundamental,Burnout,3,5.3,Não,6,0,3,2023-11-30
+763,35,Masculino,Viúvo,Ensino Médio,Depressão,3,5.8,Não,6,2,5,2024-01-11
+764,68,Feminino,Solteiro,Ensino Médio,TEPT,2,7.4,Não,10,2,4,2024-08-10
+765,26,Feminino,Casado,Fundamental,Transtorno Bipolar,9,6.8,Sim,6,1,1,2024-05-27
+766,56,Masculino,Divorciado,Fundamental,Depressão,10,6.2,Sim,7,3,4,2025-07-06
+767,45,Masculino,Casado,Pós-graduação,TEPT,8,6.5,Não,7,2,3,2025-05-22
+768,20,Não-binário,Divorciado,Ensino Médio,TEPT,1,5.0,Sim,5,0,5,2023-09-27
+769,37,Masculino,Solteiro,Pós-graduação,Burnout,3,4.3,Não,8,1,1,2025-03-08
+770,23,Masculino,Viúvo,Pós-graduação,Depressão,7,7.6,Sim,6,1,1,2024-12-25
+771,44,Feminino,Casado,Graduação,Transtorno Bipolar,5,7.5,Sim,8,1,5,2023-01-05
+772,19,Masculino,Casado,Ensino Médio,Transtorno Bipolar,6,8.9,Sim,5,0,4,2025-04-30
+773,46,Masculino,Viúvo,Ensino Médio,Depressão,6,5.3,Sim,6,1,3,2023-03-19
+774,55,Masculino,Casado,Graduação,Depressão,1,7.5,Sim,5,2,3,2024-07-27
+775,20,Masculino,Divorciado,Pós-graduação,Transtorno de Pânico,3,6.1,Sim,7,0,3,2023-05-12
+776,33,Masculino,Viúvo,Ensino Médio,Ansiedade,9,8.3,Sim,6,0,4,2024-08-23
+777,47,Masculino,Divorciado,Pós-graduação,Burnout,9,8.0,Sim,2,2,4,2025-12-01
+778,57,Masculino,Divorciado,Graduação,Depressão,5,6.8,Sim,4,1,1,2023-03-30
+779,19,Masculino,Solteiro,Fundamental,Depressão,2,6.0,Não,5,1,4,2024-02-06
+780,34,Feminino,Divorciado,Pós-graduação,Ansiedade,8,7.9,Sim,6,1,2,2023-10-23
+781,58,Masculino,Solteiro,Ensino Médio,Ansiedade,3,7.5,Não,8,2,5,2024-09-07
+782,29,Masculino,Casado,Fundamental,TEPT,9,5.5,Não,9,2,4,2025-03-10
+783,52,Feminino,Casado,Pós-graduação,Transtorno Bipolar,1,4.5,Não,8,0,3,2024-02-26
+784,60,Feminino,Solteiro,Pós-graduação,Burnout,5,6.1,Não,6,2,4,2025-11-12
+785,18,Masculino,Divorciado,Fundamental,TEPT,0,8.8,Sim,4,3,1,2024-07-28
+786,62,Feminino,Viúvo,Fundamental,Depressão,5,8.2,Não,11,2,5,2023-05-23
+787,32,Masculino,Viúvo,Fundamental,Ansiedade,9,4.8,Não,5,1,5,2025-09-19
+788,43,Masculino,Solteiro,Ensino Médio,Transtorno de Pânico,0,4.7,Não,12,4,3,2024-10-26
+789,54,Feminino,Casado,Ensino Médio,Transtorno Bipolar,7,8.4,Sim,8,0,5,2023-05-25
+790,38,Feminino,Casado,Pós-graduação,TEPT,4,4.8,Sim,4,3,2,2025-10-03
+791,66,Masculino,Viúvo,Pós-graduação,Transtorno de Pânico,5,7.3,Sim,2,1,5,2024-05-17
+792,48,Masculino,Solteiro,Graduação,Transtorno Bipolar,1,5.6,Não,5,0,3,2025-03-31
+793,42,Feminino,Viúvo,Ensino Médio,Transtorno de Pânico,1,8.9,Não,8,2,5,2023-04-14
+794,40,Masculino,Divorciado,Pós-graduação,Ansiedade,8,5.3,Sim,3,2,4,2025-11-28
+795,41,Feminino,Divorciado,Fundamental,TEPT,2,8.2,Sim,5,4,1,2023-07-17
+796,55,Masculino,Solteiro,Fundamental,TEPT,5,6.8,Não,10,0,4,2024-08-01
+797,45,Feminino,Solteiro,Ensino Médio,Transtorno Bipolar,9,6.9,Sim,3,2,2,2024-01-26
+798,38,Feminino,Divorciado,Fundamental,Transtorno de Pânico,4,3.5,Não,3,0,2,2024-07-07
+799,60,Feminino,Casado,Graduação,Ansiedade,3,3.2,Não,8,4,1,2025-11-04
+800,35,Feminino,Solteiro,Pós-graduação,Depressão,9,6.2,Sim,1,4,1,2024-04-22
+801,53,Feminino,Divorciado,Pós-graduação,TEPT,1,6.9,Não,9,2,1,2025-07-11
+802,52,Masculino,Divorciado,Pós-graduação,Depressão,7,4.8,Sim,7,1,1,2024-02-24
+803,62,Masculino,Casado,Ensino Médio,Ansiedade,9,4.9,Não,2,3,5,2023-06-06
+804,26,Masculino,Casado,Fundamental,TEPT,6,7.3,Não,8,2,4,2024-07-03
+805,55,Feminino,Casado,Graduação,TEPT,10,7.3,Não,6,3,2,2025-10-17
+806,47,Feminino,Casado,Ensino Médio,Transtorno de Pânico,1,6.3,Sim,7,0,5,2025-09-23
+807,61,Masculino,Viúvo,Pós-graduação,Depressão,5,7.7,Sim,9,3,1,2025-08-08
+808,51,Masculino,Casado,Graduação,Transtorno de Pânico,7,4.7,Sim,8,0,3,2023-10-16
+809,49,Masculino,Viúvo,Pós-graduação,Burnout,6,6.0,Sim,9,2,3,2023-07-15
+810,20,Feminino,Solteiro,Pós-graduação,Depressão,0,9.0,Sim,5,4,4,2024-08-20
+811,20,Masculino,Divorciado,Ensino Médio,Depressão,4,6.6,Sim,8,0,2,2024-05-31
+812,45,Feminino,Viúvo,Pós-graduação,Burnout,1,6.7,Sim,7,0,2,2025-05-14
+813,61,Não-binário,Solteiro,Graduação,Ansiedade,5,10.0,Sim,9,1,4,2025-03-16
+814,32,Masculino,Solteiro,Pós-graduação,Ansiedade,6,4.4,Sim,5,1,1,2025-03-25
+815,58,Masculino,Viúvo,Fundamental,TEPT,6,7.7,Não,7,2,1,2023-08-16
+816,40,Masculino,Solteiro,Pós-graduação,Transtorno Bipolar,2,9.0,Não,3,2,2,2023-08-04
+817,57,Masculino,Solteiro,Ensino Médio,Transtorno de Pânico,6,6.0,Sim,8,2,2,2025-08-05
+818,28,Masculino,Viúvo,Graduação,Transtorno Bipolar,4,7.8,Sim,5,4,2,2023-01-15
+819,65,Masculino,Solteiro,Ensino Médio,TEPT,7,5.0,Sim,6,0,1,2023-02-16
+820,49,Feminino,Casado,Fundamental,Transtorno Bipolar,7,5.5,Sim,7,2,3,2023-11-20
+821,53,Masculino,Casado,Pós-graduação,Depressão,6,7.1,Sim,5,3,4,2025-04-23
+822,50,Feminino,Divorciado,Ensino Médio,Depressão,5,7.7,Não,9,1,4,2023-05-10
+823,41,Feminino,Solteiro,Ensino Médio,Burnout,1,8.2,Não,6,0,5,2023-04-05
+824,56,Feminino,Divorciado,Ensino Médio,Burnout,5,8.9,Não,6,0,5,2024-09-18
+825,51,Masculino,Casado,Ensino Médio,TEPT,10,6.4,Sim,7,0,3,2025-01-24
+826,45,Feminino,Casado,Fundamental,TEPT,8,8.3,Não,6,2,2,2025-03-04
+827,54,Masculino,Casado,Fundamental,TEPT,1,6.0,Não,3,1,3,2023-03-10
+828,24,Feminino,Solteiro,Pós-graduação,Depressão,0,7.9,Sim,8,1,5,2023-01-11
+829,21,Feminino,Solteiro,Pós-graduação,Transtorno Bipolar,10,6.8,Sim,9,1,5,2025-05-21
+830,54,Feminino,Casado,Graduação,Transtorno de Pânico,4,7.2,Sim,11,1,4,2024-07-03
+831,18,Masculino,Divorciado,Fundamental,TEPT,10,7.1,Sim,2,4,3,2024-12-12
+832,18,Feminino,Divorciado,Ensino Médio,TEPT,5,4.1,Não,3,0,1,2023-01-23
+833,64,Masculino,Viúvo,Ensino Médio,Depressão,2,4.8,Sim,6,1,5,2025-03-25
+834,37,Masculino,Casado,Graduação,Transtorno de Pânico,7,6.7,Sim,4,1,4,2023-12-12
+835,36,Masculino,Divorciado,Ensino Médio,Depressão,6,4.0,Sim,7,0,2,2023-10-29
+836,46,Masculino,Casado,Graduação,Transtorno de Pânico,1,7.7,Sim,7,1,3,2023-12-29
+837,27,Masculino,Divorciado,Pós-graduação,Depressão,6,7.8,Não,4,3,5,2024-01-31
+838,35,Feminino,Viúvo,Fundamental,Transtorno Bipolar,0,7.0,Não,5,2,1,2023-08-06
+839,45,Feminino,Viúvo,Graduação,TEPT,8,4.8,Não,4,2,5,2023-05-21
+840,52,Masculino,Casado,Ensino Médio,Ansiedade,6,8.6,Sim,6,3,1,2025-08-15
+841,60,Masculino,Divorciado,Graduação,Ansiedade,5,9.6,Não,7,2,3,2025-09-11
+842,64,Masculino,Solteiro,Pós-graduação,TEPT,1,6.7,Sim,5,0,1,2025-09-19
+843,48,Masculino,Viúvo,Ensino Médio,TEPT,2,7.3,Não,4,2,1,2025-04-07
+844,44,Masculino,Casado,Pós-graduação,TEPT,0,6.8,Sim,6,1,4,2024-11-13
+845,28,Feminino,Casado,Pós-graduação,TEPT,9,7.3,Sim,10,0,3,2025-09-30
+846,66,Masculino,Divorciado,Graduação,Transtorno de Pânico,4,6.3,Sim,9,4,5,2023-12-22
+847,66,Masculino,Casado,Pós-graduação,Transtorno Bipolar,8,6.4,Sim,5,2,2,2025-10-04
+848,55,Masculino,Viúvo,Ensino Médio,Ansiedade,5,7.9,Não,4,2,3,2025-06-06
+849,22,Feminino,Casado,Pós-graduação,Burnout,4,10.0,Sim,5,1,3,2023-05-07
+850,25,Feminino,Casado,Pós-graduação,Ansiedade,2,4.4,Sim,6,1,2,2025-10-05
+851,51,Feminino,Solteiro,Graduação,Ansiedade,4,6.3,Sim,5,2,5,2024-08-26
+852,65,Feminino,Solteiro,Pós-graduação,Depressão,7,4.7,Não,6,3,4,2025-10-10
+853,69,Masculino,Viúvo,Fundamental,TEPT,1,8.9,Sim,4,0,5,2023-02-20
+854,29,Masculino,Divorciado,Graduação,TEPT,4,5.6,Não,10,3,2,2025-11-18
+855,55,Feminino,Solteiro,Graduação,TEPT,5,4.3,Não,10,1,5,2025-02-17
+856,18,Masculino,Divorciado,Ensino Médio,Depressão,9,7.5,Sim,9,0,3,2025-03-24
+857,48,Feminino,Viúvo,Ensino Médio,Transtorno Bipolar,7,9.1,Sim,2,1,4,2024-02-24
+858,21,Masculino,Solteiro,Ensino Médio,Transtorno Bipolar,7,7.5,Sim,8,0,1,2025-09-09
+859,66,Masculino,Divorciado,Ensino Médio,Burnout,4,6.8,Não,8,3,5,2025-04-04
+860,62,Feminino,Solteiro,Fundamental,Transtorno Bipolar,8,7.1,Sim,13,2,1,2025-10-21
+861,67,Feminino,Viúvo,Graduação,Transtorno Bipolar,3,8.6,Sim,3,1,4,2024-07-20
+862,22,Feminino,Viúvo,Pós-graduação,TEPT,8,5.2,Não,4,2,1,2024-01-06
+863,47,Masculino,Solteiro,Ensino Médio,Transtorno de Pânico,10,6.3,Não,7,2,5,2025-07-24
+864,41,Feminino,Divorciado,Ensino Médio,Ansiedade,6,5.8,Sim,5,0,2,2024-10-22
+865,20,Masculino,Casado,Ensino Médio,Transtorno Bipolar,5,4.7,Sim,7,1,3,2025-08-26
+866,28,Masculino,Casado,Pós-graduação,Transtorno Bipolar,3,6.0,Sim,6,0,3,2023-07-21
+867,62,Masculino,Solteiro,Ensino Médio,Depressão,1,8.2,Sim,3,1,1,2023-11-09
+868,21,Masculino,Divorciado,Pós-graduação,Burnout,7,7.3,Sim,8,3,3,2023-04-27
+869,43,Masculino,Casado,Graduação,Transtorno de Pânico,5,7.5,Não,13,2,3,2025-07-25
+870,44,Masculino,Viúvo,Graduação,Depressão,2,6.7,Sim,9,1,2,2024-07-28
+871,63,Masculino,Divorciado,Graduação,TEPT,6,7.3,Não,8,1,1,2023-09-01
+872,60,Masculino,Casado,Fundamental,Ansiedade,9,5.3,Não,7,3,2,2024-06-20
+873,44,Masculino,Divorciado,Pós-graduação,Burnout,6,6.0,Sim,5,1,2,2023-03-16
+874,59,Masculino,Solteiro,Ensino Médio,Depressão,5,6.8,Não,9,0,4,2024-01-21
+875,68,Masculino,Divorciado,Ensino Médio,Transtorno Bipolar,1,6.9,Sim,7,2,1,2024-04-19
+876,67,Feminino,Casado,Ensino Médio,Transtorno Bipolar,7,7.0,Não,8,2,2,2024-02-22
+877,23,Masculino,Solteiro,Ensino Médio,Burnout,0,6.3,Não,5,2,5,2023-12-13
+878,32,Masculino,Divorciado,Fundamental,Transtorno Bipolar,0,5.9,Sim,5,0,3,2024-10-01
+879,47,Masculino,Viúvo,Ensino Médio,Depressão,5,10.0,Sim,6,1,1,2025-07-27
+880,59,Feminino,Casado,Fundamental,Depressão,4,7.9,Sim,6,0,4,2025-08-12
+881,54,Feminino,Solteiro,Pós-graduação,Transtorno Bipolar,8,7.1,Sim,11,1,2,2025-05-25
+882,54,Feminino,Divorciado,Graduação,Transtorno Bipolar,6,6.2,Sim,8,0,5,2025-02-01
+883,59,Feminino,Viúvo,Ensino Médio,TEPT,1,5.8,Sim,1,3,3,2024-10-25
+884,54,Feminino,Casado,Graduação,Ansiedade,6,6.3,Não,5,2,3,2023-01-25
+885,52,Feminino,Viúvo,Pós-graduação,Burnout,2,6.9,Sim,7,2,5,2024-12-10
+886,40,Feminino,Divorciado,Pós-graduação,Depressão,0,3.7,Não,9,3,1,2023-06-26
+887,23,Masculino,Divorciado,Ensino Médio,Burnout,10,4.1,Não,9,0,3,2023-10-12
+888,21,Masculino,Solteiro,Pós-graduação,TEPT,7,5.5,Sim,4,0,3,2023-03-04
+889,35,Masculino,Viúvo,Graduação,Depressão,2,6.8,Não,11,2,3,2025-09-29
+890,26,Feminino,Solteiro,Ensino Médio,TEPT,10,6.1,Sim,7,1,2,2024-10-23
+891,66,Feminino,Casado,Fundamental,TEPT,7,8.7,Sim,3,4,2,2024-10-27
+892,46,Feminino,Solteiro,Ensino Médio,Transtorno de Pânico,6,4.3,Não,8,2,3,2023-06-05
+893,30,Masculino,Casado,Graduação,Transtorno Bipolar,1,5.4,Sim,8,3,4,2025-12-08
+894,64,Masculino,Divorciado,Ensino Médio,Transtorno de Pânico,0,8.8,Não,4,0,3,2025-08-24
+895,69,Masculino,Divorciado,Ensino Médio,Burnout,6,6.7,Não,9,1,1,2025-04-28
+896,34,Masculino,Viúvo,Graduação,Burnout,0,7.8,Não,6,2,4,2024-11-19
+897,62,Feminino,Casado,Ensino Médio,Transtorno Bipolar,5,9.6,Não,9,2,1,2023-05-28
+898,49,Feminino,Divorciado,Ensino Médio,Transtorno de Pânico,10,5.5,Não,1,4,5,2023-12-08
+899,65,Masculino,Viúvo,Graduação,Burnout,9,6.4,Sim,5,3,5,2024-04-20
+900,39,Feminino,Viúvo,Pós-graduação,Transtorno de Pânico,10,6.1,Sim,3,1,2,2025-12-22
+901,21,Masculino,Solteiro,Graduação,Transtorno Bipolar,9,3.6,Não,9,1,2,2024-07-14
+902,22,Não-binário,Viúvo,Ensino Médio,Depressão,7,6.0,Sim,12,1,2,2023-11-23
+903,54,Masculino,Divorciado,Fundamental,TEPT,6,7.8,Sim,12,2,5,2025-09-16
+904,58,Masculino,Solteiro,Fundamental,TEPT,3,7.3,Sim,5,0,1,2023-08-03
+905,66,Masculino,Casado,Graduação,Transtorno de Pânico,0,7.4,Não,7,1,4,2024-03-10
+906,30,Masculino,Casado,Fundamental,Burnout,0,5.9,Sim,4,1,2,2025-08-09
+907,51,Masculino,Divorciado,Ensino Médio,Transtorno de Pânico,3,5.5,Não,7,1,5,2024-12-23
+908,62,Feminino,Divorciado,Ensino Médio,Transtorno de Pânico,4,8.4,Sim,5,2,2,2023-02-01
+909,39,Feminino,Solteiro,Graduação,Ansiedade,6,5.8,Sim,3,0,3,2024-10-31
+910,40,Feminino,Solteiro,Ensino Médio,TEPT,3,6.9,Sim,4,2,4,2023-10-12
+911,68,Masculino,Divorciado,Pós-graduação,Transtorno Bipolar,9,6.7,Sim,6,1,1,2024-03-04
+912,20,Feminino,Divorciado,Ensino Médio,Transtorno de Pânico,0,8.7,Não,8,0,2,2023-10-13
+913,59,Masculino,Casado,Graduação,Ansiedade,10,8.0,Sim,2,0,3,2025-11-08
+914,51,Masculino,Casado,Pós-graduação,Ansiedade,9,4.6,Sim,10,0,3,2023-01-18
+915,49,Feminino,Casado,Pós-graduação,TEPT,6,4.7,Sim,4,1,4,2025-02-07
+916,62,Feminino,Divorciado,Fundamental,TEPT,1,7.4,Sim,9,1,5,2024-08-12
+917,68,Masculino,Viúvo,Ensino Médio,TEPT,10,6.4,Sim,7,1,5,2025-10-06
+918,66,Masculino,Divorciado,Graduação,Transtorno Bipolar,1,5.8,Sim,2,3,2,2023-07-13
+919,38,Não-binário,Divorciado,Fundamental,Ansiedade,7,8.0,Não,2,1,2,2024-05-16
+920,63,Masculino,Casado,Fundamental,Burnout,9,6.8,Não,6,4,5,2025-09-14
+921,61,Masculino,Divorciado,Ensino Médio,Transtorno Bipolar,9,6.6,Sim,8,1,1,2023-04-24
+922,38,Feminino,Solteiro,Ensino Médio,Depressão,9,7.7,Sim,3,4,1,2025-08-04
+923,61,Masculino,Divorciado,Graduação,Transtorno de Pânico,4,5.9,Sim,5,2,3,2025-04-10
+924,28,Masculino,Divorciado,Fundamental,TEPT,9,8.9,Sim,3,4,4,2025-07-13
+925,56,Masculino,Divorciado,Graduação,Ansiedade,1,5.3,Não,5,0,1,2023-02-24
+926,21,Feminino,Divorciado,Fundamental,Transtorno de Pânico,4,7.5,Não,2,3,2,2025-03-10
+927,68,Feminino,Viúvo,Fundamental,Transtorno Bipolar,7,8.7,Sim,6,3,1,2025-02-16
+928,18,Feminino,Divorciado,Fundamental,Depressão,5,4.4,Não,9,1,4,2023-06-11
+929,45,Não-binário,Solteiro,Ensino Médio,Transtorno Bipolar,2,6.0,Sim,7,1,2,2023-03-28
+930,41,Feminino,Solteiro,Fundamental,Transtorno Bipolar,7,8.2,Sim,5,3,4,2023-02-24
+931,52,Masculino,Divorciado,Fundamental,Burnout,8,8.2,Sim,10,0,5,2025-10-28
+932,30,Masculino,Casado,Fundamental,Transtorno de Pânico,4,6.2,Sim,3,2,4,2025-04-12
+933,64,Feminino,Viúvo,Pós-graduação,Burnout,1,5.4,Não,4,3,4,2023-11-09
+934,51,Feminino,Divorciado,Ensino Médio,Transtorno Bipolar,1,7.9,Sim,7,4,4,2025-01-28
+935,28,Feminino,Divorciado,Pós-graduação,Depressão,6,8.3,Sim,6,2,2,2024-03-18
+936,53,Feminino,Divorciado,Ensino Médio,Ansiedade,0,4.8,Não,4,2,4,2023-11-24
+937,68,Masculino,Casado,Graduação,Ansiedade,9,4.7,Não,2,1,4,2025-12-13
+938,34,Masculino,Casado,Pós-graduação,Transtorno de Pânico,1,6.8,Não,9,0,3,2025-01-30
+939,52,Masculino,Casado,Graduação,TEPT,9,7.4,Não,1,2,2,2024-08-01
+940,35,Masculino,Viúvo,Fundamental,TEPT,3,6.1,Sim,7,2,4,2025-12-10
+941,57,Masculino,Solteiro,Graduação,Ansiedade,0,7.5,Não,5,3,1,2025-10-03
+942,39,Feminino,Viúvo,Graduação,Transtorno Bipolar,3,5.4,Não,9,0,4,2023-04-06
+943,41,Feminino,Casado,Graduação,Transtorno Bipolar,10,3.3,Não,5,1,1,2025-03-24
+944,36,Masculino,Solteiro,Graduação,Burnout,9,5.9,Não,6,1,5,2024-05-05
+945,54,Masculino,Solteiro,Ensino Médio,Transtorno de Pânico,4,6.6,Sim,4,1,5,2024-03-27
+946,56,Feminino,Casado,Pós-graduação,Burnout,8,6.1,Não,6,1,2,2023-06-14
+947,38,Masculino,Casado,Ensino Médio,TEPT,0,4.8,Sim,2,0,2,2023-07-01
+948,25,Feminino,Viúvo,Ensino Médio,Ansiedade,4,3.8,Sim,4,5,5,2024-04-13
+949,45,Feminino,Casado,Ensino Médio,Transtorno Bipolar,1,5.7,Sim,8,0,2,2025-06-28
+950,22,Feminino,Solteiro,Graduação,Ansiedade,8,7.8,Não,8,0,1,2025-01-04
+951,34,Feminino,Divorciado,Ensino Médio,Depressão,5,8.4,Sim,6,1,1,2025-04-02
+952,54,Feminino,Casado,Pós-graduação,Ansiedade,1,8.3,Sim,6,1,3,2025-08-01
+953,53,Masculino,Casado,Ensino Médio,Depressão,2,5.3,Sim,6,0,2,2023-01-07
+954,36,Masculino,Viúvo,Fundamental,Burnout,7,4.8,Não,7,1,2,2023-11-26
+955,44,Masculino,Viúvo,Graduação,Burnout,0,7.2,Sim,9,1,3,2025-02-13
+956,51,Não-binário,Casado,Fundamental,TEPT,2,7.5,Não,5,2,4,2023-05-31
+957,28,Masculino,Solteiro,Pós-graduação,Ansiedade,9,7.1,Não,10,1,1,2023-05-27
+958,62,Masculino,Solteiro,Pós-graduação,Ansiedade,0,3.5,Sim,5,3,4,2025-07-03
+959,64,Feminino,Divorciado,Pós-graduação,Depressão,10,5.2,Sim,4,0,3,2024-11-30
+960,29,Feminino,Casado,Pós-graduação,Burnout,10,6.5,Não,10,1,2,2023-03-23
+961,38,Feminino,Viúvo,Ensino Médio,Depressão,7,7.2,Não,4,0,4,2024-05-28
+962,28,Masculino,Solteiro,Graduação,Burnout,0,7.7,Não,6,1,2,2025-03-25
+963,56,Masculino,Divorciado,Pós-graduação,Depressão,4,6.7,Sim,7,1,3,2024-12-09
+964,45,Masculino,Casado,Fundamental,Burnout,3,7.0,Não,8,6,5,2025-01-15
+965,22,Masculino,Solteiro,Pós-graduação,Depressão,6,6.6,Sim,4,2,2,2025-10-19
+966,34,Masculino,Casado,Graduação,Burnout,4,7.5,Não,6,0,4,2024-12-07
+967,37,Masculino,Casado,Fundamental,Transtorno de Pânico,7,7.0,Não,2,3,4,2024-04-15
+968,58,Feminino,Solteiro,Fundamental,Depressão,10,6.6,Sim,9,1,3,2024-01-31
+969,63,Masculino,Solteiro,Fundamental,Ansiedade,0,6.1,Não,6,1,4,2023-09-18
+970,29,Feminino,Solteiro,Ensino Médio,TEPT,4,6.6,Não,3,1,1,2025-03-15
+971,23,Feminino,Casado,Pós-graduação,Transtorno de Pânico,3,7.2,Não,7,0,2,2025-07-22
+972,34,Masculino,Casado,Ensino Médio,Transtorno de Pânico,2,6.9,Sim,7,1,1,2025-06-23
+973,68,Feminino,Divorciado,Fundamental,Depressão,4,7.1,Sim,6,1,3,2025-12-12
+974,36,Masculino,Viúvo,Ensino Médio,TEPT,9,8.5,Não,7,1,1,2025-07-28
+975,43,Masculino,Casado,Ensino Médio,Ansiedade,2,6.9,Sim,5,1,1,2025-05-03
+976,65,Feminino,Viúvo,Ensino Médio,Transtorno de Pânico,7,5.5,Sim,8,2,2,2024-08-15
+977,61,Masculino,Solteiro,Pós-graduação,Ansiedade,2,7.8,Não,4,2,2,2024-12-14
+978,61,Não-binário,Casado,Fundamental,Burnout,0,4.5,Sim,1,3,5,2024-09-23
+979,69,Masculino,Divorciado,Fundamental,TEPT,8,4.9,Não,6,3,1,2023-02-28
+980,49,Feminino,Divorciado,Pós-graduação,Transtorno Bipolar,8,7.0,Sim,3,2,2,2023-05-08
+981,23,Masculino,Viúvo,Ensino Médio,Burnout,5,7.3,Sim,6,3,1,2025-01-05
+982,53,Masculino,Solteiro,Ensino Médio,TEPT,9,4.6,Não,10,2,1,2024-12-21
+983,55,Masculino,Viúvo,Graduação,Depressão,0,5.9,Não,2,1,3,2024-06-09
+984,28,Feminino,Solteiro,Graduação,Depressão,7,5.6,Não,6,0,3,2024-06-04
+985,50,Feminino,Divorciado,Graduação,Ansiedade,1,5.8,Sim,6,2,1,2024-07-05
+986,41,Feminino,Viúvo,Pós-graduação,Transtorno de Pânico,8,7.9,Não,4,2,3,2023-08-25
+987,40,Feminino,Divorciado,Fundamental,Transtorno Bipolar,7,7.6,Sim,5,0,2,2024-05-08
+988,32,Feminino,Divorciado,Graduação,Depressão,2,6.5,Sim,5,2,1,2023-01-04
+989,44,Feminino,Solteiro,Fundamental,TEPT,4,5.7,Sim,7,1,3,2024-10-27
+990,28,Feminino,Viúvo,Fundamental,Transtorno de Pânico,8,4.5,Não,9,2,2,2024-03-17
+991,68,Feminino,Viúvo,Fundamental,Transtorno de Pânico,0,8.6,Sim,4,3,1,2023-01-29
+992,67,Feminino,Divorciado,Pós-graduação,TEPT,8,7.4,Sim,5,2,1,2024-09-01
+993,34,Feminino,Divorciado,Pós-graduação,Transtorno de Pânico,3,5.4,Sim,6,1,3,2025-03-15
+994,68,Masculino,Solteiro,Pós-graduação,Depressão,3,7.6,Sim,2,0,2,2023-03-16
+995,31,Feminino,Casado,Pós-graduação,TEPT,3,6.4,Sim,8,2,1,2025-04-17
+996,44,Feminino,Casado,Graduação,TEPT,9,6.1,Não,2,3,1,2023-05-08
+997,35,Masculino,Divorciado,Ensino Médio,Ansiedade,8,7.2,Sim,5,2,5,2023-02-11
+998,45,Masculino,Casado,Ensino Médio,Transtorno Bipolar,5,5.4,Não,12,1,1,2023-02-10
+999,68,Masculino,Casado,Ensino Médio,Ansiedade,10,6.0,Não,7,3,5,2025-07-22
+1000,64,Feminino,Casado,Graduação,Transtorno Bipolar,7,6.7,Sim,5,1,5,2023-02-03
+1001,64,Feminino,Casado,Ensino Médio,TEPT,3,5.8,Não,6,2,2,2025-11-06
+1002,21,Masculino,Divorciado,Graduação,Transtorno de Pânico,2,7.5,Sim,9,1,4,2025-09-24
+1003,24,Feminino,Casado,Graduação,Transtorno Bipolar,0,9.3,Não,1,3,5,2024-08-10
+1004,62,Feminino,Casado,Graduação,TEPT,9,5.4,Não,9,2,2,2023-12-08
+1005,52,Masculino,Solteiro,Ensino Médio,TEPT,6,4.0,Sim,7,4,3,2023-01-27
+1006,65,Feminino,Divorciado,Fundamental,Ansiedade,3,3.5,Não,4,2,5,2024-10-07
+1007,26,Não-binário,Viúvo,Ensino Médio,Ansiedade,7,6.3,Sim,3,3,4,2024-12-31
+1008,25,Feminino,Viúvo,Ensino Médio,Transtorno de Pânico,2,5.5,Sim,9,2,3,2023-06-17
+1009,69,Feminino,Solteiro,Pós-graduação,Burnout,0,6.8,Não,4,1,5,2024-09-01
+1010,62,Não-binário,Solteiro,Graduação,Depressão,4,6.7,Sim,4,4,5,2023-09-25
+1011,34,Feminino,Divorciado,Fundamental,Burnout,1,4.1,Sim,8,2,4,2025-03-31
+1012,34,Masculino,Viúvo,Pós-graduação,Burnout,2,3.8,Sim,6,2,1,2024-03-30
+1013,66,Feminino,Casado,Fundamental,Transtorno de Pânico,5,6.9,Não,12,1,4,2025-06-24
+1014,50,Feminino,Solteiro,Fundamental,Transtorno Bipolar,2,6.7,Sim,7,3,2,2025-07-10
+1015,49,Feminino,Viúvo,Graduação,Transtorno de Pânico,2,5.9,Não,7,3,2,2025-09-07
+1016,25,Masculino,Divorciado,Ensino Médio,Transtorno de Pânico,5,4.0,Sim,9,2,4,2024-12-02
+1017,36,Feminino,Casado,Graduação,TEPT,4,7.2,Sim,3,1,4,2024-09-25
+1018,55,Masculino,Divorciado,Graduação,TEPT,9,8.4,Não,5,3,4,2023-05-10
+1019,20,Feminino,Solteiro,Pós-graduação,TEPT,8,6.9,Sim,4,1,4,2025-10-16
+1020,22,Masculino,Viúvo,Graduação,Depressão,0,5.2,Não,3,1,4,2025-03-29
+1021,30,Masculino,Viúvo,Ensino Médio,Transtorno Bipolar,2,6.6,Sim,10,1,5,2024-11-23
+1022,64,Masculino,Viúvo,Fundamental,Transtorno Bipolar,2,4.5,Sim,4,0,3,2025-03-04
+1023,63,Masculino,Viúvo,Graduação,TEPT,10,8.1,Sim,4,0,2,2023-01-29
+1024,48,Feminino,Casado,Fundamental,Burnout,5,6.6,Não,11,2,2,2023-05-29
+1025,33,Feminino,Casado,Graduação,Depressão,7,3.8,Não,6,2,3,2023-01-11
+1026,67,Feminino,Divorciado,Fundamental,Burnout,2,6.0,Não,6,2,4,2024-11-06
+1027,49,Masculino,Casado,Graduação,Ansiedade,2,7.2,Sim,1,1,3,2023-07-06
+1028,39,Masculino,Solteiro,Pós-graduação,Transtorno Bipolar,5,6.0,Não,2,1,4,2025-03-17
+1029,46,Feminino,Solteiro,Fundamental,Transtorno Bipolar,7,6.1,Sim,2,3,2,2025-01-13
+1030,39,Feminino,Viúvo,Graduação,Burnout,5,4.7,Não,6,0,1,2023-04-08
+1031,60,Masculino,Solteiro,Graduação,Depressão,9,7.3,Não,4,2,2,2023-02-24
+1032,20,Feminino,Divorciado,Pós-graduação,Transtorno Bipolar,2,5.5,Não,6,1,2,2024-09-14
+1033,27,Masculino,Casado,Pós-graduação,Burnout,3,3.3,Sim,10,1,1,2024-10-25
+1034,59,Feminino,Casado,Pós-graduação,Transtorno de Pânico,0,5.9,Sim,6,2,3,2025-01-27
+1035,38,Feminino,Casado,Fundamental,Transtorno de Pânico,7,8.0,Sim,5,3,5,2024-02-10
+1036,33,Masculino,Solteiro,Fundamental,Depressão,3,5.9,Não,9,1,4,2023-03-10
+1037,29,Masculino,Casado,Pós-graduação,Burnout,5,9.1,Sim,5,4,4,2025-01-20
+1038,19,Feminino,Viúvo,Ensino Médio,Transtorno de Pânico,10,7.1,Sim,4,2,2,2025-08-15
+1039,58,Masculino,Viúvo,Ensino Médio,Depressão,2,7.0,Sim,7,1,1,2023-12-31
+1040,41,Masculino,Viúvo,Graduação,TEPT,10,6.3,Sim,8,4,2,2024-04-26
+1041,52,Feminino,Solteiro,Ensino Médio,Depressão,10,6.4,Sim,2,1,2,2023-07-20
+1042,47,Masculino,Casado,Graduação,Ansiedade,5,6.1,Não,3,2,3,2023-06-03
+1043,47,Masculino,Solteiro,Fundamental,TEPT,10,6.0,Não,8,1,4,2023-03-14
+1044,64,Feminino,Casado,Fundamental,Burnout,8,7.3,Não,6,0,5,2024-12-13
+1045,52,Feminino,Divorciado,Ensino Médio,TEPT,8,5.1,Não,5,1,1,2023-10-23
+1046,36,Feminino,Divorciado,Fundamental,TEPT,9,4.9,Sim,5,1,5,2025-11-06
+1047,67,Feminino,Solteiro,Pós-graduação,Burnout,2,4.8,Sim,2,1,1,2023-03-02
+1048,25,Feminino,Viúvo,Pós-graduação,Burnout,2,9.6,Sim,7,2,4,2025-07-27
+1049,43,Feminino,Solteiro,Ensino Médio,Transtorno de Pânico,3,7.3,Não,4,1,3,2023-02-11
+1050,66,Masculino,Viúvo,Ensino Médio,Ansiedade,6,7.0,Sim,12,1,5,2023-01-25
+1051,57,Feminino,Casado,Graduação,Burnout,2,4.9,Sim,7,3,1,2025-11-28
+1052,24,Não-binário,Viúvo,Fundamental,Transtorno Bipolar,9,7.4,Sim,10,0,2,2023-05-11
+1053,47,Masculino,Viúvo,Graduação,Transtorno Bipolar,7,6.3,Sim,6,2,4,2023-04-18
+1054,24,Masculino,Casado,Graduação,Ansiedade,10,6.8,Sim,9,1,3,2023-06-21
+1055,20,Feminino,Divorciado,Pós-graduação,Depressão,7,5.0,Sim,6,0,2,2023-04-12
+1056,18,Masculino,Casado,Pós-graduação,Depressão,5,6.7,Não,11,1,3,2025-05-15
+1057,53,Masculino,Solteiro,Pós-graduação,Transtorno Bipolar,3,5.9,Não,9,1,1,2024-06-07
+1058,42,Feminino,Solteiro,Pós-graduação,Burnout,10,5.4,Sim,6,1,2,2023-10-02
+1059,54,Não-binário,Solteiro,Graduação,Ansiedade,10,7.6,Sim,10,2,3,2025-12-03
+1060,18,Masculino,Solteiro,Pós-graduação,Depressão,4,4.2,Não,5,0,4,2025-03-27
+1061,32,Masculino,Solteiro,Fundamental,Depressão,1,7.3,Sim,7,0,5,2025-08-14
+1062,54,Masculino,Divorciado,Pós-graduação,TEPT,5,7.5,Não,7,1,5,2025-11-06
+1063,30,Feminino,Divorciado,Pós-graduação,Transtorno Bipolar,2,5.2,Sim,8,2,2,2023-11-26
+1064,57,Masculino,Viúvo,Pós-graduação,Burnout,5,5.3,Não,2,0,4,2023-01-12
+1065,25,Masculino,Solteiro,Ensino Médio,Ansiedade,4,6.2,Não,8,1,4,2023-08-04
+1066,22,Masculino,Casado,Fundamental,Depressão,1,6.9,Não,8,1,3,2023-12-05
+1067,26,Masculino,Solteiro,Fundamental,TEPT,4,6.3,Não,6,0,2,2024-10-22
+1068,18,Feminino,Divorciado,Graduação,Transtorno Bipolar,4,7.2,Sim,4,3,4,2024-01-09
+1069,53,Feminino,Solteiro,Graduação,Transtorno Bipolar,8,9.1,Sim,4,2,3,2025-09-02
+1070,52,Feminino,Divorciado,Pós-graduação,Ansiedade,10,5.7,Sim,10,1,4,2024-12-10
+1071,19,Feminino,Viúvo,Ensino Médio,Depressão,7,3.9,Não,7,1,2,2024-04-10
+1072,57,Masculino,Viúvo,Graduação,Ansiedade,6,7.7,Sim,5,1,4,2024-05-03
+1073,40,Feminino,Viúvo,Graduação,Ansiedade,2,9.0,Não,6,4,4,2023-02-16
+1074,26,Feminino,Divorciado,Pós-graduação,Transtorno de Pânico,9,7.1,Sim,10,3,4,2025-02-16
+1075,51,Masculino,Solteiro,Pós-graduação,TEPT,3,4.9,Sim,8,3,5,2025-11-05
+1076,63,Feminino,Solteiro,Graduação,Transtorno Bipolar,5,6.3,Não,5,2,1,2024-12-11
+1077,31,Masculino,Casado,Graduação,Transtorno de Pânico,2,4.8,Sim,4,4,2,2024-02-05
+1078,21,Feminino,Divorciado,Fundamental,Burnout,10,7.5,Sim,5,0,5,2025-09-07
+1079,47,Masculino,Casado,Ensino Médio,Transtorno Bipolar,8,4.5,Sim,10,0,1,2023-09-07
+1080,48,Não-binário,Viúvo,Fundamental,Transtorno Bipolar,7,6.0,Sim,4,0,4,2024-01-26
+1081,55,Masculino,Solteiro,Graduação,TEPT,5,5.0,Não,4,1,4,2023-12-01
+1082,28,Feminino,Divorciado,Fundamental,Burnout,3,6.7,Não,4,0,5,2024-09-20
+1083,52,Feminino,Casado,Fundamental,Depressão,6,6.0,Sim,6,3,3,2023-05-17
+1084,25,Feminino,Casado,Graduação,Burnout,10,6.8,Sim,9,1,2,2025-06-01
+1085,20,Masculino,Casado,Pós-graduação,Depressão,2,6.5,Sim,7,2,1,2024-11-18
+1086,31,Feminino,Solteiro,Graduação,Burnout,9,5.0,Sim,8,3,4,2025-04-06
+1087,30,Feminino,Solteiro,Pós-graduação,Ansiedade,7,7.4,Não,9,4,2,2024-12-27
+1088,62,Masculino,Solteiro,Graduação,Burnout,0,6.4,Não,4,0,4,2024-08-16
+1089,49,Masculino,Divorciado,Graduação,Transtorno de Pânico,2,5.0,Sim,3,0,4,2025-09-16
+1090,51,Feminino,Solteiro,Graduação,Transtorno de Pânico,10,9.9,Sim,4,0,4,2024-01-07
+1091,62,Feminino,Divorciado,Ensino Médio,TEPT,4,7.2,Não,11,1,2,2025-07-23
+1092,36,Masculino,Casado,Pós-graduação,Depressão,4,6.3,Sim,13,2,5,2025-09-21
+1093,55,Masculino,Casado,Ensino Médio,Transtorno Bipolar,9,8.6,Sim,4,0,2,2024-02-06
+1094,33,Masculino,Viúvo,Graduação,TEPT,1,9.3,Não,7,1,2,2024-09-06
+1095,19,Feminino,Solteiro,Fundamental,Transtorno de Pânico,9,6.3,Sim,6,3,3,2025-09-21
+1096,57,Feminino,Casado,Ensino Médio,Transtorno de Pânico,7,7.0,Sim,7,2,3,2024-09-11
+1097,34,Feminino,Solteiro,Pós-graduação,Depressão,4,5.0,Não,8,2,5,2023-07-07
+1098,51,Não-binário,Divorciado,Graduação,Transtorno de Pânico,6,6.3,Não,4,1,3,2023-05-11
+1099,59,Masculino,Casado,Ensino Médio,Transtorno de Pânico,6,6.2,Sim,10,0,5,2025-03-15
+1100,33,Masculino,Solteiro,Fundamental,Depressão,4,6.8,Sim,3,1,4,2025-07-24
+1101,55,Masculino,Casado,Ensino Médio,Transtorno de Pânico,7,7.0,Sim,8,1,4,2025-09-12
+1102,19,Masculino,Casado,Pós-graduação,Transtorno Bipolar,8,7.3,Não,9,1,2,2023-07-02
+1103,19,Feminino,Solteiro,Ensino Médio,Ansiedade,3,6.9,Sim,4,5,4,2025-09-09
+1104,43,Feminino,Casado,Fundamental,TEPT,3,4.7,Sim,9,2,3,2023-12-30
+1105,30,Masculino,Casado,Fundamental,Transtorno Bipolar,7,5.1,Não,5,1,1,2023-02-08
+1106,64,Masculino,Casado,Pós-graduação,Transtorno Bipolar,0,5.7,Sim,3,2,2,2024-05-11
+1107,48,Feminino,Casado,Fundamental,Ansiedade,3,6.1,Sim,6,4,5,2025-09-08
+1108,51,Feminino,Divorciado,Graduação,TEPT,5,8.1,Sim,4,0,4,2025-07-09
+1109,56,Masculino,Casado,Fundamental,Transtorno Bipolar,3,4.8,Sim,5,1,2,2024-12-22
+1110,20,Não-binário,Viúvo,Graduação,Transtorno de Pânico,5,6.0,Sim,6,1,2,2023-01-16
+1111,25,Feminino,Casado,Ensino Médio,Ansiedade,4,7.9,Não,7,0,2,2024-05-07
+1112,40,Masculino,Solteiro,Graduação,TEPT,8,6.1,Não,1,0,4,2025-06-12
+1113,31,Feminino,Viúvo,Graduação,Burnout,9,7.2,Sim,6,2,5,2023-11-07
+1114,44,Masculino,Divorciado,Ensino Médio,Depressão,8,6.3,Sim,7,0,2,2025-01-08
+1115,46,Feminino,Viúvo,Fundamental,Transtorno de Pânico,3,6.9,Não,6,4,2,2024-06-29
+1116,56,Não-binário,Viúvo,Graduação,Ansiedade,3,6.2,Sim,10,4,2,2024-02-18
+1117,56,Feminino,Viúvo,Fundamental,Depressão,7,7.5,Sim,7,2,4,2023-09-08
+1118,18,Feminino,Solteiro,Ensino Médio,Burnout,9,4.2,Não,10,4,3,2025-01-28
+1119,34,Masculino,Solteiro,Pós-graduação,Transtorno Bipolar,3,6.0,Sim,5,0,5,2025-11-28
+1120,58,Feminino,Solteiro,Fundamental,Transtorno Bipolar,1,6.9,Sim,15,0,2,2025-03-24
+1121,47,Feminino,Divorciado,Fundamental,TEPT,1,7.3,Sim,5,2,2,2023-01-29
+1122,30,Feminino,Solteiro,Pós-graduação,Ansiedade,0,8.7,Sim,8,3,2,2025-08-15
+1123,38,Feminino,Solteiro,Pós-graduação,Ansiedade,4,5.9,Sim,6,0,4,2024-04-21
+1124,36,Não-binário,Viúvo,Ensino Médio,TEPT,5,8.7,Sim,6,2,3,2023-11-14
+1125,36,Feminino,Solteiro,Fundamental,Depressão,8,5.5,Sim,10,1,2,2023-09-02
+1126,42,Masculino,Casado,Fundamental,Transtorno Bipolar,4,8.5,Não,10,1,2,2025-01-17
+1127,39,Não-binário,Solteiro,Ensino Médio,Transtorno Bipolar,5,7.7,Sim,5,2,4,2024-11-27
+1128,48,Feminino,Divorciado,Fundamental,Ansiedade,5,5.1,Sim,9,1,5,2023-09-29
+1129,34,Feminino,Divorciado,Graduação,Ansiedade,2,7.0,Não,1,0,5,2024-01-12
+1130,40,Feminino,Casado,Graduação,TEPT,3,6.4,Não,7,0,3,2023-09-23
+1131,49,Masculino,Divorciado,Graduação,Burnout,0,7.4,Sim,8,3,5,2025-07-14
+1132,27,Masculino,Divorciado,Fundamental,Depressão,3,6.2,Sim,7,0,2,2025-07-09
+1133,27,Feminino,Viúvo,Graduação,Transtorno de Pânico,0,6.0,Sim,8,2,4,2023-12-06
+1134,53,Feminino,Casado,Graduação,Burnout,4,8.6,Não,10,1,2,2024-01-24
+1135,25,Masculino,Viúvo,Ensino Médio,Burnout,10,6.4,Sim,6,1,2,2024-07-30
+1136,69,Feminino,Viúvo,Ensino Médio,Ansiedade,10,7.7,Sim,3,0,3,2023-01-03
+1137,37,Masculino,Solteiro,Pós-graduação,Ansiedade,7,6.2,Sim,9,1,5,2024-01-11
+1138,49,Feminino,Casado,Pós-graduação,Ansiedade,7,9.0,Sim,4,0,5,2023-11-20
+1139,67,Masculino,Solteiro,Pós-graduação,Burnout,4,5.5,Sim,3,1,5,2023-05-26
+1140,31,Masculino,Solteiro,Pós-graduação,Depressão,9,5.6,Sim,4,1,2,2023-10-20
+1141,67,Masculino,Viúvo,Ensino Médio,Ansiedade,1,8.8,Não,6,3,4,2024-03-07
+1142,45,Masculino,Divorciado,Ensino Médio,Transtorno Bipolar,5,5.8,Não,5,0,4,2024-12-05
+1143,63,Feminino,Casado,Ensino Médio,Depressão,0,8.9,Sim,10,2,2,2025-08-06
+1144,69,Masculino,Divorciado,Graduação,Transtorno Bipolar,6,7.8,Sim,8,0,1,2024-08-07
+1145,41,Masculino,Viúvo,Graduação,Depressão,10,6.3,Sim,6,0,2,2024-02-03
+1146,32,Feminino,Viúvo,Pós-graduação,Ansiedade,3,3.8,Sim,11,2,5,2025-03-27
+1147,39,Feminino,Viúvo,Graduação,Transtorno de Pânico,4,6.5,Não,8,2,2,2025-08-21
+1148,47,Masculino,Viúvo,Fundamental,TEPT,5,6.7,Não,5,2,1,2023-07-06
+1149,21,Não-binário,Viúvo,Ensino Médio,Ansiedade,10,8.3,Sim,3,0,2,2023-03-02
+1150,30,Masculino,Viúvo,Pós-graduação,Burnout,0,8.9,Sim,7,1,5,2025-07-27
+1151,40,Feminino,Divorciado,Pós-graduação,Transtorno de Pânico,8,5.5,Sim,4,4,3,2024-12-10
+1152,25,Feminino,Solteiro,Fundamental,Burnout,9,7.7,Não,4,1,4,2025-03-17
+1153,35,Masculino,Divorciado,Graduação,Depressão,3,7.6,Não,0,2,1,2023-01-11
+1154,29,Masculino,Casado,Pós-graduação,Burnout,7,8.1,Não,8,1,3,2025-12-21
+1155,48,Masculino,Divorciado,Graduação,Transtorno de Pânico,4,7.2,Não,10,2,4,2023-08-14
+1156,31,Masculino,Viúvo,Graduação,Transtorno de Pânico,10,3.6,Sim,7,4,3,2024-07-17
+1157,51,Feminino,Divorciado,Fundamental,Ansiedade,7,6.3,Não,3,2,2,2025-02-10
+1158,35,Masculino,Solteiro,Pós-graduação,Transtorno Bipolar,0,4.8,Não,10,1,2,2025-06-03
+1159,51,Masculino,Casado,Graduação,Ansiedade,7,6.2,Sim,4,2,4,2023-08-14
+1160,28,Masculino,Divorciado,Graduação,Depressão,10,8.0,Sim,10,2,4,2025-04-04
+1161,58,Masculino,Solteiro,Fundamental,Burnout,10,7.0,Não,2,0,2,2023-08-06
+1162,29,Feminino,Divorciado,Fundamental,Transtorno Bipolar,3,8.2,Não,9,2,2,2025-07-25
+1163,66,Masculino,Casado,Graduação,TEPT,1,7.0,Não,4,1,4,2025-01-22
+1164,32,Feminino,Divorciado,Fundamental,Transtorno de Pânico,10,4.6,Não,6,1,4,2024-05-20
+1165,48,Masculino,Viúvo,Graduação,Transtorno Bipolar,5,3.0,Não,9,1,4,2023-09-16
+1166,66,Masculino,Divorciado,Pós-graduação,Transtorno Bipolar,1,6.7,Não,3,2,5,2023-02-23
+1167,46,Feminino,Solteiro,Ensino Médio,Ansiedade,4,6.2,Sim,8,2,5,2025-12-06
+1168,43,Masculino,Divorciado,Fundamental,TEPT,1,5.0,Não,5,2,2,2024-12-27
+1169,35,Feminino,Solteiro,Ensino Médio,Transtorno de Pânico,2,3.9,Sim,6,2,5,2024-11-19
+1170,49,Feminino,Casado,Graduação,Depressão,10,5.4,Sim,5,1,1,2025-11-09
+1171,39,Masculino,Divorciado,Graduação,Depressão,5,6.2,Sim,9,2,2,2024-02-23
+1172,55,Masculino,Casado,Graduação,Transtorno Bipolar,0,7.5,Não,12,2,1,2024-11-20
+1173,34,Masculino,Casado,Ensino Médio,Transtorno Bipolar,5,6.8,Não,7,4,3,2025-04-29
+1174,40,Masculino,Divorciado,Graduação,Burnout,2,8.9,Não,2,0,1,2023-03-03
+1175,41,Masculino,Solteiro,Fundamental,TEPT,6,4.9,Sim,9,1,3,2023-08-04
+1176,67,Masculino,Casado,Pós-graduação,Transtorno de Pânico,1,7.8,Sim,5,0,1,2023-01-03
+1177,25,Masculino,Casado,Pós-graduação,Transtorno Bipolar,5,6.6,Sim,9,2,3,2023-06-09
+1178,58,Feminino,Divorciado,Fundamental,Burnout,7,7.5,Sim,6,2,3,2025-02-19
+1179,23,Feminino,Divorciado,Pós-graduação,TEPT,0,5.8,Não,7,1,2,2025-06-11
+1180,22,Feminino,Divorciado,Ensino Médio,Transtorno de Pânico,10,8.1,Sim,7,0,4,2023-11-25
+1181,61,Masculino,Divorciado,Graduação,Depressão,10,6.9,Não,7,3,4,2024-08-02
+1182,46,Masculino,Divorciado,Graduação,Burnout,8,5.5,Não,3,3,2,2025-08-09
+1183,45,Feminino,Viúvo,Graduação,TEPT,4,6.5,Sim,5,1,3,2024-09-26
+1184,28,Feminino,Divorciado,Ensino Médio,Burnout,4,6.1,Não,6,0,4,2025-09-14
+1185,18,Feminino,Solteiro,Ensino Médio,Transtorno Bipolar,4,7.2,Sim,11,2,4,2025-07-09
+1186,60,Masculino,Casado,Ensino Médio,Ansiedade,5,4.7,Sim,5,1,1,2025-01-07
+1187,36,Feminino,Solteiro,Fundamental,Depressão,1,6.5,Não,1,1,5,2023-06-19
+1188,26,Feminino,Solteiro,Ensino Médio,Transtorno Bipolar,5,7.1,Não,4,1,2,2024-06-04
+1189,44,Masculino,Viúvo,Pós-graduação,Transtorno Bipolar,10,6.5,Sim,6,0,5,2023-02-09
+1190,51,Masculino,Divorciado,Fundamental,TEPT,3,8.5,Sim,7,2,3,2025-08-12
+1191,61,Feminino,Casado,Fundamental,Burnout,7,7.7,Sim,5,1,1,2025-09-10
+1192,21,Masculino,Solteiro,Fundamental,Depressão,10,6.5,Sim,5,3,4,2025-09-01
+1193,53,Masculino,Divorciado,Ensino Médio,Transtorno Bipolar,8,6.8,Não,3,1,1,2023-02-07
+1194,35,Feminino,Divorciado,Fundamental,TEPT,8,6.9,Não,3,3,2,2023-11-24
+1195,32,Feminino,Viúvo,Ensino Médio,Depressão,7,7.1,Sim,5,3,3,2025-07-02
+1196,68,Masculino,Viúvo,Ensino Médio,Burnout,2,3.8,Não,9,3,1,2024-03-29
+1197,30,Masculino,Viúvo,Fundamental,Transtorno Bipolar,9,6.0,Sim,8,5,1,2023-02-06
+1198,36,Masculino,Casado,Graduação,Transtorno de Pânico,10,4.3,Sim,5,4,1,2025-08-30
+1199,66,Feminino,Solteiro,Graduação,Transtorno Bipolar,10,8.4,Não,3,1,4,2025-03-06
+1200,23,Masculino,Viúvo,Fundamental,Transtorno Bipolar,3,6.4,Não,8,1,3,2025-08-30
+1201,65,Não-binário,Viúvo,Graduação,Depressão,0,6.2,Não,8,0,4,2024-08-15
+1202,29,Masculino,Viúvo,Pós-graduação,Depressão,8,7.8,Sim,5,2,1,2025-11-29
+1203,68,Masculino,Solteiro,Pós-graduação,Depressão,4,7.1,Não,4,2,4,2023-08-12
+1204,54,Feminino,Solteiro,Ensino Médio,Depressão,5,4.8,Sim,7,1,4,2023-11-14
+1205,34,Feminino,Viúvo,Graduação,TEPT,2,6.4,Não,8,2,2,2023-12-15
+1206,40,Masculino,Viúvo,Pós-graduação,Ansiedade,10,6.0,Não,8,1,5,2023-04-25
+1207,43,Masculino,Divorciado,Fundamental,TEPT,9,3.9,Sim,1,0,5,2024-11-28
+1208,46,Não-binário,Viúvo,Graduação,Transtorno Bipolar,7,5.5,Não,6,1,2,2025-11-29
+1209,50,Masculino,Casado,Pós-graduação,TEPT,6,6.2,Sim,5,1,2,2023-02-09
+1210,44,Feminino,Casado,Pós-graduação,Burnout,0,6.3,Sim,8,3,4,2023-08-04
+1211,42,Masculino,Viúvo,Fundamental,Transtorno de Pânico,9,4.3,Não,11,2,4,2023-12-02
+1212,27,Feminino,Solteiro,Ensino Médio,Depressão,4,8.2,Sim,9,1,3,2023-04-02
+1213,64,Feminino,Divorciado,Fundamental,Burnout,9,6.3,Não,10,1,5,2023-12-19
+1214,40,Masculino,Solteiro,Ensino Médio,Transtorno de Pânico,8,6.6,Sim,4,1,4,2024-07-24
+1215,38,Feminino,Viúvo,Pós-graduação,Burnout,10,7.1,Não,3,4,3,2025-03-26
+1216,38,Masculino,Casado,Ensino Médio,Transtorno Bipolar,5,5.3,Sim,5,1,5,2025-02-19
+1217,60,Masculino,Divorciado,Pós-graduação,Depressão,7,7.2,Sim,5,2,3,2023-12-29
+1218,30,Feminino,Solteiro,Pós-graduação,Burnout,9,5.9,Sim,9,1,3,2024-07-10
+1219,54,Masculino,Solteiro,Graduação,Transtorno Bipolar,0,5.2,Não,7,0,2,2023-12-22
+1220,50,Feminino,Viúvo,Ensino Médio,Depressão,9,7.4,Não,4,2,1,2023-07-10
+1221,41,Masculino,Divorciado,Ensino Médio,Ansiedade,10,8.7,Não,4,2,1,2024-02-26
+1222,61,Masculino,Casado,Ensino Médio,Transtorno Bipolar,6,7.6,Sim,4,3,1,2024-11-30
+1223,28,Masculino,Viúvo,Fundamental,TEPT,2,7.9,Sim,11,0,3,2023-01-07
+1224,34,Masculino,Divorciado,Graduação,Depressão,8,5.7,Sim,5,0,4,2023-05-13
+1225,21,Masculino,Solteiro,Graduação,Burnout,5,4.1,Não,5,0,1,2024-07-10
+1226,64,Feminino,Viúvo,Graduação,Transtorno de Pânico,4,8.7,Sim,5,1,4,2025-04-05
+1227,42,Feminino,Solteiro,Fundamental,Burnout,7,9.6,Não,4,1,5,2025-01-30
+1228,47,Feminino,Solteiro,Ensino Médio,TEPT,7,8.8,Não,5,3,1,2025-11-20
+1229,26,Masculino,Viúvo,Ensino Médio,TEPT,2,6.0,Sim,5,3,3,2024-06-18
+1230,38,Masculino,Viúvo,Ensino Médio,Burnout,1,4.8,Sim,6,2,2,2024-03-01
+1231,37,Masculino,Viúvo,Graduação,Transtorno de Pânico,1,4.9,Não,9,4,3,2024-11-02
+1232,36,Masculino,Viúvo,Graduação,Depressão,4,4.0,Sim,3,1,4,2023-12-29
+1233,36,Feminino,Viúvo,Pós-graduação,Transtorno Bipolar,9,6.3,Sim,8,1,5,2023-03-23
+1234,29,Masculino,Solteiro,Fundamental,TEPT,6,8.9,Sim,3,1,3,2023-12-22
+1235,54,Masculino,Casado,Fundamental,TEPT,7,6.3,Não,8,1,2,2024-08-11
+1236,59,Feminino,Casado,Graduação,TEPT,9,7.0,Não,6,1,2,2023-10-22
+1237,34,Masculino,Viúvo,Pós-graduação,Transtorno de Pânico,7,8.6,Sim,9,2,5,2025-12-05
+1238,54,Masculino,Solteiro,Ensino Médio,Ansiedade,7,5.9,Sim,7,1,1,2023-01-17
+1239,65,Masculino,Casado,Graduação,Transtorno de Pânico,9,9.6,Sim,5,0,3,2023-12-26
+1240,56,Masculino,Casado,Fundamental,Depressão,10,9.5,Não,2,1,3,2025-05-15
+1241,45,Feminino,Casado,Fundamental,Depressão,2,6.3,Sim,4,1,2,2024-11-30
+1242,58,Masculino,Solteiro,Fundamental,Depressão,10,5.6,Sim,4,1,4,2024-03-23
+1243,52,Masculino,Viúvo,Ensino Médio,Depressão,1,7.5,Não,2,0,3,2025-05-05
+1244,64,Masculino,Viúvo,Fundamental,Depressão,3,6.0,Não,5,0,2,2023-12-31
+1245,65,Masculino,Viúvo,Ensino Médio,Burnout,0,4.8,Não,8,0,4,2024-11-05
+1246,35,Masculino,Divorciado,Ensino Médio,TEPT,2,8.4,Não,6,2,1,2025-10-04
+1247,31,Feminino,Divorciado,Ensino Médio,Transtorno de Pânico,10,8.3,Sim,6,1,1,2024-04-11
+1248,52,Feminino,Divorciado,Graduação,Burnout,8,6.7,Sim,8,1,2,2024-02-18
+1249,61,Feminino,Solteiro,Ensino Médio,Transtorno de Pânico,6,4.6,Sim,10,1,2,2024-08-08
+1250,58,Masculino,Casado,Pós-graduação,Ansiedade,6,4.7,Sim,6,1,1,2025-09-20
+1251,24,Feminino,Casado,Fundamental,Transtorno Bipolar,0,6.7,Não,6,1,2,2024-07-25
+1252,58,Feminino,Solteiro,Graduação,TEPT,6,5.8,Não,4,1,5,2023-12-01
+1253,30,Masculino,Solteiro,Fundamental,Ansiedade,9,6.0,Não,11,0,3,2023-02-06
+1254,35,Feminino,Viúvo,Ensino Médio,Burnout,6,8.0,Sim,4,2,5,2025-09-15
+1255,54,Masculino,Viúvo,Graduação,Transtorno Bipolar,3,7.6,Não,6,1,4,2023-10-05
+1256,30,Masculino,Divorciado,Pós-graduação,Ansiedade,6,8.6,Não,3,2,2,2025-07-04
+1257,53,Feminino,Divorciado,Ensino Médio,Transtorno de Pânico,7,5.0,Sim,9,1,2,2024-04-28
+1258,48,Masculino,Solteiro,Fundamental,Transtorno Bipolar,2,6.0,Não,3,2,4,2024-12-31
+1259,19,Feminino,Divorciado,Pós-graduação,Transtorno de Pânico,9,7.6,Sim,8,5,3,2023-07-11
+1260,33,Masculino,Casado,Ensino Médio,Ansiedade,1,7.2,Sim,14,2,1,2025-11-06
+1261,26,Feminino,Solteiro,Pós-graduação,Burnout,6,8.8,Não,5,2,5,2024-06-07
+1262,26,Feminino,Solteiro,Ensino Médio,Transtorno de Pânico,4,7.1,Não,5,2,3,2025-07-06
+1263,55,Feminino,Casado,Graduação,Transtorno Bipolar,4,9.3,Sim,7,3,1,2024-02-05
+1264,28,Masculino,Viúvo,Ensino Médio,Ansiedade,4,7.3,Sim,5,2,1,2025-06-04
+1265,39,Masculino,Viúvo,Graduação,Transtorno de Pânico,6,8.1,Não,5,1,2,2024-12-05
+1266,50,Masculino,Casado,Ensino Médio,Burnout,8,6.0,Não,4,1,4,2023-01-22
+1267,53,Masculino,Casado,Ensino Médio,TEPT,10,6.5,Não,11,3,2,2024-04-18
+1268,62,Masculino,Divorciado,Fundamental,Burnout,7,7.9,Sim,5,2,4,2023-07-29
+1269,40,Feminino,Solteiro,Pós-graduação,Burnout,5,8.9,Sim,10,1,2,2023-11-02
+1270,62,Feminino,Divorciado,Pós-graduação,TEPT,6,7.6,Sim,9,3,5,2024-12-04
+1271,62,Não-binário,Casado,Pós-graduação,Burnout,8,6.4,Sim,8,1,2,2024-11-17
+1272,51,Masculino,Divorciado,Ensino Médio,TEPT,10,8.6,Sim,6,2,5,2023-10-12
+1273,26,Masculino,Casado,Ensino Médio,TEPT,5,3.2,Sim,4,0,3,2024-12-16
+1274,41,Masculino,Divorciado,Ensino Médio,Transtorno de Pânico,0,4.4,Não,8,3,3,2025-02-01
+1275,25,Feminino,Divorciado,Graduação,Transtorno de Pânico,3,7.5,Sim,6,1,2,2025-08-05
+1276,24,Feminino,Viúvo,Graduação,TEPT,7,6.5,Não,6,3,3,2024-01-16
+1277,53,Feminino,Casado,Fundamental,Ansiedade,6,7.4,Sim,10,1,1,2024-04-04
+1278,35,Feminino,Divorciado,Ensino Médio,Transtorno Bipolar,2,6.6,Sim,5,2,5,2025-10-27
+1279,20,Feminino,Solteiro,Pós-graduação,Ansiedade,9,7.4,Sim,5,0,4,2023-01-29
+1280,45,Masculino,Divorciado,Pós-graduação,TEPT,2,5.3,Sim,8,0,5,2025-06-25
+1281,23,Masculino,Divorciado,Fundamental,Transtorno Bipolar,10,7.4,Sim,4,3,2,2025-11-22
+1282,61,Feminino,Solteiro,Pós-graduação,Transtorno de Pânico,2,8.0,Não,6,2,3,2025-05-28
+1283,61,Masculino,Casado,Fundamental,Transtorno Bipolar,0,8.3,Não,10,1,3,2023-03-20
+1284,38,Masculino,Viúvo,Ensino Médio,TEPT,9,9.5,Sim,6,2,1,2025-08-04
+1285,45,Feminino,Viúvo,Pós-graduação,Transtorno de Pânico,0,6.9,Sim,4,2,3,2024-04-03
+1286,57,Não-binário,Viúvo,Ensino Médio,Transtorno Bipolar,5,6.9,Não,11,2,2,2024-07-23
+1287,18,Feminino,Solteiro,Graduação,Transtorno Bipolar,0,4.2,Não,5,0,2,2025-01-07
+1288,53,Feminino,Divorciado,Pós-graduação,Ansiedade,4,5.7,Sim,9,1,4,2024-05-30
+1289,38,Feminino,Casado,Graduação,Transtorno Bipolar,3,6.2,Não,6,3,5,2024-02-01
+1290,60,Masculino,Divorciado,Pós-graduação,TEPT,4,8.1,Não,5,2,5,2023-02-08
+1291,52,Masculino,Viúvo,Ensino Médio,Depressão,6,5.6,Não,10,3,5,2025-06-05
+1292,30,Feminino,Divorciado,Fundamental,Depressão,5,7.7,Não,2,1,4,2025-03-07
+1293,66,Feminino,Solteiro,Ensino Médio,Depressão,8,6.5,Não,7,1,4,2023-06-06
+1294,27,Masculino,Solteiro,Ensino Médio,TEPT,5,6.2,Não,2,1,4,2025-06-02
+1295,61,Feminino,Casado,Ensino Médio,Depressão,8,6.9,Sim,3,3,1,2025-08-31
+1296,64,Masculino,Casado,Pós-graduação,Ansiedade,3,5.9,Não,8,2,4,2025-11-11
+1297,27,Masculino,Viúvo,Fundamental,TEPT,0,5.9,Não,7,3,3,2025-04-28
+1298,63,Feminino,Casado,Graduação,Transtorno de Pânico,0,3.9,Não,9,1,1,2025-01-17
+1299,30,Masculino,Divorciado,Ensino Médio,TEPT,9,6.1,Não,5,1,3,2025-09-15
+1300,54,Masculino,Solteiro,Pós-graduação,TEPT,6,5.8,Sim,7,0,5,2023-01-21
+1301,55,Masculino,Solteiro,Graduação,Transtorno Bipolar,2,5.7,Sim,6,3,2,2023-10-30
+1302,41,Feminino,Solteiro,Ensino Médio,Transtorno Bipolar,1,7.1,Sim,7,2,5,2025-05-18
+1303,19,Masculino,Casado,Graduação,Transtorno Bipolar,5,7.5,Sim,8,2,4,2023-03-25
+1304,39,Feminino,Solteiro,Ensino Médio,Burnout,5,6.8,Sim,6,2,2,2024-07-23
+1305,34,Feminino,Solteiro,Graduação,Ansiedade,6,8.0,Não,7,1,5,2025-07-22
+1306,53,Masculino,Solteiro,Graduação,TEPT,4,7.4,Sim,9,1,1,2025-10-05
+1307,31,Não-binário,Viúvo,Fundamental,TEPT,7,6.1,Não,7,2,4,2025-03-03
+1308,27,Masculino,Viúvo,Fundamental,Transtorno Bipolar,6,5.8,Não,3,4,5,2025-03-02
+1309,52,Não-binário,Casado,Ensino Médio,TEPT,1,7.0,Sim,4,0,2,2024-05-06
+1310,42,Feminino,Solteiro,Pós-graduação,Transtorno de Pânico,0,7.4,Sim,9,2,3,2023-07-27
+1311,20,Não-binário,Casado,Fundamental,TEPT,8,8.6,Não,8,1,5,2025-12-19
+1312,64,Masculino,Solteiro,Graduação,Depressão,4,8.3,Não,7,0,1,2024-03-05
+1313,55,Feminino,Solteiro,Fundamental,Transtorno de Pânico,10,5.7,Não,7,1,2,2025-09-11
+1314,34,Masculino,Solteiro,Fundamental,Transtorno de Pânico,4,6.3,Não,8,3,5,2024-06-03
+1315,29,Masculino,Casado,Ensino Médio,TEPT,9,7.5,Não,5,1,3,2024-08-13
+1316,69,Feminino,Casado,Fundamental,Burnout,3,8.1,Não,5,1,4,2025-11-16
+1317,41,Masculino,Solteiro,Fundamental,Transtorno Bipolar,1,7.9,Não,3,4,4,2023-07-18
+1318,46,Feminino,Divorciado,Graduação,Ansiedade,4,6.4,Não,3,1,4,2024-01-22
+1319,60,Masculino,Casado,Fundamental,Ansiedade,1,4.6,Não,4,1,2,2023-12-15
+1320,42,Masculino,Viúvo,Graduação,Depressão,6,5.0,Sim,5,1,3,2025-08-17
+1321,53,Feminino,Casado,Fundamental,Ansiedade,10,6.9,Não,9,2,3,2024-11-23
+1322,43,Masculino,Solteiro,Fundamental,Ansiedade,8,7.0,Sim,7,0,5,2024-01-13
+1323,55,Feminino,Divorciado,Pós-graduação,Transtorno Bipolar,8,4.9,Não,5,2,4,2025-06-17
+1324,18,Feminino,Solteiro,Fundamental,Transtorno Bipolar,10,6.6,Sim,8,2,2,2025-07-04
+1325,37,Feminino,Viúvo,Graduação,Burnout,5,7.4,Sim,7,1,4,2024-06-10
+1326,45,Masculino,Casado,Graduação,Depressão,0,4.8,Sim,5,1,4,2025-01-03
+1327,33,Feminino,Casado,Ensino Médio,Ansiedade,5,8.2,Sim,6,0,5,2023-07-25
+1328,64,Não-binário,Solteiro,Ensino Médio,Burnout,4,5.9,Sim,5,1,5,2024-03-30
+1329,34,Feminino,Solteiro,Pós-graduação,Depressão,3,8.4,Não,6,1,5,2024-06-04
+1330,57,Feminino,Viúvo,Graduação,Transtorno de Pânico,5,5.7,Sim,4,1,1,2025-10-13
+1331,45,Feminino,Divorciado,Graduação,Ansiedade,5,5.0,Sim,5,1,1,2025-08-13
+1332,29,Feminino,Viúvo,Graduação,Ansiedade,5,5.8,Sim,8,4,2,2024-12-26
+1333,44,Feminino,Divorciado,Pós-graduação,Transtorno Bipolar,1,6.4,Não,3,0,2,2025-10-10
+1334,59,Masculino,Casado,Graduação,TEPT,6,5.9,Sim,3,1,5,2024-05-15
+1335,64,Masculino,Divorciado,Ensino Médio,Depressão,3,6.2,Sim,7,5,3,2023-04-27
+1336,47,Feminino,Divorciado,Pós-graduação,Ansiedade,8,7.0,Sim,5,3,2,2024-01-21
+1337,58,Masculino,Casado,Ensino Médio,Depressão,9,6.2,Não,4,1,1,2024-08-06
+1338,51,Feminino,Casado,Ensino Médio,Burnout,1,6.4,Sim,6,0,1,2024-01-30
+1339,54,Masculino,Casado,Pós-graduação,Burnout,4,3.9,Sim,6,1,4,2025-12-23
+1340,23,Feminino,Viúvo,Fundamental,TEPT,3,7.1,Sim,3,2,5,2024-12-21
+1341,24,Masculino,Casado,Fundamental,Ansiedade,8,6.4,Não,5,0,3,2023-03-13
+1342,49,Masculino,Solteiro,Ensino Médio,Transtorno Bipolar,3,8.9,Sim,3,2,5,2023-10-01
+1343,49,Feminino,Casado,Fundamental,Ansiedade,7,5.1,Não,5,1,1,2023-12-04
+1344,42,Feminino,Casado,Graduação,Depressão,7,3.8,Sim,7,2,3,2024-08-29
+1345,50,Feminino,Casado,Pós-graduação,Transtorno de Pânico,5,7.4,Sim,6,4,2,2023-06-15
+1346,24,Masculino,Divorciado,Ensino Médio,Burnout,5,7.0,Sim,1,4,4,2023-01-11
+1347,69,Feminino,Viúvo,Graduação,Depressão,10,5.0,Sim,7,1,1,2024-12-29
+1348,29,Feminino,Casado,Fundamental,TEPT,7,4.2,Sim,8,0,4,2025-03-11
+1349,33,Feminino,Viúvo,Graduação,Burnout,9,8.8,Sim,4,2,5,2023-04-12
+1350,33,Masculino,Solteiro,Fundamental,Transtorno Bipolar,8,8.6,Sim,4,1,3,2025-02-17
+1351,60,Feminino,Solteiro,Ensino Médio,Burnout,4,3.0,Não,8,3,5,2023-08-02
+1352,53,Feminino,Casado,Graduação,Transtorno de Pânico,10,5.8,Não,3,6,4,2024-02-05
+1353,30,Não-binário,Solteiro,Pós-graduação,Ansiedade,0,9.0,Sim,4,2,1,2024-08-10
+1354,24,Masculino,Viúvo,Ensino Médio,Transtorno de Pânico,0,5.8,Não,9,1,4,2025-06-07
+1355,53,Feminino,Divorciado,Graduação,Transtorno de Pânico,1,5.8,Não,8,2,1,2025-12-05
+1356,64,Feminino,Casado,Graduação,Ansiedade,9,6.1,Não,10,1,4,2024-08-14
+1357,68,Masculino,Solteiro,Fundamental,Burnout,9,4.8,Sim,8,1,5,2023-04-02
+1358,26,Masculino,Viúvo,Ensino Médio,TEPT,4,3.9,Não,5,0,4,2024-11-03
+1359,49,Masculino,Viúvo,Ensino Médio,Ansiedade,3,8.1,Sim,8,1,2,2024-12-14
+1360,28,Masculino,Solteiro,Ensino Médio,Ansiedade,0,3.7,Sim,7,2,5,2025-07-24
+1361,25,Masculino,Viúvo,Ensino Médio,Transtorno Bipolar,3,6.9,Sim,9,3,4,2023-08-30
+1362,50,Feminino,Viúvo,Fundamental,Burnout,3,7.8,Sim,4,1,4,2023-01-02
+1363,40,Feminino,Casado,Pós-graduação,Ansiedade,9,4.3,Sim,6,2,3,2023-08-13
+1364,42,Feminino,Viúvo,Ensino Médio,TEPT,3,5.1,Sim,8,3,5,2025-03-11
+1365,25,Feminino,Solteiro,Fundamental,Depressão,0,8.3,Não,10,0,3,2024-08-11
+1366,62,Masculino,Casado,Pós-graduação,Burnout,8,7.3,Sim,7,1,5,2023-04-26
+1367,39,Masculino,Solteiro,Pós-graduação,Transtorno Bipolar,2,5.6,Sim,5,1,1,2025-07-06
+1368,21,Feminino,Divorciado,Fundamental,Transtorno de Pânico,3,8.3,Sim,5,1,5,2023-07-13
+1369,57,Masculino,Solteiro,Ensino Médio,Ansiedade,4,8.3,Sim,4,1,5,2025-05-20
+1370,20,Masculino,Solteiro,Pós-graduação,TEPT,6,6.9,Não,4,4,4,2023-03-31
+1371,46,Masculino,Casado,Ensino Médio,Burnout,5,5.1,Não,6,2,2,2023-05-02
+1372,58,Masculino,Viúvo,Ensino Médio,TEPT,4,5.9,Sim,8,2,5,2023-05-23
+1373,46,Feminino,Solteiro,Graduação,TEPT,7,6.9,Sim,5,0,3,2025-09-20
+1374,51,Masculino,Casado,Ensino Médio,Transtorno de Pânico,0,6.2,Não,7,2,2,2023-04-16
+1375,51,Masculino,Divorciado,Graduação,Transtorno Bipolar,6,7.9,Sim,4,4,5,2025-06-05
+1376,45,Masculino,Casado,Pós-graduação,Burnout,5,4.2,Não,6,2,2,2024-03-03
+1377,30,Feminino,Casado,Fundamental,Ansiedade,10,4.3,Sim,7,1,1,2023-11-13
+1378,32,Masculino,Viúvo,Graduação,Transtorno Bipolar,4,6.8,Sim,9,1,2,2024-09-26
+1379,40,Feminino,Solteiro,Fundamental,Ansiedade,6,5.8,Sim,5,0,1,2023-01-09
+1380,61,Masculino,Divorciado,Pós-graduação,Depressão,2,5.6,Sim,9,2,2,2025-02-12
+1381,43,Masculino,Casado,Ensino Médio,TEPT,0,3.8,Sim,2,0,2,2023-08-11
+1382,21,Feminino,Solteiro,Pós-graduação,Depressão,8,6.5,Não,5,2,3,2024-07-06
+1383,43,Masculino,Solteiro,Fundamental,TEPT,1,6.4,Não,5,0,3,2024-12-16
+1384,57,Masculino,Casado,Pós-graduação,Transtorno de Pânico,9,7.5,Não,14,2,4,2023-04-21
+1385,26,Masculino,Solteiro,Ensino Médio,Transtorno Bipolar,2,6.6,Não,1,2,2,2023-09-08
+1386,22,Feminino,Casado,Pós-graduação,Ansiedade,7,6.3,Sim,5,1,1,2024-01-18
+1387,49,Masculino,Casado,Ensino Médio,Transtorno de Pânico,9,8.3,Não,11,2,2,2023-01-07
+1388,37,Feminino,Casado,Graduação,Ansiedade,8,4.5,Sim,11,2,5,2024-04-03
+1389,67,Masculino,Divorciado,Fundamental,Transtorno Bipolar,2,7.3,Não,6,4,1,2023-07-27
+1390,28,Masculino,Casado,Ensino Médio,Burnout,5,4.0,Sim,5,1,5,2025-06-18
+1391,32,Masculino,Viúvo,Ensino Médio,Depressão,6,5.2,Não,3,3,4,2023-01-22
+1392,49,Feminino,Solteiro,Pós-graduação,Depressão,0,4.7,Não,4,5,5,2024-02-14
+1393,45,Masculino,Divorciado,Graduação,Ansiedade,6,7.7,Sim,4,0,4,2025-06-13
+1394,39,Masculino,Solteiro,Ensino Médio,Ansiedade,3,6.4,Sim,4,0,4,2024-05-29
+1395,58,Masculino,Divorciado,Graduação,Ansiedade,4,6.5,Sim,4,1,4,2025-03-19
+1396,34,Masculino,Viúvo,Graduação,Transtorno Bipolar,7,4.8,Sim,7,2,5,2025-05-23
+1397,43,Masculino,Divorciado,Pós-graduação,Burnout,3,6.1,Não,10,0,4,2023-01-14
+1398,61,Feminino,Divorciado,Ensino Médio,Depressão,3,5.4,Não,8,0,4,2025-08-28
+1399,24,Masculino,Divorciado,Pós-graduação,Transtorno de Pânico,7,7.1,Sim,1,0,3,2025-09-04
+1400,59,Masculino,Solteiro,Fundamental,TEPT,4,5.0,Sim,6,0,2,2025-10-10
+1401,43,Feminino,Casado,Fundamental,Transtorno Bipolar,5,8.5,Não,6,2,4,2025-11-01
+1402,42,Masculino,Solteiro,Ensino Médio,Depressão,10,4.0,Sim,8,0,1,2023-03-28
+1403,27,Masculino,Casado,Graduação,Burnout,4,5.3,Sim,11,2,1,2025-06-27
+1404,62,Masculino,Solteiro,Ensino Médio,Transtorno Bipolar,0,9.0,Não,6,2,3,2023-05-02
+1405,36,Feminino,Viúvo,Ensino Médio,Transtorno de Pânico,6,5.8,Não,7,1,5,2025-01-19
+1406,28,Masculino,Viúvo,Fundamental,Depressão,5,4.5,Sim,6,2,5,2024-11-15
+1407,30,Feminino,Divorciado,Fundamental,Transtorno Bipolar,1,6.8,Sim,3,1,5,2023-11-05
+1408,25,Masculino,Viúvo,Graduação,Depressão,10,5.8,Não,3,2,4,2024-11-25
+1409,57,Feminino,Divorciado,Graduação,Depressão,6,5.2,Não,11,0,5,2023-10-15
+1410,21,Masculino,Casado,Ensino Médio,Burnout,5,4.9,Não,4,1,5,2023-11-03
+1411,64,Feminino,Viúvo,Pós-graduação,TEPT,4,10.0,Sim,4,0,2,2025-07-02
+1412,48,Feminino,Casado,Ensino Médio,Burnout,7,6.1,Não,5,1,4,2024-10-23
+1413,45,Feminino,Solteiro,Graduação,Depressão,4,3.6,Não,5,1,4,2024-07-02
+1414,28,Masculino,Casado,Pós-graduação,Transtorno Bipolar,10,8.7,Não,7,0,1,2023-11-08
+1415,60,Masculino,Solteiro,Fundamental,Transtorno de Pânico,1,7.4,Não,11,1,1,2025-05-22
+1416,18,Masculino,Casado,Graduação,Burnout,5,5.4,Sim,5,3,2,2025-12-18
+1417,66,Masculino,Casado,Graduação,TEPT,0,5.1,Não,5,1,3,2025-07-12
+1418,64,Masculino,Viúvo,Pós-graduação,Depressão,4,7.5,Sim,3,1,4,2025-01-24
+1419,69,Feminino,Casado,Graduação,Transtorno de Pânico,5,6.1,Sim,4,1,1,2023-02-04
+1420,55,Masculino,Viúvo,Graduação,Burnout,6,3.6,Não,4,0,5,2024-03-20
+1421,41,Masculino,Viúvo,Graduação,Burnout,1,9.2,Não,4,1,4,2023-04-03
+1422,64,Feminino,Divorciado,Graduação,Burnout,0,5.8,Não,6,5,4,2023-12-19
+1423,48,Feminino,Divorciado,Graduação,Burnout,5,8.7,Sim,5,0,4,2025-06-21
+1424,58,Masculino,Solteiro,Graduação,Transtorno de Pânico,2,8.4,Sim,6,2,1,2025-05-11
+1425,63,Feminino,Casado,Graduação,Transtorno Bipolar,4,5.0,Não,7,2,2,2023-06-08
+1426,67,Masculino,Solteiro,Graduação,TEPT,10,8.0,Sim,9,2,1,2025-08-14
+1427,43,Feminino,Casado,Fundamental,TEPT,1,5.5,Não,9,2,5,2023-01-24
+1428,66,Feminino,Divorciado,Graduação,Depressão,0,3.7,Sim,4,0,5,2024-02-08
+1429,67,Feminino,Divorciado,Fundamental,Ansiedade,0,5.9,Não,12,1,3,2025-03-15
+1430,22,Feminino,Casado,Fundamental,Transtorno Bipolar,10,7.1,Sim,5,0,1,2024-05-30
+1431,37,Masculino,Casado,Ensino Médio,Depressão,3,5.8,Não,4,2,1,2025-01-01
+1432,69,Masculino,Divorciado,Ensino Médio,Depressão,9,6.0,Não,5,1,3,2024-06-15
+1433,58,Feminino,Divorciado,Fundamental,Burnout,1,8.2,Sim,5,4,3,2025-08-13
+1434,28,Masculino,Solteiro,Fundamental,Ansiedade,0,6.7,Não,5,2,4,2023-06-01
+1435,50,Feminino,Divorciado,Graduação,Ansiedade,5,5.2,Não,7,2,4,2025-08-04
+1436,67,Masculino,Casado,Ensino Médio,Transtorno Bipolar,3,7.6,Não,6,1,5,2024-08-30
+1437,55,Masculino,Solteiro,Pós-graduação,Ansiedade,9,6.8,Não,5,2,2,2024-02-24
+1438,44,Masculino,Casado,Ensino Médio,Depressão,6,3.0,Sim,7,2,5,2025-05-15
+1439,51,Masculino,Viúvo,Fundamental,Ansiedade,10,7.1,Sim,4,2,1,2024-07-31
+1440,32,Feminino,Solteiro,Fundamental,Ansiedade,5,7.1,Sim,3,2,2,2023-12-01
+1441,49,Feminino,Casado,Graduação,TEPT,4,6.5,Sim,8,0,4,2025-07-20
+1442,38,Feminino,Divorciado,Graduação,Depressão,9,7.8,Sim,5,2,3,2023-10-22
+1443,63,Feminino,Viúvo,Ensino Médio,Transtorno de Pânico,1,5.5,Não,14,0,3,2025-01-24
+1444,22,Feminino,Casado,Graduação,Ansiedade,4,7.0,Sim,5,0,5,2023-07-05
+1445,23,Feminino,Solteiro,Pós-graduação,Ansiedade,8,4.1,Sim,8,1,1,2024-09-28
+1446,55,Masculino,Casado,Pós-graduação,Burnout,8,7.1,Sim,5,2,1,2024-06-13
+1447,39,Feminino,Viúvo,Graduação,Ansiedade,1,9.4,Não,3,1,3,2023-01-21
+1448,35,Masculino,Solteiro,Pós-graduação,Ansiedade,6,5.0,Não,10,2,5,2025-06-29
+1449,31,Masculino,Viúvo,Pós-graduação,TEPT,9,5.4,Sim,2,2,5,2025-05-16
+1450,27,Feminino,Casado,Ensino Médio,Depressão,3,5.4,Não,3,1,4,2025-03-04
+1451,63,Masculino,Divorciado,Pós-graduação,Transtorno Bipolar,2,6.7,Sim,8,2,4,2023-04-10
+1452,30,Masculino,Divorciado,Fundamental,Depressão,10,4.9,Não,6,1,4,2025-01-21
+1453,48,Masculino,Casado,Fundamental,Burnout,0,7.1,Não,7,1,2,2024-04-22
+1454,47,Masculino,Casado,Ensino Médio,Depressão,2,7.8,Sim,4,1,5,2025-07-28
+1455,20,Feminino,Casado,Graduação,Ansiedade,10,7.3,Não,2,0,5,2024-06-09
+1456,47,Masculino,Solteiro,Ensino Médio,Burnout,8,3.8,Não,4,0,4,2023-11-30
+1457,23,Masculino,Viúvo,Graduação,Depressão,8,8.0,Sim,1,0,3,2023-01-02
+1458,46,Masculino,Viúvo,Graduação,Burnout,6,7.9,Não,7,0,4,2024-01-10
+1459,25,Masculino,Viúvo,Graduação,Transtorno Bipolar,2,7.7,Sim,3,3,2,2023-10-20
+1460,61,Feminino,Casado,Graduação,Depressão,2,7.1,Sim,7,0,3,2025-04-16
+1461,62,Masculino,Viúvo,Graduação,Transtorno de Pânico,3,6.8,Sim,4,1,5,2025-10-01
+1462,60,Feminino,Casado,Ensino Médio,Ansiedade,6,8.0,Sim,8,3,2,2024-07-06
+1463,61,Feminino,Solteiro,Graduação,Burnout,6,9.4,Sim,3,1,2,2023-11-14
+1464,50,Feminino,Divorciado,Pós-graduação,Transtorno de Pânico,1,5.1,Não,6,3,3,2024-01-16
+1465,34,Feminino,Casado,Pós-graduação,Transtorno de Pânico,4,8.1,Sim,6,2,4,2023-01-14
+1466,65,Feminino,Casado,Graduação,TEPT,6,6.4,Sim,6,1,4,2024-05-18
+1467,28,Masculino,Divorciado,Pós-graduação,Burnout,6,6.3,Sim,5,1,1,2023-08-19
+1468,30,Masculino,Divorciado,Fundamental,Transtorno de Pânico,5,4.2,Não,7,0,3,2023-05-10
+1469,67,Masculino,Solteiro,Ensino Médio,TEPT,9,6.1,Não,7,1,4,2025-04-17
+1470,28,Feminino,Viúvo,Ensino Médio,Transtorno de Pânico,9,5.0,Não,4,0,2,2025-06-09
+1471,48,Masculino,Casado,Graduação,Ansiedade,7,5.8,Não,4,3,4,2023-01-28
+1472,45,Masculino,Viúvo,Graduação,Transtorno Bipolar,2,4.9,Não,8,3,4,2023-03-07
+1473,61,Masculino,Casado,Fundamental,TEPT,0,5.8,Não,6,0,2,2023-09-18
+1474,23,Masculino,Solteiro,Graduação,Transtorno Bipolar,2,5.9,Não,6,0,3,2024-04-04
+1475,58,Masculino,Divorciado,Pós-graduação,Burnout,10,6.6,Sim,5,2,1,2023-10-28
+1476,33,Não-binário,Solteiro,Fundamental,Ansiedade,1,4.1,Sim,5,1,4,2025-07-07
+1477,21,Masculino,Divorciado,Pós-graduação,TEPT,1,4.3,Não,6,2,4,2023-10-14
+1478,52,Feminino,Viúvo,Ensino Médio,Burnout,1,7.0,Sim,7,0,4,2025-10-30
+1479,65,Feminino,Viúvo,Pós-graduação,Transtorno de Pânico,4,5.3,Sim,9,1,3,2024-09-21
+1480,43,Masculino,Solteiro,Ensino Médio,Depressão,0,8.1,Não,5,4,2,2023-09-27
+1481,29,Masculino,Divorciado,Pós-graduação,Burnout,9,6.8,Não,3,2,2,2024-08-14
+1482,28,Masculino,Solteiro,Ensino Médio,Transtorno Bipolar,3,7.4,Sim,6,2,2,2025-04-23
+1483,54,Masculino,Divorciado,Graduação,Ansiedade,9,8.6,Não,4,0,2,2025-05-11
+1484,42,Feminino,Divorciado,Pós-graduação,Ansiedade,4,6.0,Não,8,1,2,2023-05-13
+1485,35,Masculino,Viúvo,Ensino Médio,Burnout,1,5.6,Não,7,0,2,2025-08-29
+1486,36,Masculino,Viúvo,Pós-graduação,Transtorno de Pânico,4,7.8,Não,14,4,4,2024-05-27
+1487,40,Feminino,Divorciado,Fundamental,Depressão,9,7.3,Não,7,3,4,2023-11-09
+1488,55,Feminino,Divorciado,Graduação,Transtorno Bipolar,3,6.2,Sim,5,3,2,2024-07-29
+1489,35,Feminino,Divorciado,Ensino Médio,Burnout,7,8.6,Sim,4,1,2,2025-06-04
+1490,43,Feminino,Viúvo,Fundamental,Burnout,0,6.2,Sim,4,2,3,2024-11-17
+1491,23,Feminino,Viúvo,Pós-graduação,Ansiedade,4,6.5,Não,10,1,3,2023-06-14
+1492,21,Masculino,Casado,Fundamental,Transtorno Bipolar,10,6.5,Não,6,1,5,2023-11-01
+1493,61,Feminino,Divorciado,Pós-graduação,Depressão,9,5.1,Não,5,2,4,2023-06-05
+1494,68,Masculino,Casado,Graduação,Ansiedade,0,6.6,Sim,3,0,2,2024-09-11
+1495,46,Feminino,Divorciado,Fundamental,Burnout,9,8.6,Não,4,4,4,2025-08-14
+1496,51,Feminino,Viúvo,Graduação,Ansiedade,9,7.2,Sim,12,6,5,2023-11-30
+1497,34,Masculino,Casado,Ensino Médio,Ansiedade,3,6.5,Sim,6,2,3,2025-08-26
+1498,60,Feminino,Casado,Pós-graduação,TEPT,7,6.3,Sim,3,2,5,2024-05-25
+1499,60,Feminino,Solteiro,Pós-graduação,Ansiedade,0,7.0,Sim,13,0,1,2025-11-09
+1500,33,Masculino,Divorciado,Graduação,Transtorno de Pânico,10,7.6,Não,7,0,3,2023-10-09
+1501,19,Feminino,Viúvo,Graduação,Ansiedade,1,7.4,Sim,5,2,4,2025-03-07
+1502,51,Masculino,Solteiro,Ensino Médio,Transtorno de Pânico,0,6.0,Sim,3,2,3,2025-10-21
+1503,25,Feminino,Solteiro,Fundamental,Transtorno Bipolar,10,7.0,Não,5,0,5,2023-04-29
+1504,30,Feminino,Divorciado,Pós-graduação,Ansiedade,6,7.2,Sim,3,2,2,2025-11-24
+1505,59,Feminino,Solteiro,Pós-graduação,Depressão,1,5.0,Sim,13,3,5,2023-07-17
+1506,25,Feminino,Divorciado,Ensino Médio,Transtorno de Pânico,0,6.8,Sim,7,0,5,2024-04-29
+1507,47,Feminino,Solteiro,Ensino Médio,Transtorno de Pânico,5,3.3,Sim,5,1,2,2025-12-18
+1508,49,Feminino,Divorciado,Graduação,Burnout,5,7.2,Sim,4,1,4,2025-04-16
+1509,53,Masculino,Viúvo,Graduação,Transtorno Bipolar,9,7.5,Sim,9,1,4,2025-10-05
+1510,64,Feminino,Divorciado,Fundamental,Ansiedade,1,7.6,Não,6,4,3,2024-11-21
+1511,47,Masculino,Divorciado,Ensino Médio,Depressão,0,5.9,Sim,5,2,5,2025-11-01
+1512,18,Feminino,Casado,Fundamental,Burnout,9,7.0,Sim,8,2,3,2024-05-04
+1513,60,Masculino,Viúvo,Ensino Médio,Transtorno Bipolar,2,8.6,Não,3,1,2,2023-10-03
+1514,56,Masculino,Viúvo,Pós-graduação,Transtorno de Pânico,9,8.6,Sim,5,2,1,2024-11-23
+1515,34,Feminino,Viúvo,Ensino Médio,Depressão,4,6.5,Não,6,2,4,2023-08-30
+1516,37,Masculino,Solteiro,Ensino Médio,Ansiedade,5,6.7,Sim,7,1,2,2023-05-06
+1517,41,Masculino,Casado,Pós-graduação,TEPT,2,8.2,Sim,9,3,4,2023-08-05
+1518,67,Masculino,Viúvo,Ensino Médio,TEPT,8,4.2,Não,3,1,3,2025-11-28
+1519,39,Masculino,Solteiro,Fundamental,Transtorno Bipolar,10,6.0,Sim,4,1,1,2024-05-09
+1520,46,Masculino,Solteiro,Graduação,Depressão,4,8.5,Sim,3,0,5,2024-03-02
+1521,39,Masculino,Solteiro,Graduação,Burnout,1,8.0,Não,5,0,4,2025-07-07
+1522,61,Masculino,Casado,Fundamental,Depressão,9,7.1,Sim,10,2,5,2023-05-31
+1523,26,Masculino,Solteiro,Pós-graduação,Transtorno de Pânico,5,4.2,Não,8,0,3,2024-01-19
+1524,54,Feminino,Casado,Ensino Médio,TEPT,7,6.4,Não,3,4,4,2023-11-04
+1525,27,Masculino,Divorciado,Fundamental,Transtorno Bipolar,10,5.6,Sim,9,3,3,2025-01-15
+1526,53,Feminino,Solteiro,Graduação,Ansiedade,5,7.0,Não,10,2,5,2025-06-10
+1527,54,Feminino,Viúvo,Graduação,Depressão,3,5.3,Sim,4,3,3,2024-01-10
+1528,45,Masculino,Solteiro,Fundamental,TEPT,5,5.0,Não,7,1,3,2025-10-28
+1529,45,Feminino,Divorciado,Graduação,Burnout,7,3.4,Não,9,2,3,2023-05-09
+1530,59,Feminino,Divorciado,Fundamental,Transtorno Bipolar,7,8.3,Não,7,4,2,2025-10-11
+1531,60,Não-binário,Solteiro,Graduação,Ansiedade,9,5.9,Sim,12,3,2,2024-10-30
+1532,38,Feminino,Divorciado,Fundamental,Depressão,1,6.7,Não,3,1,4,2024-05-31
+1533,41,Masculino,Casado,Ensino Médio,Burnout,7,6.5,Sim,3,3,3,2023-03-27
+1534,59,Feminino,Casado,Ensino Médio,Ansiedade,5,4.9,Sim,6,1,3,2023-11-07
+1535,57,Feminino,Solteiro,Ensino Médio,Transtorno de Pânico,1,4.6,Não,7,3,3,2024-03-02
+1536,19,Feminino,Casado,Ensino Médio,TEPT,0,5.0,Sim,4,1,2,2023-04-24
+1537,25,Masculino,Casado,Graduação,Transtorno de Pânico,5,5.4,Não,3,2,5,2023-10-30
+1538,65,Feminino,Viúvo,Pós-graduação,TEPT,6,7.0,Sim,7,2,3,2025-01-13
+1539,44,Feminino,Solteiro,Fundamental,Burnout,9,5.3,Não,7,1,1,2024-08-10
+1540,39,Masculino,Divorciado,Pós-graduação,Transtorno de Pânico,4,9.1,Sim,6,3,4,2025-09-13
+1541,54,Masculino,Solteiro,Graduação,TEPT,9,8.0,Sim,0,1,2,2023-12-11
+1542,44,Masculino,Casado,Graduação,Transtorno Bipolar,7,7.7,Sim,2,0,5,2025-03-24
+1543,46,Feminino,Viúvo,Pós-graduação,Burnout,10,6.3,Não,8,1,1,2025-03-11
+1544,20,Feminino,Solteiro,Pós-graduação,TEPT,8,8.8,Sim,6,2,3,2025-10-21
+1545,61,Feminino,Solteiro,Graduação,Depressão,3,6.2,Não,8,1,2,2025-12-12
+1546,30,Masculino,Casado,Graduação,TEPT,6,6.5,Sim,5,0,3,2025-12-28
+1547,62,Feminino,Casado,Fundamental,Transtorno de Pânico,7,6.8,Sim,7,1,4,2023-12-27
+1548,27,Masculino,Solteiro,Ensino Médio,Transtorno Bipolar,5,7.6,Sim,4,1,2,2025-10-06
+1549,53,Masculino,Casado,Ensino Médio,Ansiedade,1,7.5,Sim,6,1,1,2024-12-04
+1550,26,Feminino,Casado,Fundamental,Ansiedade,6,5.8,Não,10,2,5,2024-07-28
+1551,44,Não-binário,Casado,Pós-graduação,TEPT,8,5.7,Não,6,0,5,2024-11-18
+1552,51,Feminino,Casado,Graduação,Ansiedade,4,7.5,Sim,9,1,4,2025-02-19
+1553,68,Feminino,Casado,Pós-graduação,TEPT,1,7.6,Não,5,1,5,2024-08-07
+1554,18,Masculino,Viúvo,Ensino Médio,Transtorno Bipolar,3,5.9,Não,6,2,5,2024-08-11
+1555,49,Masculino,Casado,Ensino Médio,Ansiedade,2,4.1,Sim,2,0,4,2024-05-03
+1556,42,Feminino,Divorciado,Pós-graduação,Transtorno de Pânico,3,6.2,Sim,7,1,1,2025-08-28
+1557,46,Feminino,Solteiro,Ensino Médio,Transtorno de Pânico,9,7.4,Sim,3,2,2,2024-05-08
+1558,24,Masculino,Viúvo,Graduação,Depressão,6,9.2,Sim,9,0,2,2023-01-19
+1559,66,Masculino,Viúvo,Fundamental,TEPT,9,4.7,Sim,9,1,4,2024-02-01
+1560,20,Masculino,Casado,Pós-graduação,Ansiedade,7,5.9,Sim,3,0,3,2025-09-27
+1561,37,Feminino,Solteiro,Graduação,Transtorno de Pânico,0,5.9,Não,3,2,4,2025-04-30
+1562,37,Masculino,Divorciado,Graduação,Transtorno Bipolar,7,8.5,Sim,7,0,4,2025-04-01
+1563,47,Masculino,Casado,Ensino Médio,Transtorno Bipolar,4,6.4,Sim,8,1,4,2024-03-30
+1564,52,Masculino,Solteiro,Graduação,Depressão,6,5.1,Sim,5,2,4,2024-12-25
+1565,52,Masculino,Casado,Pós-graduação,Transtorno Bipolar,10,7.3,Sim,8,2,5,2025-12-24
+1566,66,Feminino,Casado,Graduação,Transtorno Bipolar,10,5.9,Sim,8,1,5,2024-12-11
+1567,56,Masculino,Casado,Fundamental,Ansiedade,0,4.7,Não,4,2,1,2023-05-23
+1568,44,Feminino,Casado,Graduação,TEPT,1,5.2,Sim,7,3,4,2025-07-05
+1569,43,Feminino,Casado,Graduação,Burnout,0,9.1,Não,5,1,2,2025-04-07
+1570,31,Feminino,Casado,Fundamental,Transtorno Bipolar,4,7.1,Sim,6,0,3,2024-08-27
+1571,34,Masculino,Casado,Graduação,Transtorno Bipolar,5,6.7,Não,4,2,5,2023-11-01
+1572,35,Não-binário,Divorciado,Graduação,Burnout,9,6.1,Não,9,3,2,2025-01-05
+1573,62,Feminino,Viúvo,Ensino Médio,Transtorno Bipolar,8,6.9,Sim,6,2,5,2023-10-18
+1574,69,Não-binário,Divorciado,Pós-graduação,Ansiedade,7,6.9,Não,4,3,1,2023-04-12
+1575,46,Feminino,Casado,Ensino Médio,Ansiedade,6,6.9,Sim,4,1,3,2025-05-16
+1576,37,Masculino,Casado,Pós-graduação,Burnout,4,6.7,Não,4,3,5,2025-08-25
+1577,44,Masculino,Divorciado,Fundamental,Transtorno de Pânico,2,7.8,Sim,5,0,3,2025-08-31
+1578,35,Masculino,Divorciado,Fundamental,Transtorno Bipolar,8,6.5,Não,6,0,3,2025-04-21
+1579,21,Feminino,Viúvo,Fundamental,Transtorno de Pânico,4,5.0,Não,5,1,2,2025-08-19
+1580,18,Masculino,Divorciado,Pós-graduação,Transtorno Bipolar,2,5.6,Não,5,2,5,2025-07-30
+1581,67,Masculino,Viúvo,Pós-graduação,TEPT,2,3.5,Sim,8,1,3,2025-10-23
+1582,18,Masculino,Casado,Pós-graduação,Transtorno Bipolar,2,9.5,Sim,9,2,4,2023-03-26
+1583,43,Masculino,Solteiro,Fundamental,Ansiedade,5,7.8,Não,4,0,3,2023-11-24
+1584,62,Masculino,Solteiro,Pós-graduação,Depressão,0,5.3,Não,6,3,3,2025-03-26
+1585,37,Masculino,Solteiro,Graduação,Depressão,10,6.1,Não,4,1,5,2024-03-29
+1586,69,Masculino,Solteiro,Ensino Médio,Depressão,3,5.5,Sim,3,4,4,2024-09-20
+1587,40,Masculino,Casado,Fundamental,Depressão,7,8.8,Não,7,1,3,2024-10-26
+1588,27,Masculino,Solteiro,Ensino Médio,Transtorno de Pânico,2,4.4,Sim,8,0,5,2023-01-12
+1589,28,Masculino,Divorciado,Graduação,Transtorno de Pânico,4,6.7,Sim,9,1,5,2023-10-31
+1590,58,Feminino,Divorciado,Pós-graduação,Transtorno Bipolar,1,6.3,Sim,7,3,3,2025-09-01
+1591,58,Feminino,Solteiro,Ensino Médio,Transtorno de Pânico,1,7.7,Sim,4,0,1,2025-02-21
+1592,22,Masculino,Divorciado,Graduação,Transtorno Bipolar,10,6.3,Não,7,0,1,2023-02-12
+1593,18,Masculino,Viúvo,Graduação,TEPT,6,3.9,Sim,6,2,2,2025-08-01
+1594,34,Feminino,Casado,Ensino Médio,Transtorno Bipolar,9,6.1,Não,5,2,1,2023-12-09
+1595,39,Feminino,Solteiro,Fundamental,Depressão,2,5.0,Não,8,2,1,2024-05-12
+1596,51,Feminino,Solteiro,Ensino Médio,Burnout,4,6.6,Sim,4,3,5,2023-12-30
+1597,62,Feminino,Casado,Fundamental,Burnout,2,8.7,Sim,4,1,5,2025-06-09
+1598,58,Masculino,Divorciado,Pós-graduação,Ansiedade,5,3.9,Não,10,1,3,2024-03-02
+1599,46,Masculino,Casado,Fundamental,Ansiedade,9,5.3,Sim,7,0,3,2025-10-01
+1600,21,Masculino,Casado,Pós-graduação,Transtorno Bipolar,2,5.7,Não,5,3,5,2023-01-21
+1601,22,Feminino,Divorciado,Ensino Médio,Burnout,7,5.9,Não,4,3,3,2024-02-11
+1602,28,Feminino,Casado,Pós-graduação,Depressão,1,7.6,Sim,3,0,5,2024-09-10
+1603,68,Feminino,Divorciado,Graduação,Transtorno de Pânico,2,6.2,Sim,3,3,1,2025-10-11
+1604,38,Masculino,Divorciado,Pós-graduação,Depressão,7,7.1,Sim,6,2,3,2023-12-02
+1605,52,Feminino,Casado,Fundamental,Depressão,7,5.6,Não,10,1,1,2024-02-03
+1606,29,Masculino,Viúvo,Fundamental,Transtorno Bipolar,0,6.8,Sim,3,0,2,2025-03-03
+1607,43,Masculino,Divorciado,Fundamental,Transtorno Bipolar,7,7.7,Sim,6,3,3,2024-12-15
+1608,68,Masculino,Casado,Pós-graduação,TEPT,9,5.4,Sim,6,1,5,2023-02-20
+1609,36,Feminino,Divorciado,Fundamental,Depressão,1,7.7,Não,10,2,5,2023-11-20
+1610,62,Masculino,Viúvo,Fundamental,Depressão,6,6.6,Sim,4,2,2,2025-02-27
+1611,24,Feminino,Viúvo,Graduação,Transtorno Bipolar,5,8.1,Sim,7,1,5,2023-05-21
+1612,64,Masculino,Solteiro,Pós-graduação,Transtorno Bipolar,1,6.2,Não,7,0,1,2024-04-14
+1613,24,Feminino,Divorciado,Graduação,TEPT,4,7.1,Não,9,2,5,2025-02-25
+1614,43,Feminino,Divorciado,Fundamental,TEPT,6,6.4,Não,8,1,2,2025-08-21
+1615,57,Masculino,Casado,Fundamental,Ansiedade,7,6.4,Não,8,0,4,2025-10-04
+1616,22,Feminino,Divorciado,Fundamental,Burnout,2,6.9,Não,5,2,4,2024-01-08
+1617,38,Feminino,Solteiro,Pós-graduação,Depressão,0,7.3,Não,1,3,1,2024-05-08
+1618,31,Feminino,Viúvo,Ensino Médio,Depressão,6,4.6,Não,4,2,4,2025-01-20
+1619,21,Feminino,Viúvo,Fundamental,TEPT,4,8.7,Não,7,1,5,2023-10-18
+1620,40,Feminino,Solteiro,Fundamental,TEPT,4,3.7,Não,1,0,2,2023-04-16
+1621,59,Masculino,Divorciado,Fundamental,Ansiedade,6,5.5,Sim,4,1,1,2024-10-31
+1622,37,Feminino,Divorciado,Fundamental,Burnout,0,6.4,Sim,7,2,4,2023-01-02
+1623,32,Masculino,Solteiro,Pós-graduação,Ansiedade,7,7.1,Não,4,1,5,2024-08-11
+1624,67,Masculino,Casado,Ensino Médio,Burnout,9,8.9,Sim,7,3,5,2024-10-05
+1625,69,Masculino,Viúvo,Ensino Médio,Transtorno de Pânico,4,3.7,Não,3,0,3,2023-03-31
+1626,62,Feminino,Solteiro,Ensino Médio,Depressão,7,5.7,Sim,3,1,3,2023-12-16
+1627,46,Feminino,Solteiro,Fundamental,Ansiedade,9,3.3,Não,14,1,2,2025-11-28
+1628,25,Masculino,Divorciado,Fundamental,TEPT,9,6.5,Sim,6,3,1,2025-06-27
+1629,58,Feminino,Viúvo,Ensino Médio,Ansiedade,4,6.9,Não,2,0,4,2023-06-08
+1630,65,Feminino,Divorciado,Ensino Médio,Transtorno de Pânico,6,8.9,Não,5,1,4,2025-08-16
+1631,36,Masculino,Solteiro,Fundamental,Ansiedade,9,6.7,Sim,7,2,5,2023-11-08
+1632,65,Masculino,Casado,Fundamental,Depressão,2,8.1,Sim,7,2,4,2024-03-20
+1633,56,Feminino,Viúvo,Graduação,Transtorno de Pânico,1,7.4,Sim,1,2,2,2023-10-25
+1634,63,Masculino,Solteiro,Graduação,TEPT,5,5.8,Sim,7,2,3,2025-08-09
+1635,45,Feminino,Solteiro,Graduação,TEPT,4,4.4,Sim,3,0,5,2023-02-05
+1636,63,Masculino,Casado,Ensino Médio,Transtorno Bipolar,8,6.9,Sim,6,2,1,2024-07-12
+1637,44,Masculino,Solteiro,Pós-graduação,Transtorno de Pânico,9,4.3,Não,4,1,5,2025-06-09
+1638,21,Feminino,Solteiro,Fundamental,Transtorno Bipolar,3,8.4,Sim,6,5,4,2023-05-21
+1639,32,Feminino,Viúvo,Graduação,Transtorno Bipolar,10,6.3,Não,6,1,2,2025-06-05
+1640,52,Feminino,Viúvo,Pós-graduação,Depressão,2,8.3,Sim,3,1,1,2024-12-26
+1641,54,Feminino,Viúvo,Fundamental,Ansiedade,8,5.8,Não,5,2,5,2025-11-15
+1642,18,Feminino,Divorciado,Pós-graduação,TEPT,7,6.9,Sim,6,2,4,2024-06-04
+1643,20,Feminino,Casado,Ensino Médio,TEPT,5,6.8,Não,7,3,5,2023-01-10
+1644,64,Masculino,Viúvo,Ensino Médio,Ansiedade,0,6.4,Não,3,2,1,2025-09-10
+1645,41,Feminino,Divorciado,Ensino Médio,TEPT,9,5.9,Não,9,1,4,2024-01-13
+1646,44,Masculino,Divorciado,Graduação,Ansiedade,10,7.1,Sim,10,2,3,2024-11-12
+1647,57,Feminino,Casado,Fundamental,Transtorno de Pânico,0,5.1,Não,9,1,1,2024-08-06
+1648,53,Masculino,Casado,Ensino Médio,Depressão,5,4.7,Sim,8,2,3,2023-06-01
+1649,51,Feminino,Solteiro,Graduação,Depressão,2,8.4,Sim,8,0,3,2024-12-20
+1650,46,Masculino,Divorciado,Graduação,Depressão,2,7.6,Sim,6,2,4,2025-12-08
+1651,41,Feminino,Viúvo,Graduação,Ansiedade,5,6.6,Sim,8,2,5,2025-05-08
+1652,41,Feminino,Casado,Graduação,Ansiedade,2,9.0,Sim,5,0,5,2023-02-19
+1653,59,Masculino,Divorciado,Ensino Médio,Burnout,10,6.1,Não,3,1,2,2024-10-25
+1654,21,Feminino,Viúvo,Graduação,TEPT,9,8.5,Sim,5,4,1,2024-06-14
+1655,20,Masculino,Divorciado,Ensino Médio,TEPT,5,6.8,Sim,9,2,1,2025-12-19
+1656,51,Feminino,Casado,Ensino Médio,Burnout,4,5.0,Sim,5,1,4,2025-05-06
+1657,66,Feminino,Solteiro,Graduação,Burnout,3,9.3,Não,3,2,4,2023-05-26
+1658,40,Masculino,Divorciado,Ensino Médio,Depressão,7,8.0,Não,9,1,2,2025-07-03
+1659,69,Feminino,Viúvo,Fundamental,Burnout,1,6.3,Sim,9,3,2,2025-09-19
+1660,40,Masculino,Casado,Fundamental,Ansiedade,10,7.6,Não,7,4,3,2023-08-30
+1661,62,Masculino,Solteiro,Pós-graduação,Transtorno Bipolar,6,5.9,Sim,2,4,2,2024-08-03
+1662,22,Feminino,Viúvo,Fundamental,Ansiedade,3,7.7,Sim,7,1,5,2024-11-17
+1663,48,Masculino,Viúvo,Ensino Médio,Burnout,1,3.0,Sim,8,2,3,2024-04-27
+1664,58,Não-binário,Viúvo,Ensino Médio,TEPT,6,5.0,Não,6,6,2,2024-11-03
+1665,23,Feminino,Divorciado,Fundamental,Ansiedade,0,8.0,Não,4,5,5,2024-09-22
+1666,54,Masculino,Casado,Graduação,TEPT,3,6.1,Sim,9,3,5,2024-10-22
+1667,27,Feminino,Viúvo,Graduação,Ansiedade,8,6.8,Sim,4,3,3,2024-10-23
+1668,57,Masculino,Divorciado,Ensino Médio,TEPT,3,4.5,Sim,6,1,3,2025-03-15
+1669,24,Masculino,Casado,Graduação,Transtorno de Pânico,2,9.3,Não,3,1,5,2024-02-23
+1670,56,Masculino,Casado,Pós-graduação,Ansiedade,9,8.3,Não,8,0,4,2025-09-14
+1671,55,Masculino,Divorciado,Pós-graduação,TEPT,9,6.2,Sim,3,0,3,2024-10-11
+1672,38,Masculino,Divorciado,Fundamental,Transtorno Bipolar,1,5.9,Sim,6,4,1,2025-08-26
+1673,37,Masculino,Viúvo,Fundamental,Depressão,2,8.0,Não,6,1,4,2024-08-12
+1674,20,Não-binário,Casado,Graduação,Ansiedade,0,9.5,Não,8,1,1,2024-05-23
+1675,68,Feminino,Solteiro,Ensino Médio,Transtorno Bipolar,9,7.9,Não,9,1,2,2024-03-16
+1676,39,Feminino,Divorciado,Fundamental,Depressão,7,9.8,Não,6,0,3,2025-07-09
+1677,64,Feminino,Casado,Pós-graduação,Ansiedade,0,5.1,Não,4,0,3,2025-02-08
+1678,21,Feminino,Casado,Fundamental,Transtorno Bipolar,2,5.3,Sim,7,2,5,2023-09-20
+1679,45,Masculino,Viúvo,Fundamental,Transtorno Bipolar,2,4.7,Sim,4,1,3,2024-09-28
+1680,29,Feminino,Solteiro,Pós-graduação,Transtorno de Pânico,1,7.2,Sim,5,4,1,2024-04-03
+1681,55,Não-binário,Viúvo,Ensino Médio,Transtorno Bipolar,4,6.8,Não,9,0,4,2025-09-25
+1682,68,Masculino,Solteiro,Fundamental,Transtorno de Pânico,9,6.3,Sim,5,0,2,2024-11-30
+1683,53,Feminino,Solteiro,Fundamental,Burnout,2,7.7,Sim,4,2,4,2023-10-29
+1684,64,Feminino,Divorciado,Fundamental,TEPT,2,8.3,Sim,2,0,1,2024-07-07
+1685,58,Feminino,Casado,Graduação,Depressão,7,4.2,Sim,6,1,2,2023-10-15
+1686,22,Feminino,Casado,Fundamental,TEPT,3,5.6,Não,12,3,5,2024-09-12
+1687,30,Masculino,Casado,Pós-graduação,TEPT,3,7.7,Sim,5,1,3,2025-10-02
+1688,40,Masculino,Solteiro,Ensino Médio,Transtorno de Pânico,2,5.8,Sim,7,2,3,2023-02-05
+1689,67,Masculino,Casado,Ensino Médio,TEPT,10,5.3,Não,7,1,5,2025-01-13
+1690,47,Feminino,Divorciado,Pós-graduação,Transtorno Bipolar,0,8.0,Sim,5,1,1,2023-12-19
+1691,54,Masculino,Solteiro,Graduação,Transtorno de Pânico,7,4.6,Não,4,1,5,2023-03-14
+1692,42,Feminino,Solteiro,Pós-graduação,TEPT,0,6.0,Não,6,1,1,2024-10-09
+1693,65,Masculino,Solteiro,Ensino Médio,Transtorno de Pânico,6,7.0,Não,2,0,2,2025-12-29
+1694,44,Masculino,Solteiro,Pós-graduação,Burnout,4,5.6,Não,5,3,4,2024-02-29
+1695,68,Masculino,Divorciado,Graduação,Transtorno de Pânico,3,7.7,Sim,7,2,4,2025-09-25
+1696,31,Feminino,Casado,Ensino Médio,Ansiedade,3,5.6,Não,10,0,5,2024-12-08
+1697,65,Masculino,Divorciado,Graduação,Transtorno Bipolar,7,8.6,Sim,3,1,3,2024-07-14
+1698,64,Masculino,Casado,Pós-graduação,Depressão,10,6.3,Sim,5,5,5,2025-04-07
+1699,53,Feminino,Divorciado,Fundamental,Ansiedade,10,7.5,Sim,9,1,3,2025-08-13
+1700,56,Masculino,Viúvo,Pós-graduação,Ansiedade,5,7.6,Sim,5,2,5,2024-05-31
+1701,33,Masculino,Viúvo,Graduação,Ansiedade,0,5.6,Não,7,0,5,2024-03-03
+1702,39,Feminino,Viúvo,Pós-graduação,TEPT,9,3.4,Sim,7,1,4,2023-06-09
+1703,38,Feminino,Viúvo,Fundamental,Transtorno de Pânico,7,7.0,Não,3,2,3,2023-05-29
+1704,38,Masculino,Solteiro,Graduação,Transtorno de Pânico,1,6.6,Sim,9,1,4,2025-02-14
+1705,25,Feminino,Solteiro,Pós-graduação,TEPT,5,7.3,Sim,5,3,3,2023-03-08
+1706,66,Não-binário,Divorciado,Graduação,Transtorno Bipolar,8,6.2,Não,5,2,2,2025-10-10
+1707,33,Feminino,Divorciado,Graduação,TEPT,0,5.9,Sim,7,0,2,2024-01-16
+1708,48,Feminino,Viúvo,Ensino Médio,TEPT,5,9.5,Não,3,1,2,2023-02-27
+1709,59,Feminino,Casado,Ensino Médio,TEPT,7,4.3,Sim,7,0,1,2023-12-08
+1710,27,Feminino,Viúvo,Graduação,Transtorno Bipolar,9,7.6,Sim,7,1,4,2024-12-27
+1711,49,Feminino,Divorciado,Pós-graduação,Transtorno Bipolar,1,5.6,Sim,9,3,4,2025-02-08
+1712,51,Masculino,Viúvo,Pós-graduação,Burnout,4,6.0,Não,9,2,2,2024-09-05
+1713,26,Feminino,Divorciado,Pós-graduação,Burnout,5,6.0,Sim,4,2,5,2023-12-20
+1714,34,Feminino,Viúvo,Fundamental,Burnout,4,5.3,Sim,5,0,4,2023-04-26
+1715,28,Masculino,Casado,Graduação,Burnout,2,7.4,Sim,3,1,3,2024-10-23
+1716,49,Masculino,Viúvo,Graduação,Transtorno de Pânico,3,8.6,Não,10,3,4,2024-03-28
+1717,27,Feminino,Casado,Fundamental,Ansiedade,6,7.2,Não,3,2,4,2023-10-14
+1718,39,Feminino,Casado,Graduação,Ansiedade,3,6.7,Não,1,1,3,2025-10-13
+1719,34,Masculino,Divorciado,Graduação,Burnout,8,5.0,Sim,3,2,2,2023-11-07
+1720,21,Feminino,Casado,Fundamental,Burnout,10,7.3,Não,3,3,2,2023-07-27
+1721,65,Masculino,Solteiro,Ensino Médio,Depressão,9,9.7,Não,8,0,3,2024-09-09
+1722,69,Masculino,Solteiro,Graduação,Ansiedade,1,5.9,Não,7,0,4,2024-03-21
+1723,64,Feminino,Solteiro,Fundamental,Depressão,4,5.9,Não,10,1,4,2024-10-31
+1724,42,Masculino,Divorciado,Pós-graduação,Depressão,7,5.7,Não,7,2,2,2024-09-24
+1725,38,Masculino,Solteiro,Ensino Médio,TEPT,4,5.8,Sim,7,3,1,2023-02-24
+1726,54,Feminino,Divorciado,Pós-graduação,Transtorno de Pânico,9,3.0,Não,7,0,2,2025-06-30
+1727,55,Masculino,Divorciado,Graduação,Transtorno Bipolar,7,7.1,Não,7,2,3,2025-11-01
+1728,66,Masculino,Solteiro,Ensino Médio,Ansiedade,7,5.2,Sim,8,3,1,2024-10-18
+1729,18,Não-binário,Casado,Fundamental,Burnout,8,4.1,Sim,8,4,1,2025-09-06
+1730,42,Feminino,Viúvo,Graduação,Burnout,9,7.6,Não,4,4,3,2024-05-29
+1731,68,Feminino,Divorciado,Fundamental,Transtorno Bipolar,5,4.9,Sim,5,2,5,2023-08-25
+1732,53,Feminino,Solteiro,Ensino Médio,Ansiedade,3,6.0,Não,4,4,2,2023-12-14
+1733,34,Masculino,Divorciado,Pós-graduação,Burnout,10,8.7,Sim,8,3,4,2024-09-18
+1734,58,Feminino,Casado,Graduação,Burnout,2,4.4,Sim,4,3,2,2024-09-21
+1735,41,Feminino,Casado,Graduação,TEPT,4,4.2,Sim,3,0,3,2023-12-30
+1736,19,Feminino,Solteiro,Fundamental,Depressão,5,6.9,Sim,5,4,4,2023-11-17
+1737,57,Feminino,Divorciado,Ensino Médio,Burnout,2,8.2,Sim,3,6,5,2023-10-13
+1738,32,Feminino,Viúvo,Fundamental,Transtorno de Pânico,1,4.1,Sim,8,1,3,2023-05-29
+1739,49,Masculino,Viúvo,Ensino Médio,Ansiedade,6,7.1,Não,6,1,2,2024-02-10
+1740,56,Masculino,Divorciado,Graduação,Transtorno de Pânico,10,7.4,Não,5,1,1,2025-09-04
+1741,23,Feminino,Divorciado,Ensino Médio,Transtorno Bipolar,4,3.4,Sim,6,3,3,2024-03-31
+1742,18,Feminino,Divorciado,Graduação,TEPT,8,7.7,Sim,6,0,3,2025-03-10
+1743,64,Feminino,Solteiro,Ensino Médio,Ansiedade,2,7.8,Sim,7,2,2,2025-10-09
+1744,40,Masculino,Casado,Pós-graduação,TEPT,7,6.0,Sim,7,2,5,2025-02-22
+1745,56,Feminino,Viúvo,Ensino Médio,Depressão,5,8.4,Sim,3,0,2,2024-04-04
+1746,34,Feminino,Solteiro,Pós-graduação,Burnout,3,8.2,Sim,8,1,2,2025-01-07
+1747,51,Feminino,Divorciado,Ensino Médio,Ansiedade,8,6.7,Sim,2,2,5,2024-05-23
+1748,58,Feminino,Divorciado,Ensino Médio,Transtorno Bipolar,4,5.8,Sim,5,0,5,2024-04-25
+1749,46,Feminino,Casado,Fundamental,Depressão,9,5.0,Sim,6,2,3,2023-04-24
+1750,26,Feminino,Divorciado,Fundamental,Depressão,5,6.4,Não,12,1,1,2025-01-18
+1751,30,Feminino,Solteiro,Graduação,TEPT,8,7.4,Sim,4,1,2,2023-12-27
+1752,23,Feminino,Solteiro,Fundamental,Depressão,6,6.0,Não,4,1,1,2023-12-07
+1753,23,Feminino,Casado,Ensino Médio,Ansiedade,4,3.2,Não,2,2,5,2025-02-08
+1754,37,Feminino,Solteiro,Fundamental,TEPT,1,8.4,Não,7,1,5,2025-01-30
+1755,69,Feminino,Viúvo,Ensino Médio,Depressão,3,6.8,Não,4,0,2,2025-08-26
+1756,20,Feminino,Solteiro,Pós-graduação,Transtorno Bipolar,1,5.9,Sim,2,3,3,2024-03-24
+1757,34,Feminino,Solteiro,Ensino Médio,Transtorno de Pânico,2,7.8,Sim,7,2,2,2025-04-14
+1758,66,Masculino,Solteiro,Graduação,Ansiedade,9,8.8,Sim,5,1,3,2023-11-07
+1759,29,Masculino,Viúvo,Pós-graduação,Transtorno Bipolar,2,3.0,Não,6,2,4,2023-09-19
+1760,65,Não-binário,Divorciado,Graduação,Transtorno Bipolar,3,7.2,Não,8,1,3,2024-02-10
+1761,64,Feminino,Solteiro,Graduação,TEPT,5,4.4,Não,3,1,2,2023-05-23
+1762,62,Feminino,Casado,Graduação,Burnout,2,7.2,Sim,6,2,2,2023-12-08
+1763,18,Feminino,Viúvo,Fundamental,TEPT,9,6.7,Não,7,1,3,2023-09-01
+1764,34,Feminino,Casado,Graduação,Ansiedade,0,7.5,Sim,5,5,1,2024-05-04
+1765,20,Feminino,Solteiro,Pós-graduação,Ansiedade,0,5.8,Sim,10,1,3,2023-01-12
+1766,43,Feminino,Casado,Ensino Médio,TEPT,8,3.7,Não,7,0,4,2024-07-14
+1767,32,Feminino,Solteiro,Graduação,Burnout,8,5.8,Sim,7,1,4,2023-02-11
+1768,53,Masculino,Viúvo,Pós-graduação,TEPT,4,7.1,Não,5,4,1,2024-11-08
+1769,49,Masculino,Casado,Graduação,Ansiedade,8,8.0,Sim,7,2,4,2024-08-16
+1770,49,Masculino,Casado,Ensino Médio,Burnout,10,4.7,Não,6,1,2,2023-05-14
+1771,21,Masculino,Solteiro,Pós-graduação,Ansiedade,6,8.0,Sim,4,1,1,2025-12-26
+1772,35,Feminino,Solteiro,Pós-graduação,Burnout,8,5.5,Não,7,2,1,2025-10-27
+1773,66,Masculino,Divorciado,Ensino Médio,Burnout,6,7.0,Não,8,0,1,2025-08-05
+1774,36,Masculino,Solteiro,Pós-graduação,TEPT,8,5.7,Não,6,1,3,2023-03-14
+1775,60,Masculino,Solteiro,Ensino Médio,TEPT,1,6.8,Sim,4,2,3,2024-02-03
+1776,69,Masculino,Divorciado,Pós-graduação,TEPT,10,7.8,Não,9,2,1,2024-07-31
+1777,52,Feminino,Solteiro,Pós-graduação,Burnout,10,4.7,Sim,4,2,4,2025-05-08
+1778,57,Feminino,Solteiro,Ensino Médio,Burnout,7,5.5,Sim,17,1,2,2023-05-10
+1779,31,Feminino,Divorciado,Ensino Médio,Ansiedade,6,6.8,Sim,6,0,2,2025-07-19
+1780,50,Masculino,Viúvo,Pós-graduação,Transtorno Bipolar,5,10.0,Não,11,1,3,2023-09-23
+1781,31,Masculino,Viúvo,Pós-graduação,TEPT,4,5.2,Sim,9,0,5,2025-03-03
+1782,51,Masculino,Solteiro,Ensino Médio,Transtorno de Pânico,3,9.6,Não,4,1,1,2023-09-10
+1783,21,Feminino,Solteiro,Fundamental,Ansiedade,6,9.5,Não,8,0,5,2025-04-01
+1784,41,Masculino,Divorciado,Ensino Médio,Ansiedade,2,6.4,Sim,11,0,2,2023-06-13
+1785,46,Feminino,Divorciado,Pós-graduação,Depressão,7,6.1,Não,6,3,3,2023-04-05
+1786,36,Masculino,Viúvo,Pós-graduação,TEPT,1,5.5,Sim,7,0,3,2025-04-12
+1787,23,Feminino,Casado,Pós-graduação,Ansiedade,0,6.4,Não,6,0,3,2023-12-02
+1788,50,Masculino,Solteiro,Ensino Médio,Depressão,10,4.4,Sim,6,2,3,2025-04-01
+1789,66,Masculino,Casado,Pós-graduação,Transtorno de Pânico,1,6.4,Sim,5,3,3,2023-08-26
+1790,57,Feminino,Casado,Fundamental,Transtorno de Pânico,8,8.7,Sim,3,0,1,2024-01-16
+1791,36,Masculino,Divorciado,Graduação,TEPT,4,5.6,Sim,8,1,5,2025-06-17
+1792,18,Masculino,Solteiro,Fundamental,Burnout,10,6.1,Sim,1,2,2,2024-04-27
+1793,22,Feminino,Solteiro,Ensino Médio,Depressão,7,3.9,Sim,4,1,2,2025-06-20
+1794,44,Feminino,Divorciado,Pós-graduação,Burnout,2,7.1,Sim,2,0,3,2025-11-14
+1795,33,Feminino,Casado,Ensino Médio,Transtorno de Pânico,6,6.9,Sim,6,1,3,2024-04-26
+1796,23,Masculino,Divorciado,Graduação,Transtorno de Pânico,1,6.6,Sim,6,3,3,2025-07-05
+1797,57,Masculino,Viúvo,Ensino Médio,Transtorno Bipolar,7,6.2,Não,4,1,4,2025-09-20
+1798,30,Masculino,Solteiro,Pós-graduação,Transtorno Bipolar,6,6.1,Não,4,2,2,2025-08-21
+1799,65,Masculino,Viúvo,Graduação,Transtorno Bipolar,4,7.3,Não,6,2,3,2024-06-20
+1800,52,Feminino,Divorciado,Graduação,Transtorno Bipolar,10,6.5,Não,4,1,5,2025-11-01
+1801,36,Feminino,Solteiro,Pós-graduação,Ansiedade,3,7.0,Não,3,1,4,2023-05-08
+1802,29,Masculino,Viúvo,Pós-graduação,Transtorno Bipolar,0,6.8,Não,3,3,1,2023-04-02
+1803,33,Feminino,Viúvo,Pós-graduação,Ansiedade,4,8.2,Sim,6,1,4,2024-06-26
+1804,60,Masculino,Casado,Ensino Médio,Ansiedade,8,7.5,Não,5,3,4,2025-04-25
+1805,27,Feminino,Solteiro,Fundamental,TEPT,9,6.8,Sim,9,1,4,2025-09-15
+1806,42,Masculino,Viúvo,Ensino Médio,Ansiedade,3,8.8,Não,11,1,5,2024-03-22
+1807,37,Masculino,Viúvo,Ensino Médio,Ansiedade,8,7.1,Não,2,1,2,2024-01-25
+1808,48,Feminino,Casado,Fundamental,Transtorno Bipolar,1,8.5,Sim,8,3,3,2024-11-02
+1809,21,Feminino,Viúvo,Pós-graduação,Ansiedade,3,7.4,Não,5,2,5,2023-02-12
+1810,61,Feminino,Viúvo,Pós-graduação,Burnout,8,3.7,Sim,6,3,5,2023-09-11
+1811,40,Masculino,Viúvo,Fundamental,Transtorno Bipolar,3,8.5,Sim,9,2,3,2025-12-19
+1812,19,Masculino,Casado,Fundamental,Depressão,4,6.7,Sim,6,1,4,2024-10-24
+1813,39,Feminino,Viúvo,Ensino Médio,Transtorno Bipolar,10,6.4,Não,3,0,1,2024-04-11
+1814,68,Masculino,Viúvo,Graduação,Ansiedade,7,6.9,Não,3,0,4,2023-10-14
+1815,54,Feminino,Solteiro,Fundamental,Burnout,0,6.0,Não,9,2,4,2025-10-07
+1816,25,Masculino,Solteiro,Ensino Médio,Transtorno Bipolar,0,6.8,Sim,3,1,2,2025-02-16
+1817,24,Feminino,Casado,Graduação,Burnout,8,5.6,Sim,8,2,4,2023-12-11
+1818,31,Feminino,Divorciado,Pós-graduação,Depressão,8,8.4,Não,9,2,1,2024-10-03
+1819,20,Masculino,Solteiro,Pós-graduação,Transtorno de Pânico,3,6.3,Sim,3,1,5,2024-01-17
+1820,67,Feminino,Casado,Ensino Médio,Depressão,1,5.9,Não,8,0,4,2024-11-20
+1821,33,Feminino,Viúvo,Ensino Médio,Transtorno de Pânico,8,5.1,Sim,5,2,5,2025-12-15
+1822,36,Masculino,Viúvo,Fundamental,TEPT,3,6.9,Sim,5,3,2,2024-04-01
+1823,68,Feminino,Casado,Pós-graduação,Transtorno de Pânico,5,6.8,Sim,6,1,1,2025-09-09
+1824,35,Feminino,Viúvo,Ensino Médio,TEPT,0,7.1,Não,4,1,3,2023-03-24
+1825,69,Masculino,Viúvo,Pós-graduação,Transtorno Bipolar,8,5.0,Sim,8,1,3,2023-05-29
+1826,33,Masculino,Divorciado,Pós-graduação,TEPT,4,4.1,Sim,6,1,2,2023-07-09
+1827,25,Masculino,Viúvo,Fundamental,Burnout,2,7.4,Sim,5,0,1,2025-06-01
+1828,50,Feminino,Solteiro,Graduação,TEPT,3,8.7,Sim,6,1,5,2023-09-20
+1829,66,Feminino,Viúvo,Fundamental,Burnout,0,5.0,Sim,5,3,2,2024-02-04
+1830,29,Feminino,Casado,Ensino Médio,Transtorno de Pânico,8,8.9,Sim,6,1,4,2025-02-02
+1831,28,Não-binário,Divorciado,Fundamental,Transtorno de Pânico,7,6.9,Não,6,2,5,2024-08-31
+1832,22,Feminino,Viúvo,Fundamental,Transtorno de Pânico,3,6.5,Sim,10,2,4,2025-02-23
+1833,44,Feminino,Casado,Pós-graduação,TEPT,1,5.9,Não,8,0,4,2023-04-11
+1834,29,Masculino,Solteiro,Fundamental,Transtorno de Pânico,8,4.4,Não,3,3,5,2025-03-30
+1835,34,Feminino,Viúvo,Ensino Médio,TEPT,3,8.0,Sim,6,2,4,2025-03-30
+1836,23,Masculino,Divorciado,Graduação,TEPT,8,5.3,Sim,5,0,3,2024-02-24
+1837,50,Feminino,Viúvo,Fundamental,Ansiedade,9,5.3,Não,7,4,5,2023-05-04
+1838,22,Masculino,Casado,Fundamental,Ansiedade,2,8.0,Sim,8,3,2,2024-02-26
+1839,45,Masculino,Divorciado,Graduação,TEPT,6,3.7,Sim,8,2,3,2025-12-22
+1840,31,Masculino,Viúvo,Ensino Médio,Burnout,6,4.2,Sim,8,2,2,2025-02-06
+1841,22,Masculino,Solteiro,Ensino Médio,Transtorno Bipolar,9,6.5,Não,6,1,1,2024-04-27
+1842,50,Feminino,Divorciado,Fundamental,Depressão,3,6.9,Não,7,0,2,2024-06-02
+1843,67,Masculino,Solteiro,Pós-graduação,Ansiedade,1,7.2,Não,4,2,5,2023-06-04
+1844,65,Feminino,Casado,Fundamental,TEPT,10,6.0,Não,5,2,2,2023-04-02
+1845,58,Feminino,Viúvo,Graduação,Depressão,8,10.0,Sim,11,0,1,2025-09-08
+1846,36,Feminino,Solteiro,Graduação,Ansiedade,3,6.2,Sim,7,3,4,2024-03-30
+1847,39,Masculino,Casado,Graduação,Transtorno Bipolar,7,6.2,Sim,2,1,5,2024-08-20
+1848,22,Masculino,Viúvo,Fundamental,Burnout,1,5.3,Sim,8,0,3,2024-05-24
+1849,19,Feminino,Casado,Fundamental,TEPT,7,6.7,Sim,5,3,3,2024-01-21
+1850,47,Feminino,Solteiro,Ensino Médio,Transtorno Bipolar,10,7.4,Sim,4,1,2,2024-02-09
+1851,64,Masculino,Casado,Pós-graduação,Ansiedade,9,8.3,Sim,5,1,3,2023-09-03
+1852,56,Masculino,Divorciado,Fundamental,TEPT,4,4.3,Sim,4,3,1,2025-01-11
+1853,21,Masculino,Viúvo,Ensino Médio,Depressão,6,6.1,Sim,6,0,3,2024-10-22
+1854,50,Feminino,Casado,Fundamental,Transtorno de Pânico,6,7.2,Não,5,1,2,2024-10-11
+1855,30,Masculino,Solteiro,Ensino Médio,Burnout,8,7.4,Não,4,1,3,2025-06-19
+1856,37,Feminino,Viúvo,Ensino Médio,Ansiedade,2,6.5,Não,3,3,4,2023-03-06
+1857,24,Feminino,Divorciado,Pós-graduação,Burnout,9,7.3,Sim,7,1,4,2025-11-02
+1858,32,Masculino,Viúvo,Fundamental,TEPT,3,5.3,Sim,3,1,3,2023-08-01
+1859,40,Não-binário,Divorciado,Ensino Médio,Transtorno de Pânico,9,8.8,Sim,7,2,5,2023-08-30
+1860,31,Feminino,Viúvo,Graduação,Transtorno Bipolar,3,8.0,Sim,4,2,3,2024-05-07
+1861,40,Feminino,Casado,Graduação,Burnout,9,4.5,Sim,4,0,4,2023-12-04
+1862,36,Feminino,Casado,Graduação,Depressão,4,4.9,Não,7,1,4,2023-06-22
+1863,46,Feminino,Solteiro,Pós-graduação,Ansiedade,5,4.9,Não,4,6,1,2024-11-02
+1864,37,Feminino,Divorciado,Ensino Médio,Depressão,2,7.5,Sim,8,0,2,2023-06-13
+1865,46,Masculino,Solteiro,Pós-graduação,Burnout,3,4.6,Sim,4,4,1,2024-04-09
+1866,41,Masculino,Casado,Fundamental,Transtorno de Pânico,2,6.0,Sim,4,2,5,2025-09-21
+1867,35,Masculino,Divorciado,Fundamental,Transtorno Bipolar,1,7.2,Sim,4,0,2,2024-05-11
+1868,27,Masculino,Solteiro,Ensino Médio,Transtorno Bipolar,9,6.4,Sim,4,2,3,2024-11-30
+1869,58,Masculino,Solteiro,Graduação,Depressão,8,6.9,Sim,2,3,3,2024-01-30
+1870,25,Masculino,Solteiro,Ensino Médio,TEPT,0,4.9,Sim,7,0,5,2024-12-03
+1871,43,Masculino,Solteiro,Ensino Médio,TEPT,1,7.4,Sim,6,0,4,2023-11-04
+1872,46,Feminino,Solteiro,Ensino Médio,Transtorno de Pânico,7,5.6,Sim,5,2,3,2023-07-02
+1873,27,Feminino,Divorciado,Pós-graduação,Transtorno Bipolar,6,6.0,Sim,3,0,1,2024-09-20
+1874,34,Feminino,Solteiro,Fundamental,Depressão,0,6.9,Sim,5,2,4,2024-05-24
+1875,19,Feminino,Divorciado,Ensino Médio,Depressão,4,6.7,Não,6,4,3,2024-06-29
+1876,23,Feminino,Solteiro,Ensino Médio,Depressão,9,6.5,Sim,6,1,4,2024-09-15
+1877,22,Feminino,Casado,Ensino Médio,Burnout,5,5.4,Não,5,2,2,2024-08-16
+1878,45,Masculino,Casado,Pós-graduação,Transtorno de Pânico,4,6.1,Não,8,1,3,2025-01-13
+1879,58,Masculino,Solteiro,Pós-graduação,TEPT,3,6.5,Não,9,0,3,2024-07-07
+1880,22,Feminino,Viúvo,Pós-graduação,TEPT,0,4.4,Não,5,3,4,2023-01-21
+1881,35,Feminino,Casado,Ensino Médio,Burnout,6,5.8,Não,2,0,2,2024-07-07
+1882,43,Feminino,Divorciado,Graduação,Ansiedade,8,7.1,Não,7,0,1,2024-02-01
+1883,37,Masculino,Solteiro,Graduação,Burnout,5,4.6,Sim,10,3,2,2024-09-16
+1884,58,Masculino,Divorciado,Graduação,Transtorno de Pânico,2,8.2,Sim,3,2,1,2023-04-15
+1885,66,Feminino,Viúvo,Fundamental,Depressão,9,8.4,Não,6,2,5,2023-07-11
+1886,44,Feminino,Solteiro,Ensino Médio,Burnout,3,4.6,Não,6,1,2,2023-01-17
+1887,66,Masculino,Casado,Graduação,Depressão,9,8.5,Não,12,2,1,2024-01-28
+1888,29,Masculino,Divorciado,Graduação,Transtorno de Pânico,4,6.3,Não,5,0,4,2024-02-29
+1889,24,Feminino,Casado,Graduação,Transtorno de Pânico,0,7.1,Não,6,1,1,2023-05-09
+1890,20,Feminino,Casado,Ensino Médio,Transtorno Bipolar,4,5.8,Não,9,0,5,2024-07-25
+1891,27,Masculino,Solteiro,Graduação,Depressão,0,7.9,Não,4,1,1,2023-01-29
+1892,51,Feminino,Divorciado,Graduação,TEPT,8,7.1,Sim,4,1,2,2025-10-30
+1893,42,Masculino,Viúvo,Ensino Médio,Burnout,6,5.3,Não,4,2,1,2023-08-30
+1894,52,Masculino,Casado,Fundamental,Transtorno de Pânico,2,4.8,Não,7,0,2,2023-08-20
+1895,33,Feminino,Solteiro,Pós-graduação,Depressão,8,4.3,Não,7,2,5,2025-02-27
+1896,19,Masculino,Solteiro,Graduação,Ansiedade,1,6.8,Não,9,2,1,2024-12-15
+1897,41,Feminino,Viúvo,Pós-graduação,Transtorno Bipolar,6,7.4,Sim,7,2,1,2025-01-28
+1898,27,Feminino,Solteiro,Fundamental,Ansiedade,8,7.5,Sim,7,2,5,2025-03-12
+1899,55,Feminino,Casado,Fundamental,Transtorno de Pânico,5,6.3,Não,4,2,1,2025-02-14
+1900,39,Masculino,Solteiro,Graduação,Ansiedade,9,4.8,Não,5,0,2,2024-12-26
+1901,43,Masculino,Divorciado,Ensino Médio,Ansiedade,4,5.5,Sim,6,2,3,2023-07-19
+1902,60,Masculino,Divorciado,Fundamental,Transtorno Bipolar,6,8.2,Sim,4,3,3,2025-08-02
+1903,56,Feminino,Casado,Pós-graduação,Transtorno Bipolar,5,5.8,Não,2,2,2,2023-03-20
+1904,44,Feminino,Divorciado,Pós-graduação,Transtorno Bipolar,4,6.7,Não,12,2,1,2025-08-13
+1905,46,Feminino,Viúvo,Pós-graduação,Transtorno Bipolar,1,4.9,Não,8,0,2,2025-05-05
+1906,64,Feminino,Solteiro,Pós-graduação,Ansiedade,7,7.0,Não,7,0,5,2024-04-11
+1907,55,Feminino,Casado,Fundamental,TEPT,6,5.8,Sim,3,0,2,2024-08-03
+1908,37,Feminino,Viúvo,Graduação,TEPT,5,8.1,Sim,8,2,3,2025-07-28
+1909,44,Masculino,Solteiro,Graduação,Transtorno Bipolar,4,7.7,Sim,9,2,4,2024-03-24
+1910,58,Masculino,Viúvo,Pós-graduação,Burnout,4,5.8,Não,8,4,5,2023-03-28
+1911,37,Feminino,Casado,Graduação,Depressão,8,6.3,Sim,5,3,1,2023-04-11
+1912,61,Masculino,Casado,Pós-graduação,Transtorno de Pânico,0,5.7,Não,6,0,2,2025-10-28
+1913,36,Masculino,Viúvo,Pós-graduação,Burnout,8,4.4,Sim,4,2,5,2025-04-24
+1914,37,Feminino,Solteiro,Ensino Médio,Transtorno de Pânico,5,5.2,Sim,4,1,3,2023-03-28
+1915,52,Feminino,Divorciado,Fundamental,Burnout,3,6.8,Não,7,1,1,2023-02-12
+1916,64,Masculino,Divorciado,Fundamental,Burnout,9,7.0,Sim,6,0,2,2024-02-12
+1917,19,Feminino,Viúvo,Pós-graduação,TEPT,6,6.7,Não,7,5,2,2024-10-25
+1918,47,Feminino,Casado,Fundamental,Depressão,8,6.0,Sim,4,0,1,2025-11-06
+1919,51,Feminino,Solteiro,Graduação,Burnout,4,7.9,Sim,7,0,4,2023-05-28
+1920,39,Masculino,Solteiro,Pós-graduação,Transtorno Bipolar,4,6.6,Sim,6,1,4,2023-10-04
+1921,20,Masculino,Casado,Ensino Médio,Transtorno de Pânico,7,7.6,Sim,5,3,5,2023-08-20
+1922,23,Feminino,Divorciado,Graduação,TEPT,6,3.8,Não,4,0,2,2024-01-01
+1923,32,Feminino,Solteiro,Ensino Médio,Transtorno de Pânico,7,3.0,Sim,4,2,5,2024-03-11
+1924,44,Feminino,Viúvo,Ensino Médio,Transtorno Bipolar,10,6.9,Sim,10,3,1,2024-02-03
+1925,27,Feminino,Divorciado,Fundamental,Transtorno Bipolar,9,4.4,Sim,5,1,5,2024-05-13
+1926,26,Masculino,Viúvo,Fundamental,Burnout,1,6.2,Não,7,5,2,2024-06-23
+1927,50,Masculino,Divorciado,Pós-graduação,Transtorno Bipolar,8,6.0,Não,4,3,4,2024-07-16
+1928,49,Feminino,Casado,Fundamental,Depressão,2,8.9,Sim,3,1,4,2024-03-17
+1929,65,Masculino,Viúvo,Ensino Médio,Transtorno Bipolar,5,7.1,Não,4,3,1,2025-02-11
+1930,23,Masculino,Viúvo,Ensino Médio,Burnout,5,6.7,Não,6,5,3,2023-12-16
+1931,58,Feminino,Casado,Graduação,Transtorno de Pânico,1,7.8,Não,3,1,5,2024-06-03
+1932,53,Masculino,Viúvo,Ensino Médio,Transtorno Bipolar,6,7.1,Sim,6,0,1,2023-05-18
+1933,19,Masculino,Divorciado,Pós-graduação,TEPT,8,5.8,Não,4,0,4,2025-09-18
+1934,46,Masculino,Solteiro,Pós-graduação,TEPT,9,8.1,Não,7,1,2,2024-01-03
+1935,21,Masculino,Solteiro,Fundamental,TEPT,10,4.8,Não,7,0,2,2023-12-26
+1936,18,Masculino,Casado,Fundamental,Transtorno de Pânico,0,7.0,Não,5,1,3,2025-07-09
+1937,36,Feminino,Divorciado,Fundamental,Ansiedade,7,4.2,Não,8,2,3,2023-11-25
+1938,43,Feminino,Viúvo,Pós-graduação,TEPT,1,6.8,Sim,4,0,4,2025-08-19
+1939,42,Masculino,Viúvo,Ensino Médio,TEPT,0,6.8,Não,4,1,3,2024-04-07
+1940,27,Feminino,Solteiro,Fundamental,Ansiedade,7,9.0,Sim,3,2,3,2025-08-03
+1941,32,Masculino,Viúvo,Graduação,Transtorno de Pânico,1,4.2,Não,4,2,2,2025-08-20
+1942,39,Feminino,Solteiro,Fundamental,TEPT,5,5.6,Sim,6,0,5,2025-04-15
+1943,68,Feminino,Casado,Pós-graduação,Burnout,5,7.7,Sim,6,1,2,2023-06-18
+1944,65,Feminino,Viúvo,Fundamental,Transtorno de Pânico,4,7.0,Não,5,1,2,2023-08-05
+1945,38,Feminino,Divorciado,Ensino Médio,TEPT,7,6.8,Não,7,2,4,2024-01-13
+1946,39,Masculino,Viúvo,Fundamental,TEPT,2,5.1,Sim,4,0,4,2023-04-29
+1947,53,Masculino,Solteiro,Pós-graduação,Ansiedade,9,5.6,Sim,5,0,5,2023-07-09
+1948,51,Feminino,Casado,Pós-graduação,Burnout,3,8.4,Sim,5,1,1,2025-02-05
+1949,47,Masculino,Solteiro,Graduação,Transtorno de Pânico,6,6.4,Não,6,2,3,2024-01-05
+1950,42,Masculino,Viúvo,Pós-graduação,Transtorno Bipolar,6,7.1,Não,4,1,3,2023-05-29
+1951,62,Feminino,Solteiro,Graduação,Depressão,7,6.3,Sim,5,1,2,2024-10-13
+1952,45,Feminino,Solteiro,Ensino Médio,Burnout,1,4.7,Não,7,1,2,2025-02-08
+1953,18,Feminino,Casado,Pós-graduação,Transtorno Bipolar,10,7.9,Não,5,2,5,2024-01-09
+1954,66,Masculino,Divorciado,Fundamental,Burnout,1,7.3,Sim,8,1,3,2025-02-19
+1955,62,Feminino,Viúvo,Ensino Médio,Transtorno Bipolar,3,10.0,Não,5,3,2,2023-06-09
+1956,21,Masculino,Casado,Fundamental,Transtorno Bipolar,9,5.0,Sim,9,2,2,2023-12-17
+1957,24,Masculino,Divorciado,Fundamental,Burnout,8,7.7,Não,6,2,4,2025-06-10
+1958,66,Feminino,Solteiro,Fundamental,Ansiedade,9,4.5,Sim,6,1,1,2024-06-06
+1959,26,Masculino,Divorciado,Ensino Médio,Burnout,8,6.7,Sim,3,2,5,2024-06-05
+1960,53,Masculino,Solteiro,Ensino Médio,Burnout,3,8.0,Sim,6,2,1,2025-02-21
+1961,36,Feminino,Solteiro,Pós-graduação,Transtorno Bipolar,8,3.4,Sim,7,0,1,2023-09-30
+1962,18,Masculino,Casado,Fundamental,Depressão,2,6.2,Não,6,2,5,2025-07-24
+1963,27,Masculino,Solteiro,Graduação,Transtorno Bipolar,4,5.7,Sim,2,2,3,2023-07-02
+1964,53,Masculino,Casado,Pós-graduação,TEPT,9,5.4,Sim,4,3,2,2024-05-02
+1965,26,Masculino,Divorciado,Ensino Médio,Burnout,8,7.1,Não,9,3,5,2025-04-25
+1966,62,Masculino,Divorciado,Graduação,Transtorno de Pânico,5,8.2,Sim,7,1,2,2023-05-04
+1967,63,Feminino,Solteiro,Ensino Médio,Burnout,2,6.3,Sim,1,1,4,2025-09-11
+1968,59,Feminino,Casado,Graduação,Ansiedade,9,6.8,Não,3,0,1,2025-02-28
+1969,49,Masculino,Solteiro,Pós-graduação,Transtorno de Pânico,8,6.7,Não,5,1,4,2024-02-18
+1970,49,Feminino,Casado,Graduação,Transtorno Bipolar,5,6.5,Sim,5,1,1,2024-11-16
+1971,23,Masculino,Casado,Pós-graduação,Ansiedade,3,4.9,Sim,7,0,3,2023-04-23
+1972,65,Masculino,Casado,Ensino Médio,Burnout,3,8.2,Não,5,1,5,2025-06-06
+1973,55,Feminino,Divorciado,Graduação,Transtorno Bipolar,7,6.9,Sim,8,2,3,2023-05-02
+1974,34,Masculino,Casado,Fundamental,Transtorno Bipolar,6,7.1,Sim,7,1,1,2023-02-08
+1975,27,Não-binário,Divorciado,Fundamental,TEPT,0,5.3,Sim,12,0,4,2024-05-11
+1976,67,Masculino,Casado,Ensino Médio,TEPT,5,5.8,Sim,5,0,1,2025-02-18
+1977,44,Feminino,Divorciado,Graduação,Depressão,7,6.2,Não,5,1,3,2025-07-31
+1978,67,Masculino,Viúvo,Fundamental,TEPT,2,4.2,Não,8,1,3,2023-05-29
+1979,52,Masculino,Divorciado,Pós-graduação,Transtorno de Pânico,8,4.0,Não,6,1,4,2025-10-18
+1980,69,Masculino,Divorciado,Graduação,Transtorno Bipolar,9,5.6,Não,4,2,4,2024-10-22
+1981,38,Feminino,Solteiro,Graduação,TEPT,1,7.3,Sim,6,3,3,2023-10-29
+1982,42,Feminino,Casado,Fundamental,Depressão,5,5.5,Sim,6,2,1,2023-08-26
+1983,45,Feminino,Viúvo,Pós-graduação,Burnout,0,5.0,Não,5,3,1,2024-10-08
+1984,64,Masculino,Solteiro,Pós-graduação,Transtorno de Pânico,10,5.3,Sim,3,1,5,2024-10-24
+1985,32,Masculino,Casado,Pós-graduação,TEPT,1,5.8,Sim,7,2,3,2023-08-24
+1986,21,Masculino,Viúvo,Graduação,Transtorno Bipolar,4,6.0,Não,7,1,5,2023-07-22
+1987,46,Feminino,Viúvo,Ensino Médio,Burnout,0,9.7,Não,4,1,3,2023-09-13
+1988,26,Feminino,Viúvo,Graduação,Transtorno Bipolar,7,8.1,Sim,7,2,5,2024-08-20
+1989,44,Masculino,Casado,Graduação,Burnout,0,8.0,Não,6,2,2,2024-10-23
+1990,43,Feminino,Viúvo,Fundamental,Transtorno de Pânico,8,8.3,Não,8,2,1,2023-08-23
+1991,36,Masculino,Viúvo,Ensino Médio,Transtorno Bipolar,9,5.0,Sim,5,0,1,2024-06-17
+1992,45,Feminino,Solteiro,Pós-graduação,TEPT,10,4.7,Não,4,1,2,2025-05-09
+1993,34,Feminino,Divorciado,Fundamental,TEPT,2,4.8,Sim,8,0,4,2025-02-08
+1994,60,Masculino,Casado,Graduação,Depressão,1,8.5,Sim,6,0,2,2024-06-24
+1995,58,Masculino,Divorciado,Ensino Médio,Burnout,0,5.7,Não,9,2,1,2023-08-01
+1996,59,Não-binário,Solteiro,Pós-graduação,Depressão,8,4.6,Não,5,5,3,2024-04-07
+1997,67,Feminino,Divorciado,Pós-graduação,Ansiedade,3,5.9,Sim,6,0,5,2024-03-11
+1998,37,Feminino,Viúvo,Graduação,TEPT,0,6.1,Sim,6,3,1,2023-10-10
+1999,62,Feminino,Viúvo,Pós-graduação,Burnout,0,6.9,Sim,5,2,2,2023-03-29
+2000,57,Masculino,Casado,Pós-graduação,Transtorno de Pânico,6,6.9,Não,8,1,3,2025-12-03
