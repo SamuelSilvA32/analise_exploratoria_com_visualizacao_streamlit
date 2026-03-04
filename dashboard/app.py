@@ -28,7 +28,9 @@ st.markdown("""
 def load_data():
     base_path = Path(__file__).parent
     file_path = base_path / "data" / "dados_saude_mental_fake.csv"
-    return pd.read_csv()
+    return pd.read_csv(file_path)
+
+df = load_data()
 # -------------------------
 # Título
 # -------------------------
@@ -295,6 +297,7 @@ De modo geral, os resultados indicam padrões coerentes entre diagnóstico, perc
 
 
     
+
 
 
 
