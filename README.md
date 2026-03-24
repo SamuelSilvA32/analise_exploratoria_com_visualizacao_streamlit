@@ -123,7 +123,7 @@ Os dados utilizados neste projeto são fictícios e foram criados exclusivamente
 
 ![interface](dashboard/imgs/interface.png)
 
-![grafico1](dashboard/imgs/grafico1.png)
+![grafico1](dashboard/imgs/grafico01.png)
 
 ---
 # Link 
