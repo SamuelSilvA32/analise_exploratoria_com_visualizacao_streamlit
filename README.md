@@ -121,9 +121,15 @@ Os dados utilizados neste projeto são fictícios e foram criados exclusivamente
 ---
 # capturas de tela
 
-dashboard/imgs/interface.png
----
+![interface](dashboard/imgs/interface.png)
 
+
+![um dos gráficos](dashboard/imgs/grafico1.png)
+---
+---
+# Link 
+https://zwrvbm342tawpbqrbomzzb.streamlit.app/
+---
 ## 👤 Autor
 
 Samuel de Andrade da Silva
