@@ -118,6 +118,11 @@ streamlit run app.py
 Os dados utilizados neste projeto são fictícios e foram criados exclusivamente para fins educacionais e prática em análise de dados.
 
 ---
+---
+# capturas de tela
+
+dashboard/imgs/interface.png
+---
 
 ## 👤 Autor
 
