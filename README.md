@@ -123,12 +123,13 @@ Os dados utilizados neste projeto são fictícios e foram criados exclusivamente
 
 ![interface](dashboard/imgs/interface.png)
 
+![grafico1](dashboard/imgs/grafico1.png)
 
-![um dos gráficos](dashboard/imgs/grafico1.png)
----
 ---
 # Link 
+
 https://zwrvbm342tawpbqrbomzzb.streamlit.app/
+
 ---
 ## 👤 Autor
 
