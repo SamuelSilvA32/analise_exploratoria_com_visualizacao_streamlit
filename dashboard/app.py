@@ -285,9 +285,8 @@ A distribuição proporcional dos diagnósticos por gênero revelou maior incid�
 
 De modo geral, os resultados indicam padrões coerentes entre diagnóstico, percepção de estresse, uso de medicação e satisfação com o tratamento, permitindo uma compreensão estruturada do perfil clínico da amostra analisada.
 """)
-st.markdown("---")
-
-st.markdown(f"""
+    
+    st.markdown(f"""
 **Autor:** Samuel de Andrade da Silva  
 **Versão:** 1.0  
 **Contato:** [samuelsilva00935@gmail.com](mailto:samuelsilva00935@gmail.com)
