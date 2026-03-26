@@ -215,13 +215,34 @@ with tab2:
 with tab3:
 
     # Satisfação
-    satisfacao_counts = df_filtrado['satisfacao_tratamento_1_5'].value_counts().reset_index()
-    satisfacao_counts.columns = ['Satisfação com tratamento', 'Quantidade']
-    fig = px.bar(satisfacao_counts,x='Satisfação com tratamento',y='Quantidade',color='Satisfação com tratamento')
-    title = "Quantidade de pacientes por satisfação com tratamento"
-    fig.update_layout(title=title)
+   # Satisfação
+satisfacao_counts = df_filtrado['satisfacao_tratamento_1_5'].value_counts().reset_index()
+satisfacao_counts.columns = ['Satisfação com tratamento', 'Quantidade']
 
-    st.plotly_chart(fig, use_container_width=True)
+fig = px.bar(
+    satisfacao_counts,
+    x='Satisfação com tratamento',
+    y='Quantidade',
+    color='Satisfação com tratamento',
+    title="Quantidade de pacientes por satisfação com tratamento"
+)
+
+# Adicionar legenda explicativa
+fig.update_layout(
+    title=dict(text="Quantidade de pacientes por satisfação com tratamento", x=0.5),
+    xaxis_title="Nota de Satisfação",
+    annotations=[
+        dict(
+            text="1 = Muito ruim | 2 = Ruim | 3 = Regular | 4 = Bom | 5 = Excelente",
+            xref="paper", yref="paper",
+            x=0.5, y=-0.12,
+            showarrow=False,
+            font=dict(size=11)
+        )
+    ]
+)
+
+st.plotly_chart(fig, use_container_width=True)
 
     # Relação consultas x satisfação (CORRIGIDO - AGREGADO)
     relacao = (
