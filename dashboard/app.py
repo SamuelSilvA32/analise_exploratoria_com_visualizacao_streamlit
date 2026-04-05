@@ -405,30 +405,6 @@ De modo geral, os resultados indicam padrões coerentes entre diagnóstico, perc
 """)
 
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
