@@ -182,7 +182,6 @@ with tab1:
 # =========================
 with tab2:
 
-    # ── Diagnóstico: Lollipop chart (substitui barras horizontais)
     diagnostico_counts = (
         df_filtrado['diagnostico_principal']
         .value_counts()
@@ -214,7 +213,6 @@ with tab2:
     )
     st.plotly_chart(fig, use_container_width=True)
 
-    # ── Uso de medicação: Donut (mantido) + Indicator numérico ao lado
     uso_medicacao_counts = df_filtrado['uso_medicacao'].value_counts(normalize=True) * 100
     uso_medicacao_counts = uso_medicacao_counts.reset_index()
     uso_medicacao_counts.columns = ['Uso de medicação', 'Porcentagem']
@@ -222,29 +220,16 @@ with tab2:
     col_med1, col_med2 = st.columns([2, 1])
 
     with col_med1:
+        fig = px.pie(
+            uso_medicacao_counts,
+            names='Uso de medicação',
+            values='Porcentagem',
+            hole=0.5,
+            title="Uso de medicação (%)",
+        )
+        st.plotly_chart(fig, use_container_width=True)
 
-        fig = go.Figure(go.Indicator(
-    mode="gauge+number",
-    value=round(pct_val, 1),
-    number={
-        'suffix': '%',
-        'font': {'size': 36},
-        'valueformat': '.1f'
-    },
-    title={'text': "Usa medicação"},
-    domain={'x': [0, 1], 'y': [0, 1]},
-    gauge={
-        'axis': {'range': [0, 100]},
-        'bar': {'color': 'teal'},
-        'steps': [
-            {'range': [0, 50], 'color': 'rgba(0,150,150,0.1)'},
-            {'range': [50, 100], 'color': 'rgba(0,150,150,0.2)'},
-        ],
-    }
-))
-fig.update_layout(height=300, margin=dict(l=10, r=10, t=60, b=10))
-      
-
+    # ---------- CORREÇÃO AQUI ----------
     with col_med2:
         pct_sim = uso_medicacao_counts.loc[
             uso_medicacao_counts['Uso de medicação'].str.lower().isin(['sim', 'yes', 'true', '1']),
@@ -255,8 +240,13 @@ fig.update_layout(height=300, margin=dict(l=10, r=10, t=60, b=10))
         fig = go.Figure(go.Indicator(
             mode="gauge+number",
             value=round(pct_val, 1),
-            number={'suffix': '%'},
+            number={
+                'suffix': '%',
+                'font': {'size': 36},
+                'valueformat': '.1f'
+            },
             title={'text': "Usa medicação"},
+            domain={'x': [0, 1], 'y': [0, 1]},
             gauge={
                 'axis': {'range': [0, 100]},
                 'bar': {'color': 'teal'},
@@ -266,97 +256,11 @@ fig.update_layout(height=300, margin=dict(l=10, r=10, t=60, b=10))
                 ],
             }
         ))
-        fig.update_layout(height=300)
+        fig.update_layout(
+            height=300,
+            margin=dict(l=10, r=10, t=60, b=10)
+        )
         st.plotly_chart(fig, use_container_width=True)
-
-    col1, col2 = st.columns(2)
-
-    with col1:
-        st.metric(
-            "Consultas por ano",
-            f"{df_filtrado['numero_consultas_ano'].mean():.0f}"
-        )
-
-    with col2:
-        st.metric(
-            "Nível médio de estresse",
-            f"{df_filtrado['nivel_estresse_0_10'].mean():.0f}"
-        )
-
-    # ── Faltas: Histogram com escala de cor contínua (mais visual que barras categóricas)
-    fig = px.histogram(
-        df_filtrado,
-        x='faltas_consulta',
-        color='faltas_consulta',
-        color_discrete_sequence=px.colors.sequential.Teal,
-        title="Distribuição de pacientes por número de faltas",
-        labels={'faltas_consulta': 'Número de faltas', 'count': 'Quantidade'},
-    )
-    fig.update_layout(showlegend=False, bargap=0.1)
-    st.plotly_chart(fig, use_container_width=True)
-
-    # ── Estresse médio por diagnóstico: Polar / Radar bar (substitui barras verticais)
-    estresse_por_diag = (
-        df_filtrado
-        .groupby('diagnostico_principal')['nivel_estresse_0_10']
-        .mean()
-        .reset_index()
-    )
-    estresse_por_diag.columns = ['Diagnóstico', 'Estresse médio']
-
-    fig = px.bar_polar(
-        estresse_por_diag,
-        r='Estresse médio',
-        theta='Diagnóstico',
-        color='Diagnóstico',
-        title="Nível médio de estresse por diagnóstico",
-        color_discrete_sequence=px.colors.qualitative.Set2,
-        template='plotly_white',
-    )
-    st.plotly_chart(fig, use_container_width=True)
-
-    # ── Boxplot estresse por diagnóstico (mantido — já é excelente)
-    fig = px.box(
-        df_filtrado,
-        x="diagnostico_principal",
-        y="nivel_estresse_0_10",
-        color="diagnostico_principal",
-        title="Distribuição do estresse por diagnóstico",
-        points="outliers",
-    )
-    fig.update_layout(showlegend=False)
-    st.plotly_chart(fig, use_container_width=True)
-
-    # ── Consultas por diagnóstico: Strip / Dot plot (substitui barras médias)
-    fig = px.strip(
-        df_filtrado,
-        x="diagnostico_principal",
-        y="numero_consultas_ano",
-        color="diagnostico_principal",
-        title="Distribuição de consultas por diagnóstico",
-        labels={"diagnostico_principal": "Diagnóstico", "numero_consultas_ano": "Consultas/ano"},
-    )
-    fig.update_traces(jitter=0.4, marker_size=4, opacity=0.5)
-    fig.update_layout(showlegend=False)
-    st.plotly_chart(fig, use_container_width=True)
-
-    # ── Diagnóstico x gênero: Sunburst (substitui barras empilhadas)
-    diag_genero = (
-        df_filtrado
-        .groupby(['genero', 'diagnostico_principal'])
-        .size()
-        .reset_index(name='Quantidade')
-    )
-
-    fig = px.sunburst(
-        diag_genero,
-        path=['genero', 'diagnostico_principal'],
-        values='Quantidade',
-        color='diagnostico_principal',
-        title="Distribuição de diagnósticos por gênero",
-        color_discrete_sequence=px.colors.qualitative.Set2,
-    )
-    st.plotly_chart(fig, use_container_width=True)
 
 
 # =========================
