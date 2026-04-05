@@ -222,14 +222,28 @@ with tab2:
     col_med1, col_med2 = st.columns([2, 1])
 
     with col_med1:
-        fig = px.pie(
-            uso_medicacao_counts,
-            names='Uso de medicação',
-            values='Porcentagem',
-            hole=0.5,
-            title="Uso de medicação (%)",
-        )
-        st.plotly_chart(fig, use_container_width=True)
+
+        fig = go.Figure(go.Indicator(
+    mode="gauge+number",
+    value=round(pct_val, 1),
+    number={
+        'suffix': '%',
+        'font': {'size': 36},
+        'valueformat': '.1f'
+    },
+    title={'text': "Usa medicação"},
+    domain={'x': [0, 1], 'y': [0, 1]},
+    gauge={
+        'axis': {'range': [0, 100]},
+        'bar': {'color': 'teal'},
+        'steps': [
+            {'range': [0, 50], 'color': 'rgba(0,150,150,0.1)'},
+            {'range': [50, 100], 'color': 'rgba(0,150,150,0.2)'},
+        ],
+    }
+))
+fig.update_layout(height=300, margin=dict(l=10, r=10, t=60, b=10))
+      
 
     with col_med2:
         pct_sim = uso_medicacao_counts.loc[
