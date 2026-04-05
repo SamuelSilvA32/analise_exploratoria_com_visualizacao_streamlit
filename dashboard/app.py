@@ -110,7 +110,6 @@ with tab1:
 
     st.markdown("---")
 
-    # ── Distribuição de idade: Violin + Strip (mais rico que histograma)
     fig = px.violin(
         df_filtrado,
         y="idade",
@@ -124,7 +123,6 @@ with tab1:
     fig.update_layout(showlegend=False)
     st.plotly_chart(fig, use_container_width=True)
 
-    # ── Gênero: Donut (mantido — adequado)
     genero_counts = df_filtrado['genero'].value_counts().reset_index()
     genero_counts.columns = ['Gênero', 'Quantidade']
 
@@ -140,7 +138,6 @@ with tab1:
     col1, col2 = st.columns(2)
 
     with col1:
-        # ── Estado civil: Treemap (substitui barras simples)
         estado_civil_counts = df_filtrado['estado_civil'].value_counts().reset_index()
         estado_civil_counts.columns = ['Estado civil', 'Quantidade']
 
@@ -157,7 +154,6 @@ with tab1:
         st.plotly_chart(fig, use_container_width=True)
 
     with col2:
-        # ── Escolaridade: Funnel (ranqueia naturalmente por tamanho)
         escolaridade_counts = (
             df_filtrado['nivel_escolaridade']
             .value_counts()
@@ -229,7 +225,6 @@ with tab2:
         )
         st.plotly_chart(fig, use_container_width=True)
 
-    # ---------- CORREÇÃO AQUI ----------
     with col_med2:
         pct_sim = uso_medicacao_counts.loc[
             uso_medicacao_counts['Uso de medicação'].str.lower().isin(['sim', 'yes', 'true', '1']),
@@ -262,13 +257,96 @@ with tab2:
         )
         st.plotly_chart(fig, use_container_width=True)
 
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.metric(
+            "Consultas por ano",
+            f"{df_filtrado['numero_consultas_ano'].mean():.0f}"
+        )
+
+    with col2:
+        st.metric(
+            "Nível médio de estresse",
+            f"{df_filtrado['nivel_estresse_0_10'].mean():.0f}"
+        )
+
+    fig = px.histogram(
+        df_filtrado,
+        x='faltas_consulta',
+        color='faltas_consulta',
+        color_discrete_sequence=px.colors.sequential.Teal,
+        title="Distribuição de pacientes por número de faltas",
+        labels={'faltas_consulta': 'Número de faltas', 'count': 'Quantidade'},
+    )
+    fig.update_layout(showlegend=False, bargap=0.1)
+    st.plotly_chart(fig, use_container_width=True)
+
+    estresse_por_diag = (
+        df_filtrado
+        .groupby('diagnostico_principal')['nivel_estresse_0_10']
+        .mean()
+        .reset_index()
+    )
+    estresse_por_diag.columns = ['Diagnóstico', 'Estresse médio']
+
+    fig = px.bar_polar(
+        estresse_por_diag,
+        r='Estresse médio',
+        theta='Diagnóstico',
+        color='Diagnóstico',
+        title="Nível médio de estresse por diagnóstico",
+        color_discrete_sequence=px.colors.qualitative.Set2,
+        template='plotly_white',
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+    fig = px.box(
+        df_filtrado,
+        x="diagnostico_principal",
+        y="nivel_estresse_0_10",
+        color="diagnostico_principal",
+        title="Distribuição do estresse por diagnóstico",
+        points="outliers",
+    )
+    fig.update_layout(showlegend=False)
+    st.plotly_chart(fig, use_container_width=True)
+
+    fig = px.strip(
+        df_filtrado,
+        x="diagnostico_principal",
+        y="numero_consultas_ano",
+        color="diagnostico_principal",
+        title="Distribuição de consultas por diagnóstico",
+        labels={"diagnostico_principal": "Diagnóstico", "numero_consultas_ano": "Consultas/ano"},
+    )
+    fig.update_traces(jitter=0.4, marker_size=4, opacity=0.5)
+    fig.update_layout(showlegend=False)
+    st.plotly_chart(fig, use_container_width=True)
+
+    diag_genero = (
+        df_filtrado
+        .groupby(['genero', 'diagnostico_principal'])
+        .size()
+        .reset_index(name='Quantidade')
+    )
+
+    fig = px.sunburst(
+        diag_genero,
+        path=['genero', 'diagnostico_principal'],
+        values='Quantidade',
+        color='diagnostico_principal',
+        title="Distribuição de diagnósticos por gênero",
+        color_discrete_sequence=px.colors.qualitative.Set2,
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
 
 # =========================
 # ABA 3 - TRATAMENTO
 # =========================
 with tab3:
 
-    # ── Satisfação: Bar horizontal ordenada com anotações (substitui donut pouco preciso para escala)
     satisfacao_counts = (
         df_filtrado['satisfacao_tratamento_1_5']
         .value_counts()
@@ -298,7 +376,6 @@ with tab3:
     fig.update_layout(coloraxis_showscale=False, showlegend=False)
     st.plotly_chart(fig, use_container_width=True)
 
-    # ── Consultas x Satisfação: Line + markers (substitui barras de gradiente)
     relacao = (
         df_filtrado
         .groupby('numero_consultas_ano')['satisfacao_tratamento_1_5']
@@ -324,7 +401,6 @@ with tab3:
     )
     st.plotly_chart(fig, use_container_width=True)
 
-    # ── Heatmap consultas vs satisfação (mantido — já é o gráfico ideal aqui)
     heat = (
         df_filtrado
         .groupby(['numero_consultas_ano', 'satisfacao_tratamento_1_5'])
@@ -346,7 +422,6 @@ with tab3:
     )
     st.plotly_chart(fig, use_container_width=True)
 
-    # ── Gênero x Satisfação: Grouped bar (substitui stacked — facilita comparação direta)
     genero_satisfacao = (
         df_filtrado
         .groupby(['genero', 'satisfacao_tratamento_1_5'])
@@ -375,7 +450,6 @@ with tab3:
     )
     st.plotly_chart(fig, use_container_width=True)
 
-    # ── Estresse x Satisfação: Scatter + tendência linear manual via numpy (sem statsmodels)
     import numpy as np
 
     cores = px.colors.qualitative.Set2
@@ -447,7 +521,6 @@ De modo geral, os resultados indicam padrões coerentes entre diagnóstico, perc
 **Observação:** Dados fictícios utilizados exclusivamente para fins educacionais e prática em análise de dados.  
 **Licença:** MIT
 """)
-
 
 
 
