@@ -457,21 +457,43 @@ with tab3:
     )
     st.plotly_chart(fig, use_container_width=True)
 
-    # ── Estresse x Satisfação: Scatter com linha de tendência OLS (nativa do Plotly)
-    fig = px.scatter(
-        df_filtrado,
-        x="nivel_estresse_0_10",
-        y="satisfacao_tratamento_1_5",
-        color="genero",
-        trendline="ols",
-        opacity=0.5,
+    # ── Estresse x Satisfação: Scatter + tendência linear manual via numpy (sem statsmodels)
+    import numpy as np
+
+    cores = px.colors.qualitative.Set2
+    generos_unicos = df_filtrado['genero'].unique()
+    cor_map = {g: cores[i % len(cores)] for i, g in enumerate(generos_unicos)}
+
+    fig = go.Figure()
+    for gen in generos_unicos:
+        sub = df_filtrado[df_filtrado['genero'] == gen]
+        fig.add_trace(go.Scatter(
+            x=sub['nivel_estresse_0_10'],
+            y=sub['satisfacao_tratamento_1_5'],
+            mode='markers',
+            name=gen,
+            marker=dict(color=cor_map[gen], opacity=0.5, size=6),
+        ))
+        x_vals = sub['nivel_estresse_0_10'].dropna()
+        y_vals = sub['satisfacao_tratamento_1_5'].dropna()
+        idx = x_vals.index.intersection(y_vals.index)
+        if len(idx) > 1:
+            coef = np.polyfit(x_vals[idx], y_vals[idx], 1)
+            x_line = np.linspace(x_vals.min(), x_vals.max(), 100)
+            y_line = np.polyval(coef, x_line)
+            fig.add_trace(go.Scatter(
+                x=x_line,
+                y=y_line,
+                mode='lines',
+                name=f"Tendência ({gen})",
+                line=dict(color=cor_map[gen], width=2, dash='dash'),
+                showlegend=False,
+            ))
+
+    fig.update_layout(
         title="Relação entre estresse e satisfação com o tratamento",
-        labels={
-            'nivel_estresse_0_10': 'Nível de estresse (0–10)',
-            'satisfacao_tratamento_1_5': 'Satisfação (1–5)',
-            'genero': 'Gênero',
-        },
-        color_discrete_sequence=px.colors.qualitative.Set2,
+        xaxis_title="Nível de estresse (0–10)",
+        yaxis_title="Satisfação (1–5)",
     )
     st.plotly_chart(fig, use_container_width=True)
 
@@ -507,7 +529,6 @@ De modo geral, os resultados indicam padrões coerentes entre diagnóstico, perc
 **Observação:** Dados fictícios utilizados exclusivamente para fins educacionais e prática em análise de dados.  
 **Licença:** MIT
 """)
-
 
 
 
