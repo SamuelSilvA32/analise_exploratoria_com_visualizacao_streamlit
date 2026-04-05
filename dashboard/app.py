@@ -14,12 +14,12 @@ st.set_page_config(
 # CSS
 # -------------------------
 st.markdown("""
-    <style>
-    .main {
-        padding-top: 0rem;
-    }
-    </style>
-    """, unsafe_allow_html=True)
+<style>
+.main {
+    padding-top: 0rem;
+}
+</style>
+""", unsafe_allow_html=True)
 
 # -------------------------
 # Carregamento de dados
@@ -105,10 +105,7 @@ with tab1:
 
     col1.metric("Total de pacientes", df_filtrado.shape[0])
     col2.metric("Idade média", f"{df_filtrado['idade'].mean():.0f} anos")
-    col3.metric(
-        "Faixa etária",
-        f"{df_filtrado['idade'].min()} - {df_filtrado['idade'].max()}"
-    )
+    col3.metric("Estresse médio", f"{df_filtrado['nivel_estresse_0_10'].mean():.1f}")
 
     st.markdown("---")
 
@@ -182,7 +179,6 @@ with tab2:
         color='Diagnóstico principal',
         title="Quantidade de pacientes por diagnóstico"
     )
-
     st.plotly_chart(fig, use_container_width=True)
 
     # Uso medicação donut
@@ -197,7 +193,6 @@ with tab2:
         hole=0.5,
         title="Uso de medicação (%)"
     )
-
     st.plotly_chart(fig, use_container_width=True)
 
     col1, col2 = st.columns(2)
@@ -225,10 +220,9 @@ with tab2:
         color='Faltas',
         title="Quantidade de pacientes por número de faltas"
     )
-
     st.plotly_chart(fig, use_container_width=True)
 
-    # Estresse por diagnóstico
+    # Estresse médio por diagnóstico
     estresse_por_diag = (
         df_filtrado
         .groupby('diagnostico_principal')['nivel_estresse_0_10']
@@ -243,7 +237,6 @@ with tab2:
         color='diagnostico_principal',
         title="Nível médio de estresse por diagnóstico"
     )
-
     st.plotly_chart(fig, use_container_width=True)
 
     # Boxplot estresse
@@ -254,10 +247,26 @@ with tab2:
         color="diagnostico_principal",
         title="Distribuição do estresse por diagnóstico"
     )
-
     st.plotly_chart(fig, use_container_width=True)
 
-    # Diagnóstico x Gênero
+    # Consultas por diagnóstico
+    consultas_diag = (
+        df_filtrado
+        .groupby("diagnostico_principal")["numero_consultas_ano"]
+        .mean()
+        .reset_index()
+    )
+
+    fig = px.bar(
+        consultas_diag,
+        x="diagnostico_principal",
+        y="numero_consultas_ano",
+        color="diagnostico_principal",
+        title="Média de consultas por diagnóstico"
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+    # Diagnóstico x gênero
     diag_genero = (
         df_filtrado
         .groupby(['genero', 'diagnostico_principal'])
@@ -393,6 +402,7 @@ A distribuição proporcional dos diagnósticos por gênero revelou maior incid�
 
 De modo geral, os resultados indicam padrões coerentes entre diagnóstico, percepção de estresse, uso de medicação e satisfação com o tratamento, permitindo uma compreensão estruturada do perfil clínico da amostra analisada.
 """)
+
     st.markdown("----")
 
     st.markdown(f"""
@@ -403,13 +413,6 @@ De modo geral, os resultados indicam padrões coerentes entre diagnóstico, perc
 **Observação:** Dados fictícios utilizados exclusivamente para fins educacionais e prática em análise de dados.  
 **Licença:** MIT
 """)
-
-
-
-
-
-
-
 
 
 
