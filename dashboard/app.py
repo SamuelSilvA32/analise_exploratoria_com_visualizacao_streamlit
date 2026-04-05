@@ -457,13 +457,13 @@ with tab3:
     )
     st.plotly_chart(fig, use_container_width=True)
 
-    # ── Estresse x Satisfação: Scatter com tamanho e tendência (mantido, aprimorado)
+    # ── Estresse x Satisfação: Scatter com linha de tendência OLS (nativa do Plotly)
     fig = px.scatter(
         df_filtrado,
         x="nivel_estresse_0_10",
         y="satisfacao_tratamento_1_5",
         color="genero",
-        trendline="lowess",
+        trendline="ols",
         opacity=0.5,
         title="Relação entre estresse e satisfação com o tratamento",
         labels={
@@ -507,7 +507,6 @@ De modo geral, os resultados indicam padrões coerentes entre diagnóstico, perc
 **Observação:** Dados fictícios utilizados exclusivamente para fins educacionais e prática em análise de dados.  
 **Licença:** MIT
 """)
-
 
 
 
